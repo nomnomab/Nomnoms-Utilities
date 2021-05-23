@@ -22,7 +22,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// <summary>
 		/// Resets the internal bits.
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Clear() {
 			_value = 0;
 			return this;
@@ -31,7 +30,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// <summary>
 		/// Directly sets the internal bits to <paramref name="value"/>.
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Set(InternalType value) {
 			_value = value;
 			return this;
@@ -40,7 +38,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// <summary>
 		/// Directly sets the internal bits to <paramref name="enumValue"/>.
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Set(Enum enumValue) {
 			_value = ConvertEnum(enumValue);
 			return this;
@@ -54,7 +51,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0001 | 0001 = 0001<br></br>
 		///	1011 | 0100 = 1111
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Or(InternalType value) {
 			_value |= value;
 			return this;
@@ -68,7 +64,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0001 | 0001 = 0001<br></br>
 		///	1011 | 0100 = 1111
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Or(Enum enumValue) {
 			_value |= ConvertEnum(enumValue);
 			return this;
@@ -82,7 +77,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0001 &amp; 0001 = 0001<br></br>
 		///	0011 &amp; 0001 = 0001
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self And(InternalType value) {
 			_value &= value;
 			return this;
@@ -96,7 +90,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0001 &amp; 0001 = 0001<br></br>
 		///	0011 &amp; 0001 = 0001
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self And(Enum enumValue) {
 			_value &= ConvertEnum(enumValue);
 			return this;
@@ -109,7 +102,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	~1001 = 0110<br></br>
 		///	~0011 = 1100
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Invert() {
 			_value = (InternalType)~_value;
 			return this;
@@ -123,7 +115,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0 ^ 1 = 1<br></br>
 		///	1 ^ 1 = 0
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Xor(InternalType value) {
 			_value ^= value;
 			return this;
@@ -137,7 +128,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0000 ^ 0001 = 0001<br></br>
 		///	0001 ^ 0001 = 0000
 		/// </summary>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self Xor(Enum enumValue) {
 			_value ^= ConvertEnum(enumValue);
 			return this;
@@ -151,7 +141,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	0111 &#060;&#060; 4 = 0000
 		/// </summary>
 		/// <param name="bits">Amount of bits to shift to the left</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self ShiftLeft(byte bits) {
 			_value <<= bits;
 			return this;
@@ -165,7 +154,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		///	1110 &#062;&#062; 4 = 0000
 		/// </summary>
 		/// <param name="bits">Amount of bits to shift to the right</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public Self ShiftRight(byte bits) {
 			_value >>= bits;
 			return this;
@@ -175,7 +163,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// Checks if the bits in <paramref name="value"/> exists in the internal bits.
 		/// </summary>
 		/// <param name="value">Bits to check for.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool Contains(InternalType value) {
 			return (_value & value) == 0;
 		}
@@ -184,7 +171,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// Checks if the bits in <paramref name="enumValue"/> exists in the internal bits.
 		/// </summary>
 		/// <param name="enumValue">Bits to check for.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool Contains(Enum enumValue) {
 			return (_value & ConvertEnum(enumValue)) != 0;
 		}
@@ -193,7 +179,6 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// Checks if the bits in <paramref name="value"/> fully matches the internal bits.
 		/// </summary>
 		/// <param name="value">Bits to check for.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool Equals(InternalType value) {
 			return _value == value;
 		}
@@ -202,12 +187,10 @@ namespace Nomnom.Utilities.Math.Bits {
 		/// Checks if the bits in <paramref name="enumValue"/> fully matches the internal bits.
 		/// </summary>
 		/// <param name="enumValue">Bits to check for.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public bool Equals(Enum enumValue) {
 			return _value == ConvertEnum(enumValue);
 		}
 
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		private static InternalType ConvertEnum(Enum enumValue) {
 			return Convert.ToInt64(enumValue);
 		}
