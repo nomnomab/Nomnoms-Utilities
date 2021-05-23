@@ -1,4 +1,6 @@
-﻿namespace Nomnom.Utilities.General {
+﻿using System.Runtime.CompilerServices;
+
+namespace Nomnom.Utilities.General {
 	public static class CollectionUtility {
 		/// <summary>
 		/// Gets the interpolated index between two differently sized collections.
@@ -9,6 +11,7 @@
 		/// <param name="toLowerBounds">Lower bounds in collection B</param>
 		/// <param name="toMax">Upper bounds in collection B</param>
 		/// <returns></returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static int GetInterpolatedIndex(int index, int fromLowerBounds, int fromUpperBounds, int toLowerBounds, int toMax) {
 			return (index - fromLowerBounds) * (toMax - toLowerBounds) / (fromUpperBounds - fromLowerBounds) + toLowerBounds;
 		}

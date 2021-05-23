@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
 
 namespace Nomnom.Utilities.Unity {
 	public static class AudioUtility {
@@ -8,6 +9,7 @@ namespace Nomnom.Utilities.Unity {
 		/// <param name="index">Index within the length</param>
 		/// <param name="length">Length of the collection</param>
 		/// <returns>Frequency in Hz</returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static int IndexToFrequency(float index, int length) {
 			float percentage = index / length;
 			return Mathf.CeilToInt(AudioSettings.outputSampleRate / 2f * percentage);
@@ -19,6 +21,7 @@ namespace Nomnom.Utilities.Unity {
 		/// <param name="frequency">Frequency in Hz</param>
 		/// <param name="length">Length of the collection</param>
 		/// <returns>Index within the collection length</returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static int FrequencyToIndex(float frequency, int length) {
 			float percentage = frequency / (AudioSettings.outputSampleRate / 2f);
 			return Mathf.CeilToInt(length * percentage);

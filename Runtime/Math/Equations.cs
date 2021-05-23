@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
 
 namespace Nomnom.Utilities.Math {
 	public static class Equations {
@@ -11,6 +12,7 @@ namespace Nomnom.Utilities.Math {
 		/// <param name="from">Starting index</param>
 		/// <param name="to">Ending index</param>
 		/// <returns></returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateRootMeanSquare(float[] data, int from, int to) {
 			float sum = 0;
 
