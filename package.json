@@ -1,0 +1,15 @@
+{
+  "name": "com.nomnom.utilities",
+  "version": "1.0.0",
+  "displayName": "Nomnom's Utilities",
+  "description": "Description",
+  "unity": "2020.3",
+  "unityRelease": "3f1",
+  "dependencies": {},
+ "keywords": [],
+  "author": {
+    "name": "Andrew Burke",
+    "email": "nomnomab1@gmail.com",
+    "url": "https://www.unity3d.com"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Unity.Nomnom.Utilities.Editor",
+	"references": [
+		"Unity.Nomnom.Utilities"
+	],
+	"allowUnsafeCode": true,
+	"rootNamespace": "Nomnom.Utilities.Editor",
+	"includePlatforms": [
+		"Editor"
+	]
+}

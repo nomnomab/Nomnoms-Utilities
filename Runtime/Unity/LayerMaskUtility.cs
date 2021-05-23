@@ -1,0 +1,21 @@
+﻿using UnityEngine;
+
+namespace Nomnom.Utilities.Unity {
+	public static class LayerMaskUtility {
+		/// <summary>
+		/// Returns the index of the LayerMask. This expects a LayerMask of a single input index, not multiple.
+		/// </summary>
+		/// <returns>The index of the layer.</returns>
+		public static int GetIndex(this LayerMask layerMask) {
+			int result = 0;
+			int bitmask = layerMask;
+			
+			while (bitmask > 1) {
+				bitmask >>= 1;
+				result++;
+			}
+
+			return result;
+		}
+	}
+}
