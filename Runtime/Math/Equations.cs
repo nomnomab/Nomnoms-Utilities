@@ -62,6 +62,11 @@ namespace NomUtils.Math {
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(float x, float y, float z, float w) {
+			return x * x + y * y + z * z + w * w;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateSqrMagnitude(in Vector2 vector) {
 			return vector.x * vector.x + vector.y * vector.y;
 		}
@@ -69,6 +74,11 @@ namespace NomUtils.Math {
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateSqrMagnitude(in Vector3 vector) {
 			return vector.x * vector.x + vector.y * vector.y + vector.z * vector.z;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(in Vector4 vector) {
+			return vector.x * vector.x + vector.y * vector.y + vector.z * vector.z + vector.w * vector.w;
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -87,6 +97,11 @@ namespace NomUtils.Math {
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(float x, float y, float z, float w) {
+			return Mathf.Sqrt(x * x + y * y + z * z + w * w);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateMagnitude(in Vector2 vector) {
 			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y);
 		}
@@ -94,6 +109,11 @@ namespace NomUtils.Math {
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateMagnitude(in Vector3 vector) {
 			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y + vector.z * vector.z);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(in Vector4 vector) {
+			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y + vector.z * vector.z + vector.w * vector.w);
 		}
 	}
 }
