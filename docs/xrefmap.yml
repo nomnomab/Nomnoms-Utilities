@@ -1281,33 +1281,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateMagnitude(System.Single,System.Single,System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateMagnitude(System.Single, System.Single, System.Single, System.Single)
   nameWithType: Equations.CalculateMagnitude(Single, Single, Single, Single)
-- uid: NomUtils.Math.Equations.CalculateMagnitude(Vector2@)
-  name: CalculateMagnitude(Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitude_Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitude(Vector2@)
-  name.vb: CalculateMagnitude(ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateMagnitude(Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitude(ByRef Vector2)
-  nameWithType: Equations.CalculateMagnitude(Vector2)
-  nameWithType.vb: Equations.CalculateMagnitude(ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateMagnitude(Vector3@)
-  name: CalculateMagnitude(Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitude_Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitude(Vector3@)
-  name.vb: CalculateMagnitude(ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateMagnitude(Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitude(ByRef Vector3)
-  nameWithType: Equations.CalculateMagnitude(Vector3)
-  nameWithType.vb: Equations.CalculateMagnitude(ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateMagnitude(Vector4@)
-  name: CalculateMagnitude(Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitude_Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitude(Vector4@)
-  name.vb: CalculateMagnitude(ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateMagnitude(Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitude(ByRef Vector4)
-  nameWithType: Equations.CalculateMagnitude(Vector4)
-  nameWithType.vb: Equations.CalculateMagnitude(ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateMagnitude*
   name: CalculateMagnitude
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitude_
@@ -1321,33 +1294,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateMagnitudeAdd(System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateMagnitudeAdd(System.Single, System.Single)
   nameWithType: Equations.CalculateMagnitudeAdd(Single, Single)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector2@,Vector2@)
-  name: CalculateMagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector2@,Vector2@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: Equations.CalculateMagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: Equations.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector3@,Vector3@)
-  name: CalculateMagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector3@,Vector3@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: Equations.CalculateMagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: Equations.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector4@,Vector4@)
-  name: CalculateMagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector4@,Vector4@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: Equations.CalculateMagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: Equations.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateMagnitudeAdd*
   name: CalculateMagnitudeAdd
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeAdd_
@@ -1361,33 +1307,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateMagnitudeSub(System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateMagnitudeSub(System.Single, System.Single)
   nameWithType: Equations.CalculateMagnitudeSub(Single, Single)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector2@,Vector2@)
-  name: CalculateMagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeSub(Vector2@,Vector2@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: Equations.CalculateMagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: Equations.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector3@,Vector3@)
-  name: CalculateMagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeSub(Vector3@,Vector3@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: Equations.CalculateMagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: Equations.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector4@,Vector4@)
-  name: CalculateMagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateMagnitudeSub(Vector4@,Vector4@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateMagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: Equations.CalculateMagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: Equations.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateMagnitudeSub*
   name: CalculateMagnitudeSub
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateMagnitudeSub_
@@ -1435,33 +1354,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitude(System.Single,System.Single,System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateSqrMagnitude(System.Single, System.Single, System.Single, System.Single)
   nameWithType: Equations.CalculateSqrMagnitude(Single, Single, Single, Single)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector2@)
-  name: CalculateSqrMagnitude(Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitude_Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitude(Vector2@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitude(ByRef Vector2)
-  nameWithType: Equations.CalculateSqrMagnitude(Vector2)
-  nameWithType.vb: Equations.CalculateSqrMagnitude(ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector3@)
-  name: CalculateSqrMagnitude(Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitude_Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitude(Vector3@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitude(ByRef Vector3)
-  nameWithType: Equations.CalculateSqrMagnitude(Vector3)
-  nameWithType.vb: Equations.CalculateSqrMagnitude(ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector4@)
-  name: CalculateSqrMagnitude(Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitude_Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitude(Vector4@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitude(Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitude(ByRef Vector4)
-  nameWithType: Equations.CalculateSqrMagnitude(Vector4)
-  nameWithType.vb: Equations.CalculateSqrMagnitude(ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateSqrMagnitude*
   name: CalculateSqrMagnitude
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitude_
@@ -1475,33 +1367,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(System.Single, System.Single)
   nameWithType: Equations.CalculateSqrMagnitudeAdd(Single, Single)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
-  name: CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: Equations.CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
-  name: CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: Equations.CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
-  name: CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: Equations.CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateSqrMagnitudeAdd*
   name: CalculateSqrMagnitudeAdd
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeAdd_
@@ -1515,33 +1380,6 @@ references:
   commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeSub(System.Single,System.Single)
   fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(System.Single, System.Single)
   nameWithType: Equations.CalculateSqrMagnitudeSub(Single, Single)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
-  name: CalculateSqrMagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: Equations.CalculateSqrMagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
-  name: CalculateSqrMagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: Equations.CalculateSqrMagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
-  name: CalculateSqrMagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Equations.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: Equations.CalculateSqrMagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: Equations.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
 - uid: NomUtils.Math.Equations.CalculateSqrMagnitudeSub*
   name: CalculateSqrMagnitudeSub
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_CalculateSqrMagnitudeSub_
@@ -1549,6 +1387,45 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Equations.CalculateSqrMagnitudeSub
   nameWithType: Equations.CalculateSqrMagnitudeSub
+- uid: NomUtils.Math.Equations.DiamondAngleToDegrees(System.Single)
+  name: DiamondAngleToDegrees(Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToDegrees_System_Single_
+  commentId: M:NomUtils.Math.Equations.DiamondAngleToDegrees(System.Single)
+  fullName: NomUtils.Math.Equations.DiamondAngleToDegrees(System.Single)
+  nameWithType: Equations.DiamondAngleToDegrees(Single)
+- uid: NomUtils.Math.Equations.DiamondAngleToDegrees*
+  name: DiamondAngleToDegrees
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToDegrees_
+  commentId: Overload:NomUtils.Math.Equations.DiamondAngleToDegrees
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.DiamondAngleToDegrees
+  nameWithType: Equations.DiamondAngleToDegrees
+- uid: NomUtils.Math.Equations.DiamondAngleToPoint(System.Single)
+  name: DiamondAngleToPoint(Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToPoint_System_Single_
+  commentId: M:NomUtils.Math.Equations.DiamondAngleToPoint(System.Single)
+  fullName: NomUtils.Math.Equations.DiamondAngleToPoint(System.Single)
+  nameWithType: Equations.DiamondAngleToPoint(Single)
+- uid: NomUtils.Math.Equations.DiamondAngleToPoint*
+  name: DiamondAngleToPoint
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToPoint_
+  commentId: Overload:NomUtils.Math.Equations.DiamondAngleToPoint
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.DiamondAngleToPoint
+  nameWithType: Equations.DiamondAngleToPoint
+- uid: NomUtils.Math.Equations.DiamondAngleToRadians(System.Single)
+  name: DiamondAngleToRadians(Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToRadians_System_Single_
+  commentId: M:NomUtils.Math.Equations.DiamondAngleToRadians(System.Single)
+  fullName: NomUtils.Math.Equations.DiamondAngleToRadians(System.Single)
+  nameWithType: Equations.DiamondAngleToRadians(Single)
+- uid: NomUtils.Math.Equations.DiamondAngleToRadians*
+  name: DiamondAngleToRadians
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_DiamondAngleToRadians_
+  commentId: Overload:NomUtils.Math.Equations.DiamondAngleToRadians
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.DiamondAngleToRadians
+  nameWithType: Equations.DiamondAngleToRadians
 - uid: NomUtils.Math.Equations.Dot(System.Single,System.Single,System.Single,System.Single)
   name: Dot(Single, Single, Single, Single)
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_Dot_System_Single_System_Single_System_Single_System_Single_
@@ -1567,33 +1444,6 @@ references:
   commentId: M:NomUtils.Math.Equations.Dot(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
   fullName: NomUtils.Math.Equations.Dot(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
   nameWithType: Equations.Dot(Single, Single, Single, Single, Single, Single, Single, Single)
-- uid: NomUtils.Math.Equations.Dot(Vector2@,Vector2@)
-  name: Dot(Vector2, Vector2)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_Dot_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Equations.Dot(Vector2@,Vector2@)
-  name.vb: Dot(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Equations.Dot(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Equations.Dot(ByRef Vector2, ByRef Vector2)
-  nameWithType: Equations.Dot(Vector2, Vector2)
-  nameWithType.vb: Equations.Dot(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Equations.Dot(Vector3@,Vector3@)
-  name: Dot(Vector3, Vector3)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_Dot_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Equations.Dot(Vector3@,Vector3@)
-  name.vb: Dot(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Equations.Dot(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Equations.Dot(ByRef Vector3, ByRef Vector3)
-  nameWithType: Equations.Dot(Vector3, Vector3)
-  nameWithType.vb: Equations.Dot(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Equations.Dot(Vector4@,Vector4@)
-  name: Dot(Vector4, Vector4)
-  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_Dot_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Equations.Dot(Vector4@,Vector4@)
-  name.vb: Dot(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Equations.Dot(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Equations.Dot(ByRef Vector4, ByRef Vector4)
-  nameWithType: Equations.Dot(Vector4, Vector4)
-  nameWithType.vb: Equations.Dot(ByRef Vector4, ByRef Vector4)
 - uid: NomUtils.Math.Equations.Dot*
   name: Dot
   href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_Dot_
@@ -1614,6 +1464,32 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Equations.FastInverseSquareRoot
   nameWithType: Equations.FastInverseSquareRoot
+- uid: NomUtils.Math.Equations.GetAngleDiamond(System.Single,System.Single)
+  name: GetAngleDiamond(Single, Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_GetAngleDiamond_System_Single_System_Single_
+  commentId: M:NomUtils.Math.Equations.GetAngleDiamond(System.Single,System.Single)
+  fullName: NomUtils.Math.Equations.GetAngleDiamond(System.Single, System.Single)
+  nameWithType: Equations.GetAngleDiamond(Single, Single)
+- uid: NomUtils.Math.Equations.GetAngleDiamond*
+  name: GetAngleDiamond
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_GetAngleDiamond_
+  commentId: Overload:NomUtils.Math.Equations.GetAngleDiamond
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.GetAngleDiamond
+  nameWithType: Equations.GetAngleDiamond
+- uid: NomUtils.Math.Equations.RadiansToDiamondAngle(System.Single)
+  name: RadiansToDiamondAngle(Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_RadiansToDiamondAngle_System_Single_
+  commentId: M:NomUtils.Math.Equations.RadiansToDiamondAngle(System.Single)
+  fullName: NomUtils.Math.Equations.RadiansToDiamondAngle(System.Single)
+  nameWithType: Equations.RadiansToDiamondAngle(Single)
+- uid: NomUtils.Math.Equations.RadiansToDiamondAngle*
+  name: RadiansToDiamondAngle
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_RadiansToDiamondAngle_
+  commentId: Overload:NomUtils.Math.Equations.RadiansToDiamondAngle
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.RadiansToDiamondAngle
+  nameWithType: Equations.RadiansToDiamondAngle
 - uid: NomUtils.Math.QuaternionUtility
   name: QuaternionUtility
   href: api/NomUtils.Math.QuaternionUtility.html
@@ -1934,6 +1810,310 @@ references:
   commentId: T:NomUtils.Math.VectorUtility
   fullName: NomUtils.Math.VectorUtility
   nameWithType: VectorUtility
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2@)
+  name: CalculateMagnitude(Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2@)
+  name.vb: CalculateMagnitude(ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector2)
+  nameWithType: VectorUtility.CalculateMagnitude(Vector2)
+  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3@)
+  name: CalculateMagnitude(Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3@)
+  name.vb: CalculateMagnitude(ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector3)
+  nameWithType: VectorUtility.CalculateMagnitude(Vector3)
+  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4@)
+  name: CalculateMagnitude(Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4@)
+  name.vb: CalculateMagnitude(ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector4)
+  nameWithType: VectorUtility.CalculateMagnitude(Vector4)
+  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitude*
+  name: CalculateMagnitude
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitude
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude
+  nameWithType: VectorUtility.CalculateMagnitude
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2@,Vector2@)
+  name: CalculateMagnitudeAdd(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2@,Vector2@)
+  name.vb: CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3@,Vector3@)
+  name: CalculateMagnitudeAdd(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3@,Vector3@)
+  name.vb: CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4@,Vector4@)
+  name: CalculateMagnitudeAdd(Vector4, Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4@,Vector4@)
+  name.vb: CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd*
+  name: CalculateMagnitudeAdd
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd
+  nameWithType: VectorUtility.CalculateMagnitudeAdd
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2@,Vector2@)
+  name: CalculateMagnitudeSub(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2@,Vector2@)
+  name.vb: CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3@,Vector3@)
+  name: CalculateMagnitudeSub(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3@,Vector3@)
+  name.vb: CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4@,Vector4@)
+  name: CalculateMagnitudeSub(Vector4, Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4@,Vector4@)
+  name.vb: CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub*
+  name: CalculateMagnitudeSub
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitudeSub
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub
+  nameWithType: VectorUtility.CalculateMagnitudeSub
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2@)
+  name: CalculateSqrMagnitude(Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2@)
+  name.vb: CalculateSqrMagnitude(ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector2)
+  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector2)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3@)
+  name: CalculateSqrMagnitude(Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3@)
+  name.vb: CalculateSqrMagnitude(ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector3)
+  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector3)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4@)
+  name: CalculateSqrMagnitude(Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4@)
+  name.vb: CalculateSqrMagnitude(ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector4)
+  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector4)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude*
+  name: CalculateSqrMagnitude
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitude
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude
+  nameWithType: VectorUtility.CalculateSqrMagnitude
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
+  name: CalculateSqrMagnitudeAdd(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
+  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
+  name: CalculateSqrMagnitudeAdd(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
+  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
+  name: CalculateSqrMagnitudeAdd(Vector4, Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
+  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd*
+  name: CalculateSqrMagnitudeAdd
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd
+  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
+  name: CalculateSqrMagnitudeSub(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
+  name.vb: CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
+  name: CalculateSqrMagnitudeSub(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
+  name.vb: CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
+  name: CalculateSqrMagnitudeSub(Vector4, Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
+  name.vb: CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub*
+  name: CalculateSqrMagnitudeSub
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_
+  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub
+  nameWithType: VectorUtility.CalculateSqrMagnitudeSub
+- uid: NomUtils.Math.VectorUtility.Dot(Vector2@,Vector2@)
+  name: Dot(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector2@,Vector2@)
+  name.vb: Dot(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.Dot(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.Dot(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.Dot(Vector3@,Vector3@)
+  name: Dot(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector3@,Vector3@)
+  name.vb: Dot(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.Dot(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.Dot(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.Dot(Vector4@,Vector4@)
+  name: Dot(Vector4, Vector4)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector4__Vector4__
+  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector4@,Vector4@)
+  name.vb: Dot(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.VectorUtility.Dot(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.Dot(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.VectorUtility.Dot*
+  name: Dot
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_
+  commentId: Overload:NomUtils.Math.VectorUtility.Dot
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.Dot
+  nameWithType: VectorUtility.Dot
+- uid: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+  name: GetAngleDegrees(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+  name.vb: GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.GetAngleDegrees(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+  name: GetAngleDegrees(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+  name.vb: GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.GetAngleDegrees(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.GetAngleDegrees*
+  name: GetAngleDegrees
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_
+  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleDegrees
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees
+  nameWithType: VectorUtility.GetAngleDegrees
+- uid: NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2@)
+  name: GetAngleDiamond(Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDiamond_Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2@)
+  name.vb: GetAngleDiamond(ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDiamond(ByRef Vector2)
+  nameWithType: VectorUtility.GetAngleDiamond(Vector2)
+  nameWithType.vb: VectorUtility.GetAngleDiamond(ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.GetAngleDiamond*
+  name: GetAngleDiamond
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDiamond_
+  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleDiamond
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.GetAngleDiamond
+  nameWithType: VectorUtility.GetAngleDiamond
+- uid: NomUtils.Math.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+  name: GetAngleRadians(Vector2, Vector2)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_Vector2__Vector2__
+  commentId: M:NomUtils.Math.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+  name.vb: GetAngleRadians(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.VectorUtility.GetAngleRadians(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.GetAngleRadians(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+  name: GetAngleRadians(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+  name.vb: GetAngleRadians(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.GetAngleRadians(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.GetAngleRadians(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.GetAngleRadians*
+  name: GetAngleRadians
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_
+  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleRadians
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.GetAngleRadians
+  nameWithType: VectorUtility.GetAngleRadians
 - uid: NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3@,Vector3@)
   name: GetMiddlePoint(Vector3, Vector3)
   href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetMiddlePoint_Vector3__Vector3__
@@ -1950,6 +2130,22 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.VectorUtility.GetMiddlePoint
   nameWithType: VectorUtility.GetMiddlePoint
+- uid: NomUtils.Math.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+  name: IsOrthogonal(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_IsOrthogonal_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+  name.vb: IsOrthogonal(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.IsOrthogonal(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.IsOrthogonal(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.IsOrthogonal*
+  name: IsOrthogonal
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_IsOrthogonal_
+  commentId: Overload:NomUtils.Math.VectorUtility.IsOrthogonal
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.IsOrthogonal
+  nameWithType: VectorUtility.IsOrthogonal
 - uid: NomUtils.Math.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
   name: Lerp(Vector3, Vector3, Single)
   href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Lerp_Vector3__Vector3__System_Single_
@@ -1966,6 +2162,54 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.VectorUtility.Lerp
   nameWithType: VectorUtility.Lerp
+- uid: NomUtils.Math.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+  name: LerpUnclamped(Vector3, Vector3, Single)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_LerpUnclamped_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+  name.vb: LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.VectorUtility.LerpUnclamped(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtility.LerpUnclamped(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.VectorUtility.LerpUnclamped*
+  name: LerpUnclamped
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_LerpUnclamped_
+  commentId: Overload:NomUtils.Math.VectorUtility.LerpUnclamped
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.LerpUnclamped
+  nameWithType: VectorUtility.LerpUnclamped
+- uid: NomUtils.Math.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+  name: MoveTowards(Vector3, Vector3, Single)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MoveTowards_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+  name.vb: MoveTowards(ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.VectorUtility.MoveTowards(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtility.MoveTowards(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.VectorUtility.MoveTowards*
+  name: MoveTowards
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MoveTowards_
+  commentId: Overload:NomUtils.Math.VectorUtility.MoveTowards
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.MoveTowards
+  nameWithType: VectorUtility.MoveTowards
+- uid: NomUtils.Math.VectorUtility.MultiplyScalar(Vector3@,System.Single)
+  name: MultiplyScalar(ref Vector3, Single)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MultiplyScalar_Vector3__System_Single_
+  commentId: M:NomUtils.Math.VectorUtility.MultiplyScalar(Vector3@,System.Single)
+  name.vb: MultiplyScalar(ByRef Vector3, Single)
+  fullName: NomUtils.Math.VectorUtility.MultiplyScalar(ref Vector3, System.Single)
+  fullName.vb: NomUtils.Math.VectorUtility.MultiplyScalar(ByRef Vector3, System.Single)
+  nameWithType: VectorUtility.MultiplyScalar(ref Vector3, Single)
+  nameWithType.vb: VectorUtility.MultiplyScalar(ByRef Vector3, Single)
+- uid: NomUtils.Math.VectorUtility.MultiplyScalar*
+  name: MultiplyScalar
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MultiplyScalar_
+  commentId: Overload:NomUtils.Math.VectorUtility.MultiplyScalar
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.MultiplyScalar
+  nameWithType: VectorUtility.MultiplyScalar
 - uid: NomUtils.Unity
   name: NomUtils.Unity
   href: api/NomUtils.Unity.html

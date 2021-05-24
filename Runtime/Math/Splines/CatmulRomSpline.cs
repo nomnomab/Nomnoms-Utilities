@@ -14,7 +14,7 @@ namespace NomUtils.Math.Splines {
 
 			int sectionCount = points.Length - 3;
 			int tPerSection = Mathf.FloorToInt(t * sectionCount);
-			int point = Mathf.Min(tPerSection, sectionCount - 1);
+			int point = System.Math.Min(tPerSection, sectionCount - 1);
 			float tmpT = t * sectionCount - point;
 
 			ref Vector2 p0 = ref points[point];

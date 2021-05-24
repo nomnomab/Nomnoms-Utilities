@@ -20,8 +20,8 @@ namespace NomUtils.Math.Shapes {
 			float randomAngle = Random.Range(minAngle, maxAngle);
 			float randomDistance = Random.Range(0, radius);
 			Vector2 pointOnCircle = new Vector2(
-				Mathf.Cos(randomAngle) * randomDistance + origin.x,
-				Mathf.Sin(randomAngle) * randomDistance + origin.y
+				(float)System.Math.Cos(randomAngle) * randomDistance + origin.x,
+				(float)System.Math.Sin(randomAngle) * randomDistance + origin.y
 			);
 			return pointOnCircle;
 		}
@@ -52,8 +52,8 @@ namespace NomUtils.Math.Shapes {
 			float y1 = squareCenter.y + sizeY;
 			
 			// nearest point on the rectangle
-			float xNearest = Mathf.Max(x0, Mathf.Min(circleCenter.x, x1));
-			float yNearest = Mathf.Max(y0, Mathf.Min(circleCenter.y, y1));
+			float xNearest = System.Math.Max(x0, Mathf.Min(circleCenter.x, x1));
+			float yNearest = System.Math.Max(y0, Mathf.Min(circleCenter.y, y1));
 
 			// distance between the nearest rectangle point and the center of the circle
 			float dX = xNearest - circleCenter.x;

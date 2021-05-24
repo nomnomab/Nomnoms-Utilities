@@ -32,7 +32,7 @@ namespace NomUtils.Math.Shapes {
 		/// <returns></returns>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float GetHypotenuse(float a, float b) {
-			return Mathf.Sqrt(a * a + b * b);
+			return (float)System.Math.Sqrt(a * a + b * b);
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -41,7 +41,7 @@ namespace NomUtils.Math.Shapes {
 			float cb = GetHypotenuse(c.x - b.x, c.y - b.y);
 			float ab = GetHypotenuse(a.x - b.x, a.y - b.y);
 			
-			return Mathf.Acos((ca * ca + cb * cb - ab * ab) / (2 * ca * cb));
+			return (float)System.Math.Acos((ca * ca + cb * cb - ab * ab) / (2 * ca * cb));
 		}
 
 		/// <summary>
@@ -64,7 +64,7 @@ namespace NomUtils.Math.Shapes {
 			
 			static bool InBorder(in Vector2 a, in Vector2 b, in Vector2 c, in Vector2 p) {
 				float slope = (a.y - b.y) / (a.x - b.x);
-				return (int)Mathf.Sign(p.y - slope * p.x + slope * a.x - a.y) == (int)Mathf.Sign(c.y - slope * c.x + slope * a.x - a.y);
+				return System.Math.Sign(p.y - slope * p.x + slope * a.x - a.y) == System.Math.Sign(c.y - slope * c.x + slope * a.x - a.y);
 			}
 		}
 	}
