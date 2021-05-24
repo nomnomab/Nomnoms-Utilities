@@ -62,6 +62,11 @@ namespace NomUtils.Math {
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(in Vector2 vector) {
+			return vector.x * vector.x + vector.y * vector.y;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateSqrMagnitude(in Vector3 vector) {
 			return vector.x * vector.x + vector.y * vector.y + vector.z * vector.z;
 		}
