@@ -1095,15 +1095,15 @@ references:
   commentId: T:NomUtils.Math.Curves.BezierCubic
   fullName: NomUtils.Math.Curves.BezierCubic
   nameWithType: BezierCubic
-- uid: NomUtils.Math.Curves.BezierCubic.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name: SamplePoint(Single, Vector3, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePoint_System_Single_Vector3__Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name.vb: SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierCubic.SamplePoint(System.Single, Vector3, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePoint(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierCubic.SamplePoint(Single, Vector3, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierCubic.SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name: SamplePoint(Vector3, Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePoint_Vector3__Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector3, Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierCubic.SamplePoint(Vector3, Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierCubic.SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SamplePoint*
   name: SamplePoint
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePoint_
@@ -1111,15 +1111,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierCubic.SamplePoint
   nameWithType: BezierCubic.SamplePoint
-- uid: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name: SamplePointExplicit(Single, Vector3, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_System_Single_Vector3__Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name.vb: SamplePointExplicit(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(System.Single, Vector3, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierCubic.SamplePointExplicit(Single, Vector3, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierCubic.SamplePointExplicit(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name: SamplePointExplicit(Vector3, Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_Vector3__Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SamplePointExplicit(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector3, Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierCubic.SamplePointExplicit(Vector3, Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierCubic.SamplePointExplicit(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit*
   name: SamplePointExplicit
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_
@@ -1127,15 +1127,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit
   nameWithType: BezierCubic.SamplePointExplicit
-- uid: NomUtils.Math.Curves.BezierCubic.SampleTangent(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name: SampleTangent(Single, Vector3, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleTangent_System_Single_Vector3__Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierCubic.SampleTangent(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name.vb: SampleTangent(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierCubic.SampleTangent(System.Single, Vector3, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierCubic.SampleTangent(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierCubic.SampleTangent(Single, Vector3, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierCubic.SampleTangent(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierCubic.SampleTangent(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name: SampleTangent(Vector3, Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleTangent_Vector3__Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SampleTangent(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SampleTangent(Vector3, Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierCubic.SampleTangent(Vector3, Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierCubic.SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SampleTangent*
   name: SampleTangent
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleTangent_
@@ -1143,15 +1143,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierCubic.SampleTangent
   nameWithType: BezierCubic.SampleTangent
-- uid: NomUtils.Math.Curves.BezierCubic.SampleVelocity(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name: SampleVelocity(Single, Vector3, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleVelocity_System_Single_Vector3__Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierCubic.SampleVelocity(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
-  name.vb: SampleVelocity(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierCubic.SampleVelocity(System.Single, Vector3, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierCubic.SampleVelocity(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierCubic.SampleVelocity(Single, Vector3, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierCubic.SampleVelocity(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierCubic.SampleVelocity(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name: SampleVelocity(Vector3, Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleVelocity_Vector3__Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SampleVelocity(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SampleVelocity(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SampleVelocity(Vector3, Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SampleVelocity(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierCubic.SampleVelocity(Vector3, Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierCubic.SampleVelocity(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SampleVelocity*
   name: SampleVelocity
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SampleVelocity_
@@ -1165,15 +1165,15 @@ references:
   commentId: T:NomUtils.Math.Curves.BezierLinear
   fullName: NomUtils.Math.Curves.BezierLinear
   nameWithType: BezierLinear
-- uid: NomUtils.Math.Curves.BezierLinear.SamplePoint(System.Single,Vector3@,Vector3@)
-  name: SamplePoint(Single, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierLinear.html#NomUtils_Math_Curves_BezierLinear_SamplePoint_System_Single_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierLinear.SamplePoint(System.Single,Vector3@,Vector3@)
-  name.vb: SamplePoint(Single, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierLinear.SamplePoint(System.Single, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierLinear.SamplePoint(System.Single, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierLinear.SamplePoint(Single, Vector3, Vector3)
-  nameWithType.vb: BezierLinear.SamplePoint(Single, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierLinear.SamplePoint(Vector3@,Vector3@,System.Single)
+  name: SamplePoint(Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierLinear.html#NomUtils_Math_Curves_BezierLinear_SamplePoint_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierLinear.SamplePoint(Vector3@,Vector3@,System.Single)
+  name.vb: SamplePoint(ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierLinear.SamplePoint(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierLinear.SamplePoint(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierLinear.SamplePoint(Vector3, Vector3, Single)
+  nameWithType.vb: BezierLinear.SamplePoint(ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierLinear.SamplePoint*
   name: SamplePoint
   href: api/NomUtils.Math.Curves.BezierLinear.html#NomUtils_Math_Curves_BezierLinear_SamplePoint_
@@ -1187,15 +1187,15 @@ references:
   commentId: T:NomUtils.Math.Curves.BezierQuadratic
   fullName: NomUtils.Math.Curves.BezierQuadratic
   nameWithType: BezierQuadratic
-- uid: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@)
-  name: SamplePoint(Single, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SamplePoint_System_Single_Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierQuadratic.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@)
-  name.vb: SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(System.Single, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierQuadratic.SamplePoint(Single, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierQuadratic.SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector3@,Vector3@,Vector3@,System.Single)
+  name: SamplePoint(Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SamplePoint_Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierQuadratic.SamplePoint(Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierQuadratic.SamplePoint(ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierQuadratic.SamplePoint*
   name: SamplePoint
   href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SamplePoint_
@@ -1203,15 +1203,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierQuadratic.SamplePoint
   nameWithType: BezierQuadratic.SamplePoint
-- uid: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(System.Single,Vector3@,Vector3@,Vector3@)
-  name: SampleTangent(Single, Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SampleTangent_System_Single_Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.BezierQuadratic.SampleTangent(System.Single,Vector3@,Vector3@,Vector3@)
-  name.vb: SampleTangent(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(System.Single, Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: BezierQuadratic.SampleTangent(Single, Vector3, Vector3, Vector3)
-  nameWithType.vb: BezierQuadratic.SampleTangent(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(Vector3@,Vector3@,Vector3@,System.Single)
+  name: SampleTangent(Vector3, Vector3, Vector3, Single)
+  href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SampleTangent_Vector3__Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierQuadratic.SampleTangent(Vector3@,Vector3@,Vector3@,System.Single)
+  name.vb: SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(Vector3, Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierQuadratic.SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: BezierQuadratic.SampleTangent(Vector3, Vector3, Vector3, Single)
+  nameWithType.vb: BezierQuadratic.SampleTangent(ByRef Vector3, ByRef Vector3, ByRef Vector3, Single)
 - uid: NomUtils.Math.Curves.BezierQuadratic.SampleTangent*
   name: SampleTangent
   href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SampleTangent_
@@ -1620,12 +1620,15 @@ references:
   commentId: T:NomUtils.Math.QuaternionUtility
   fullName: NomUtils.Math.QuaternionUtility
   nameWithType: QuaternionUtility
-- uid: NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion,System.Single)
+- uid: NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion@,System.Single)
   name: Approximately(Quaternion, Quaternion, Single)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_Approximately_Quaternion_Quaternion_System_Single_
-  commentId: M:NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion,System.Single)
+  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_Approximately_Quaternion_Quaternion__System_Single_
+  commentId: M:NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion@,System.Single)
+  name.vb: Approximately(Quaternion, ByRef Quaternion, Single)
   fullName: NomUtils.Math.QuaternionUtility.Approximately(Quaternion, Quaternion, System.Single)
+  fullName.vb: NomUtils.Math.QuaternionUtility.Approximately(Quaternion, ByRef Quaternion, System.Single)
   nameWithType: QuaternionUtility.Approximately(Quaternion, Quaternion, Single)
+  nameWithType.vb: QuaternionUtility.Approximately(Quaternion, ByRef Quaternion, Single)
 - uid: NomUtils.Math.QuaternionUtility.Approximately*
   name: Approximately
   href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_Approximately_
@@ -1658,15 +1661,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot
   nameWithType: QuaternionUtility.RotatePointAroundPivot
-- uid: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion,Quaternion,Quaternion@,System.Single)
+- uid: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
   name: SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_SmoothDamp_Quaternion_Quaternion_Quaternion__System_Single_
-  commentId: M:NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion,Quaternion,Quaternion@,System.Single)
-  name.vb: SmoothDamp(Quaternion, Quaternion, ByRef Quaternion, Single)
+  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_SmoothDamp_Quaternion__Quaternion__Quaternion__System_Single_
+  commentId: M:NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
+  name.vb: SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, Single)
   fullName: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ref Quaternion, System.Single)
-  fullName.vb: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ByRef Quaternion, System.Single)
+  fullName.vb: NomUtils.Math.QuaternionUtility.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, System.Single)
   nameWithType: QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)
-  nameWithType.vb: QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ByRef Quaternion, Single)
+  nameWithType.vb: QuaternionUtility.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, Single)
 - uid: NomUtils.Math.QuaternionUtility.SmoothDamp*
   name: SmoothDamp
   href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_SmoothDamp_
@@ -1925,6 +1928,44 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint
   nameWithType: CatmulRomSpline.SamplePoint
+- uid: NomUtils.Math.VectorUtility
+  name: VectorUtility
+  href: api/NomUtils.Math.VectorUtility.html
+  commentId: T:NomUtils.Math.VectorUtility
+  fullName: NomUtils.Math.VectorUtility
+  nameWithType: VectorUtility
+- uid: NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3@,Vector3@)
+  name: GetMiddlePoint(Vector3, Vector3)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetMiddlePoint_Vector3__Vector3__
+  commentId: M:NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3@,Vector3@)
+  name.vb: GetMiddlePoint(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.VectorUtility.GetMiddlePoint(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.GetMiddlePoint(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.GetMiddlePoint(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.VectorUtility.GetMiddlePoint*
+  name: GetMiddlePoint
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetMiddlePoint_
+  commentId: Overload:NomUtils.Math.VectorUtility.GetMiddlePoint
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.GetMiddlePoint
+  nameWithType: VectorUtility.GetMiddlePoint
+- uid: NomUtils.Math.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+  name: Lerp(Vector3, Vector3, Single)
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Lerp_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+  name.vb: Lerp(ByRef Vector3, ByRef Vector3, Single)
+  fullName: NomUtils.Math.VectorUtility.Lerp(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtility.Lerp(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.VectorUtility.Lerp*
+  name: Lerp
+  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Lerp_
+  commentId: Overload:NomUtils.Math.VectorUtility.Lerp
+  isSpec: "True"
+  fullName: NomUtils.Math.VectorUtility.Lerp
+  nameWithType: VectorUtility.Lerp
 - uid: NomUtils.Unity
   name: NomUtils.Unity
   href: api/NomUtils.Unity.html

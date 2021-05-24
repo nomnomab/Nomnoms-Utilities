@@ -5,10 +5,10 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a point along a bezier curve at time t.
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">The end point</param>
-		public static Vector3 SamplePoint(float t, in Vector3 p0, in Vector3 p1) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, float t) {
 			float oneMinusT = 1 - t;
 			
 			return new Vector3(

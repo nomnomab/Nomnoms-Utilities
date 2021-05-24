@@ -5,15 +5,15 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">Arc puller 1</param>
 		/// <param name="p2">Arc puller 2</param>
 		/// <param name="p3">The end point</param>
-		public static Vector3 SamplePoint(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3, float t) {
 			float oneMinusT = 1 - t;
-			Vector3 quadraticP0P1P2 = BezierQuadratic.SamplePoint(t, in p0, in p1, in p2);
-			Vector3 quadraticP1P2P3 = BezierQuadratic.SamplePoint(t, in p1, in p2, in p3);
+			Vector3 quadraticP0P1P2 = BezierQuadratic.SamplePoint(in p0, in p1, in p2, t);
+			Vector3 quadraticP1P2P3 = BezierQuadratic.SamplePoint(in p1, in p2, in p3, t);
 
 			return new Vector3(
 				oneMinusT * quadraticP0P1P2.x + t * quadraticP1P2P3.x,
@@ -26,12 +26,12 @@ namespace NomUtils.Math.Curves {
 		/// <br></br><br></br>
 		/// Uses an explicit equation instead of using <i>BezierQuadratic.SamplePoint</i> twice.
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">Arc puller 1</param>
 		/// <param name="p2">Arc puller 2</param>
 		/// <param name="p3">The end point</param>
-		public static Vector3 SamplePointExplicit(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePointExplicit(in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3, float t) {
 			float oneMinusT = 1 - t;
 			float oneMinusTSqrMul3MulT = 3 * oneMinusT * oneMinusT * t;
 			float oneMinusTCube = oneMinusT * oneMinusT * oneMinusT;
@@ -48,12 +48,12 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a tangent along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">Arc puller 1</param>
 		/// <param name="p2">Arc puller 2</param>
 		/// <param name="p3">The end point</param>
-		public static Vector3 SampleTangent(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SampleTangent(in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3, float t) {
 			float oneMinusT = 1 - t;
 			float oneMinusTMulTMul6 = 6 * oneMinusT * t;
 			float oneMinusTSqrMul3 = 3 * oneMinusT * oneMinusT;
@@ -68,12 +68,12 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a velocity along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">Arc puller 1</param>
 		/// <param name="p2">Arc puller 2</param>
 		/// <param name="p3">The end point</param>
-		public static Vector3 SampleVelocity(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SampleVelocity(in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3, float t) {
 			float oneMinusTMul6 = 6 * (1 - t);
 			float tMul6 = 6 * t;
 

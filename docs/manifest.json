@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.BezierCubic.html",
-          "hash": "1K0I5TGEqpgCepFVvoYDhlQDdf6Afdy9D/Xw62HbRbY="
+          "hash": "E2CgPWVB8eDo6xdiW4n45uTqxip1P+SIseS85hlIPUQ="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.BezierLinear.html",
-          "hash": "gYR8xQHhYfL+VuB7NJAUjtMHxZaLQ1mCf/R26wxkWSw="
+          "hash": "ros+PDCJ7giwvmVDDl6yqbFafHRWgrKl+OBl9clhOAQ="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.BezierQuadratic.html",
-          "hash": "wLUsPWamSRdLTyrVdctGsatR2xjiVQE3J/+xf/tmG0A="
+          "hash": "PjjxrSzm67iI+soh6xDe5hBufSyVSXYLlZotE30uhDg="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Equations.html",
-          "hash": "/p4hgL3knejXUEFBItrtDkFyxfwawEyZ/tyuZ70bHog="
+          "hash": "q9X7YVpKCH4Byz+NgiYM5nn4YAycN09I5ze86a9tGjk="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.QuaternionUtility.html",
-          "hash": "Z5/pFqC7OgaIiuiz5PCz7E3bhDUZqt3vKVlA4zglGtk="
+          "hash": "8C7YkHvkj86WHV7zAOqGuPvvt80Y2zeIDXyIqQvsUeU="
         }
       },
       "is_incremental": true,
@@ -257,11 +257,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.VectorUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.VectorUtility.html",
+          "hash": "PUgvrwbTe3vW+N/pmo399TEe74zt8Jz4zAkcNGVGWxk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Math.yml",
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.html",
-          "hash": "47ykrmNlU7jg/DaAuhpRzDsz/ARwPoTSRVxuEyhGTTg="
+          "hash": "nMSbO/L45IPlueJsxwYWpQW6As/NzhdS1d67h5KdbPA="
         }
       },
       "is_incremental": true,
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "n1q/mKCw18arZedYpEp/5LAjcMmIek48IH2k1UHTdGI="
+          "hash": "Czbn2///kJNLBmPheqkXGXWIUjmumuIimvBdgcYLnQQ="
         }
       },
       "is_incremental": false,
@@ -430,8 +442,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 28,
-          "skipped_file_count": 28
+          "total_file_count": 29,
+          "skipped_file_count": 29
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

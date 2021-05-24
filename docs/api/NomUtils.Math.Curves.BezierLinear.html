@@ -91,13 +91,13 @@
   
   
   <a id="NomUtils_Math_Curves_BezierLinear_SamplePoint_" data-uid="NomUtils.Math.Curves.BezierLinear.SamplePoint*"></a>
-  <h4 id="NomUtils_Math_Curves_BezierLinear_SamplePoint_System_Single_Vector3__Vector3__" data-uid="NomUtils.Math.Curves.BezierLinear.SamplePoint(System.Single,Vector3@,Vector3@)">SamplePoint(Single, Vector3, Vector3)</h4>
+  <h4 id="NomUtils_Math_Curves_BezierLinear_SamplePoint_Vector3__Vector3__System_Single_" data-uid="NomUtils.Math.Curves.BezierLinear.SamplePoint(Vector3@,Vector3@,System.Single)">SamplePoint(Vector3, Vector3, Single)</h4>
   <div class="markdown level1 summary"><p>Samples a point along a bezier curve at time t.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 SamplePoint(float t, in Vector3 p0, in Vector3 p1)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, float t)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,12 +110,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">t</span></td>
-        <td><p>Time, from 0f to 1f</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">p0</span></td>
         <td><p>The starting point</p>
@@ -125,6 +119,12 @@
         <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">p1</span></td>
         <td><p>The end point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>Time, from 0f to 1f</p>
 </td>
       </tr>
     </tbody>

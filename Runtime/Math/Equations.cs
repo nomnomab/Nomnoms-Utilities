@@ -309,18 +309,18 @@ namespace NomUtils.Math {
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float Dot(in Vector2 vectorA, in Vector2 vectorB) {
-			return vectorA.x * vectorB.x + vectorA.y * vectorB.y;
+		public static float Dot(in Vector2 lhs, in Vector2 rhs) {
+			return lhs.x * rhs.x + lhs.y * rhs.y;
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float Dot(in Vector3 vectorA, in Vector3 vectorB) {
-			return vectorA.x * vectorB.x + vectorA.y * vectorB.y + vectorA.z * vectorB.z;
+		public static float Dot(in Vector3 lhs, in Vector3 rhs) {
+			return lhs.x * rhs.x + lhs.y * rhs.y + lhs.z * rhs.z;
 		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float Dot(in Vector4 vectorA, in Vector4 vectorB) {
-			return vectorA.x * vectorB.x + vectorA.y * vectorB.y + vectorA.z * vectorB.z + vectorA.w * vectorB.w;
+		public static float Dot(in Vector4 lhs, in Vector4 rhs) {
+			return lhs.x * rhs.x + lhs.y * rhs.y + lhs.z * rhs.z + lhs.w * rhs.w;
 		}
 	}
 }

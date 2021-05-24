@@ -10,11 +10,11 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a point along a bezier curve at time t.
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">The middle point; The arc "puller"</param>
 		/// <param name="p2">The end point</param>
-		public static Vector3 SamplePoint(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2) {
+		/// /// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, in Vector3 p2, float t) {
 			float oneMinusT = 1 - t;
 			float oneMinusTSqr = oneMinusT * oneMinusT;
 			float oneMinusTMulTMul2 = 2 * oneMinusT * t;
@@ -29,11 +29,11 @@ namespace NomUtils.Math.Curves {
 		/// <summary>
 		/// Samples a tangent along a bezier curve at time t.
 		/// </summary>
-		/// <param name="t">Time, from 0f to 1f</param>
 		/// <param name="p0">The starting point</param>
 		/// <param name="p1">The middle point; The arc "puller"</param>
 		/// <param name="p2">The end point</param>
-		public static Vector3 SampleTangent(float t, in Vector3 p0, in Vector3 p1, in Vector3 p2) {
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SampleTangent(in Vector3 p0, in Vector3 p1, in Vector3 p2, float t) {
 			float oneMinusTMul2 = 2 * (1 - t);
 			float tMul2 = 2 * t;
 			

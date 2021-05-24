@@ -100,7 +100,7 @@ namespace NomUtils.Math.Shapes {
 
 			static bool CheckForIntersection(in Vector2 center, float radius, in Vector2 start, in Vector2 end) {
 				for (float t = 0; t < 1f; t += RESOLUTION_SCALAR) {
-					Vector3 pointA = BezierLinear.SamplePoint(t, start, end);
+					Vector3 pointA = BezierLinear.SamplePoint(start, end, t);
 					
 					if (!(Equations.CalculateSqrMagnitude(pointA.x - center.x, pointA.y - center.y) < radius * radius)) {
 						continue;

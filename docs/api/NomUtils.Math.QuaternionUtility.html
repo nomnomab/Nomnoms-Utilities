@@ -91,13 +91,13 @@
   
   
   <a id="NomUtils_Math_QuaternionUtility_Approximately_" data-uid="NomUtils.Math.QuaternionUtility.Approximately*"></a>
-  <h4 id="NomUtils_Math_QuaternionUtility_Approximately_Quaternion_Quaternion_System_Single_" data-uid="NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion,System.Single)">Approximately(Quaternion, Quaternion, Single)</h4>
+  <h4 id="NomUtils_Math_QuaternionUtility_Approximately_Quaternion_Quaternion__System_Single_" data-uid="NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion@,System.Single)">Approximately(Quaternion, Quaternion, Single)</h4>
   <div class="markdown level1 summary"><p>Returns true if the provided Quaternion is within a precision range of the original.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Approximately(this Quaternion q1, Quaternion q2, float precision)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Approximately(this Quaternion q1, in Quaternion q2, float precision)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,13 +256,13 @@
   
   
   <a id="NomUtils_Math_QuaternionUtility_SmoothDamp_" data-uid="NomUtils.Math.QuaternionUtility.SmoothDamp*"></a>
-  <h4 id="NomUtils_Math_QuaternionUtility_SmoothDamp_Quaternion_Quaternion_Quaternion__System_Single_" data-uid="NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion,Quaternion,Quaternion@,System.Single)">SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)</h4>
+  <h4 id="NomUtils_Math_QuaternionUtility_SmoothDamp_Quaternion__Quaternion__Quaternion__System_Single_" data-uid="NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)">SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)</h4>
   <div class="markdown level1 summary"><p>Smoothly interpolates between two quaternions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Quaternion SmoothDamp(Quaternion start, Quaternion end, ref Quaternion derivative, float t)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Quaternion SmoothDamp(in Quaternion start, in Quaternion end, ref Quaternion derivative, float t)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

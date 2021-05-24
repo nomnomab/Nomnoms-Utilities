@@ -7,7 +7,7 @@ namespace NomUtils.Math {
 		/// Returns true if the provided Quaternion is within a precision range of the original.
 		/// </summary>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static bool Approximately(this Quaternion q1, Quaternion q2, float precision) {
+		public static bool Approximately(this Quaternion q1, in Quaternion q2, float precision) {
 			return Mathf.Abs(Quaternion.Dot(q1, q2)) >= 1 - precision;
 		}
 
@@ -40,25 +40,27 @@ namespace NomUtils.Math {
 		/// <summary>
 		/// Smoothly interpolates between two quaternions.
 		/// </summary>
-		public static Quaternion SmoothDamp(Quaternion start, Quaternion end, ref Quaternion derivative, float t) {
+		public static Quaternion SmoothDamp(in Quaternion start, in Quaternion end, ref Quaternion derivative, float t) {
 			if (Time.deltaTime < Mathf.Epsilon) {
 				return start;
 			}
+
+			Quaternion tmpEnd = end;
 			
 			// account for double-cover
 			float dot = Quaternion.Dot(start, end);
 			float multi = dot > 0f ? 1f : -1f;
-			end.x *= multi;
-			end.y *= multi;
-			end.z *= multi;
-			end.w *= multi;
+			tmpEnd.x *= multi;
+			tmpEnd.y *= multi;
+			tmpEnd.z *= multi;
+			tmpEnd.w *= multi;
 			
 			// smooth damp (nlerp approx)
 			Vector4 result = new Vector4(
-				Mathf.SmoothDamp(start.x, end.x, ref derivative.x, t),
-				Mathf.SmoothDamp(start.y, end.y, ref derivative.y, t),
-				Mathf.SmoothDamp(start.z, end.z, ref derivative.z, t),
-				Mathf.SmoothDamp(start.w, end.w, ref derivative.w, t)
+				Mathf.SmoothDamp(start.x, tmpEnd.x, ref derivative.x, t),
+				Mathf.SmoothDamp(start.y, tmpEnd.y, ref derivative.y, t),
+				Mathf.SmoothDamp(start.z, tmpEnd.z, ref derivative.z, t),
+				Mathf.SmoothDamp(start.w, tmpEnd.w, ref derivative.w, t)
 			);
 			
 			result.Normalize();
