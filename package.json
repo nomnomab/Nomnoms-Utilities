@@ -1,6 +1,6 @@
 {
   "name": "com.nomutils",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "displayName": "Nomnom's Utilities",
   "description": "A package dedicated towards providing helpful utilities for easier project creation. There are various types of utilities that deal with concepts such as:\n- Math equations\n- Intersection tests\n- Editor helpers\n- Bitmask learning tools\n- And much more",
   "unity": "2020.3",

@@ -36,5 +36,39 @@ namespace NomUtils.Math {
 			Vector3 dir = Quaternion.Euler(angles) * (point - pivot);
 			return dir + pivot;
 		}
+
+		/// <summary>
+		/// Smoothly interpolates between two quaternions.
+		/// </summary>
+		public static Quaternion SmoothDamp(Quaternion start, Quaternion end, ref Quaternion derivative, float t) {
+			if (Time.deltaTime < Mathf.Epsilon) {
+				return start;
+			}
+			
+			// account for double-cover
+			float Dot = Quaternion.Dot(start, end);
+			float Multi = Dot > 0f ? 1f : -1f;
+			end.x *= Multi;
+			end.y *= Multi;
+			end.z *= Multi;
+			end.w *= Multi;
+			
+			// smooth damp (nlerp approx)
+			Vector4 Result = new Vector4(
+				Mathf.SmoothDamp(start.x, end.x, ref derivative.x, t),
+				Mathf.SmoothDamp(start.y, end.y, ref derivative.y, t),
+				Mathf.SmoothDamp(start.z, end.z, ref derivative.z, t),
+				Mathf.SmoothDamp(start.w, end.w, ref derivative.w, t)
+			).normalized;
+
+			// ensure derivative is tangent
+			Vector4 derivError = Vector4.Project(new Vector4(derivative.x, derivative.y, derivative.z, derivative.w), Result);
+			derivative.x -= derivError.x;
+			derivative.y -= derivError.y;
+			derivative.z -= derivError.z;
+			derivative.w -= derivError.w;
+
+			return new Quaternion(Result.x, Result.y, Result.z, Result.w);
+		}
 	}
 }
