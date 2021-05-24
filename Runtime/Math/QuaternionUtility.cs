@@ -46,29 +46,31 @@ namespace NomUtils.Math {
 			}
 			
 			// account for double-cover
-			float Dot = Quaternion.Dot(start, end);
-			float Multi = Dot > 0f ? 1f : -1f;
-			end.x *= Multi;
-			end.y *= Multi;
-			end.z *= Multi;
-			end.w *= Multi;
+			float dot = Quaternion.Dot(start, end);
+			float multi = dot > 0f ? 1f : -1f;
+			end.x *= multi;
+			end.y *= multi;
+			end.z *= multi;
+			end.w *= multi;
 			
 			// smooth damp (nlerp approx)
-			Vector4 Result = new Vector4(
+			Vector4 result = new Vector4(
 				Mathf.SmoothDamp(start.x, end.x, ref derivative.x, t),
 				Mathf.SmoothDamp(start.y, end.y, ref derivative.y, t),
 				Mathf.SmoothDamp(start.z, end.z, ref derivative.z, t),
 				Mathf.SmoothDamp(start.w, end.w, ref derivative.w, t)
-			).normalized;
+			);
+			
+			result.Normalize();
 
 			// ensure derivative is tangent
-			Vector4 derivError = Vector4.Project(new Vector4(derivative.x, derivative.y, derivative.z, derivative.w), Result);
+			Vector4 derivError = Vector4.Project(new Vector4(derivative.x, derivative.y, derivative.z, derivative.w), result);
 			derivative.x -= derivError.x;
 			derivative.y -= derivError.y;
 			derivative.z -= derivError.z;
 			derivative.w -= derivError.w;
 
-			return new Quaternion(Result.x, Result.y, Result.z, Result.w);
+			return new Quaternion(result.x, result.y, result.z, result.w);
 		}
 	}
 }
