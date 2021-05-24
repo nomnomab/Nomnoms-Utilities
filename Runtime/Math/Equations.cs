@@ -80,6 +80,82 @@ namespace NomUtils.Math {
 		public static float CalculateSqrMagnitude(in Vector4 vector) {
 			return vector.x * vector.x + vector.y * vector.y + vector.z * vector.z + vector.w * vector.w;
 		}
+
+		/// <summary>
+		/// Calculates the magnitude² between the difference of two values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeSub(float lhs, float rhs) {
+			return (lhs - rhs) * (lhs - rhs);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeSub(in Vector2 lhs, in Vector2 rhs) {
+			return (lhs.x - rhs.x) * (lhs.x - rhs.x) +
+			       (lhs.y - rhs.y) * (lhs.y - rhs.y);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeSub(in Vector3 lhs, in Vector3 rhs) {
+			return (lhs.x - rhs.x) * (lhs.x - rhs.x) +
+			       (lhs.y - rhs.y) * (lhs.y - rhs.y) +
+			       (lhs.z - rhs.z) * (lhs.z - rhs.z);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeSub(in Vector4 lhs, in Vector4 rhs) {
+			return (lhs.x - rhs.x) * (lhs.x - rhs.x) +
+			       (lhs.y - rhs.y) * (lhs.y - rhs.y) +
+			       (lhs.z - rhs.z) * (lhs.z - rhs.z) +
+			       (lhs.w - rhs.w) * (lhs.w - rhs.w);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the sum of two values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeAdd(float lhs, float rhs) {
+			return (lhs + rhs) * (lhs + rhs);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeAdd(in Vector2 lhs, in Vector2 rhs) {
+			return (lhs.x + rhs.x) * (lhs.x + rhs.x) +
+			       (lhs.y + rhs.y) * (lhs.y + rhs.y);
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude² between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeAdd(in Vector3 lhs, in Vector3 rhs) {
+			return (lhs.x + rhs.x) * (lhs.x + rhs.x) +
+			       (lhs.y + rhs.y) * (lhs.y + rhs.y) +
+			       (lhs.z + rhs.z) * (lhs.z + rhs.z);
+		}
+
+		/// <summary>
+		/// Calculates the square magnitude between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitudeAdd(in Vector4 lhs, in Vector4 rhs) {
+			return (lhs.x + rhs.x) * (lhs.x + rhs.x) +
+			       (lhs.y + rhs.y) * (lhs.y + rhs.y) +
+			       (lhs.z + rhs.z) * (lhs.z + rhs.z) +
+			       (lhs.w + rhs.w) * (lhs.w + rhs.w);
+		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float CalculateMagnitude(float x) {
@@ -115,13 +191,95 @@ namespace NomUtils.Math {
 		public static float CalculateMagnitude(in Vector4 vector) {
 			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y + vector.z * vector.z + vector.w * vector.w);
 		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the difference of two values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeSub(float lhs, float rhs) {
+			return (float) System.Math.Sqrt((lhs - rhs) * (lhs - rhs));
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeSub(in Vector2 lhs, in Vector2 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x - rhs.x) * (lhs.x - rhs.x) +
+				(lhs.y - rhs.y) * (lhs.y - rhs.y));
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeSub(in Vector3 lhs, in Vector3 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x - rhs.x) * (lhs.x - rhs.x) +
+				(lhs.y - rhs.y) * (lhs.y - rhs.y) +
+				(lhs.z - rhs.z) * (lhs.z - rhs.z));
+		}
+
+		/// <summary>
+		/// Calculates the magnitude between the difference of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeSub(in Vector4 lhs, in Vector4 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x - rhs.x) * (lhs.x - rhs.x) +
+				(lhs.y - rhs.y) * (lhs.y - rhs.y) +
+				(lhs.z - rhs.z) * (lhs.z - rhs.z) +
+				(lhs.w - rhs.w) * (lhs.w - rhs.w));
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the sum of two values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeAdd(float lhs, float rhs) {
+			return (float) System.Math.Sqrt((lhs + rhs) * (lhs + rhs));
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeAdd(in Vector2 lhs, in Vector2 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x + rhs.x) * (lhs.x + rhs.x) +
+				(lhs.y + rhs.y) * (lhs.y + rhs.y));
+		}
+		
+		/// <summary>
+		/// Calculates the magnitude between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeAdd(in Vector3 lhs, in Vector3 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x + rhs.x) * (lhs.x + rhs.x) +
+				(lhs.y + rhs.y) * (lhs.y + rhs.y) +
+				(lhs.z + rhs.z) * (lhs.z + rhs.z));
+		}
+
+		/// <summary>
+		/// Calculates the magnitude between the sum of two vectors.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitudeAdd(in Vector4 lhs, in Vector4 rhs) {
+			return (float) System.Math.Sqrt(
+				(lhs.x + rhs.x) * (lhs.x + rhs.x) +
+				(lhs.y + rhs.y) * (lhs.y + rhs.y) +
+				(lhs.z + rhs.z) * (lhs.z + rhs.z) +
+				(lhs.w + rhs.w) * (lhs.w + rhs.w));
+		}
 
 		/// <summary>
 		/// Estimates the reciprocal of the square root of a 32-bit floating-point number.
 		/// </summary>
 		/// <param name="value">IEEE 754 floating-point value</param>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static unsafe float FastInversSquareRoot(float value) {
+		public static unsafe float FastInverseSquareRoot(float value) {
 			const float THREE_HALVES = 1.5f;
 			const long ADDRESS = 0x5f3759df;
 
@@ -133,6 +291,36 @@ namespace NomUtils.Math {
 			y *= (THREE_HALVES - (x2 * y * y));
 
 			return y;
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(float x0, float y0, float x1, float y1) {
+			return x0 * x1 + y0 * y1;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(float x0, float y0, float z0, float x1, float y1, float z1) {
+			return x0 * x1 + y0 * y1 + z0 * z1;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(float x0, float y0, float z0, float w0, float x1, float y1, float z1, float w1) {
+			return x0 * x1 + y0 * y1 + z0 * z1 + w0 * w1;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(in Vector2 vectorA, in Vector2 vectorB) {
+			return vectorA.x * vectorB.x + vectorA.y * vectorB.y;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(in Vector3 vectorA, in Vector3 vectorB) {
+			return vectorA.x * vectorB.x + vectorA.y * vectorB.y + vectorA.z * vectorB.z;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float Dot(in Vector4 vectorA, in Vector4 vectorB) {
+			return vectorA.x * vectorB.x + vectorA.y * vectorB.y + vectorA.z * vectorB.z + vectorA.w * vectorB.w;
 		}
 	}
 }
