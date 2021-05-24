@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace Nomnom.Utilities.Editor {
 	/// <summary>
 	/// Provides a way to run some code when the editor is recompiled, or when the editor is opened.
 	/// <br></br><br></br>

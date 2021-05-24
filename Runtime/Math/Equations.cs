@@ -45,5 +45,50 @@ namespace Nomnom.Utilities.Math {
 			// return an average
 			return sum / div;
 		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(float x) {
+			return x * x;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(float x, float y) {
+			return x * x + y * y;
+		}
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(float x, float y, float z) {
+			return x * x + y * y + z * z;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateSqrMagnitude(in Vector3 vector) {
+			return vector.x * vector.x + vector.y * vector.y + vector.z * vector.z;
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(float x) {
+			return Mathf.Sqrt(x * x);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(float x, float y) {
+			return Mathf.Sqrt(x * x + y * y);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(float x, float y, float z) {
+			return Mathf.Sqrt(x * x + y * y + z * z);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(in Vector2 vector) {
+			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y);
+		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float CalculateMagnitude(in Vector3 vector) {
+			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y + vector.z * vector.z);
+		}
 	}
 }

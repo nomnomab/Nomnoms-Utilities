@@ -3,7 +3,7 @@ using System;
 using System.Reflection;
 using UnityEditor;
 
-namespace Nomnom.Utilities.Unity {
+namespace Nomnom.Utilities.Editor {
 	public static class EditorUtility {
 		private static readonly MethodInfo _clearConsoleMethod;
 		

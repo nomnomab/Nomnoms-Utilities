@@ -5,8 +5,6 @@ using InternalType = System.SByte;
 
 namespace Nomnom.Utilities.Math.Bits {
 	public class Bit8 {
-		private const short SIZE = 8;
-		
 		private InternalType _value;
 
 		public Bit8() { }

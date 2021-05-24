@@ -5,8 +5,6 @@ using InternalType = System.Int16;
 
 namespace Nomnom.Utilities.Math.Bits {
 	public class Bit16 {
-		private const short SIZE = 16;
-		
 		private InternalType _value;
 
 		public Bit16() { }
