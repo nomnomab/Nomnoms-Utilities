@@ -3,6 +3,8 @@
 !/[Tt]ests/**/*.meta
 !/[Dd]ocumentation/**/*.meta
 
+/[Dd]ocfx_project/
+
 ExportedObj/
 .consulo/
 *.csproj

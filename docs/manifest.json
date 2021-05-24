@@ -1,0 +1,462 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Github/NomnomPackages/Packages/com.nomnom.utilities/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.CollectionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.CollectionUtility.html",
+          "hash": "2xVVGNnD0L+l4VyVolmej98wAx3jo0cc4+Nu5W/faAg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.EnumUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.EnumUtility.html",
+          "hash": "JpwgffBwGZRGc34hJNcFjrVVo35/AvOZ83lO/N/hL54="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.html",
+          "hash": "0AM1VCFH01nKxQByq0X84WlrYYLY9KQG4hMqWq9fXFs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.BitUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.BitUtility.html",
+          "hash": "MPYLTKNC/pVa376DiKW8t5m0EeXuq3RceKJZOqWlidA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Bits.Bit16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Bits.Bit16.html",
+          "hash": "sCe+7AtsNn7nUNItpmuqYJDFw0JbKAfGjMUfBiJyJ78="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Bits.Bit32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Bits.Bit32.html",
+          "hash": "PnkuWu2OM4t8sBCm+lAV1HCxeyaCXfropl25Y81JkU0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Bits.Bit64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Bits.Bit64.html",
+          "hash": "RZNphYRxruhgH+0Frk7dRZE2+V8bhn0aHKpKlwWhuEw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Bits.Bit8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Bits.Bit8.html",
+          "hash": "ENWqmQBaLmBhnMHDPvhoGYzARMGYSE3FVYSC56g9U7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Bits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Bits.html",
+          "hash": "+PF+3phGUgjCqDQxHmG+1+GdHkttpzXCTlRMgNTv2Jg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Curves.BezierCubic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Curves.BezierCubic.html",
+          "hash": "1K0I5TGEqpgCepFVvoYDhlQDdf6Afdy9D/Xw62HbRbY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Curves.BezierLinear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Curves.BezierLinear.html",
+          "hash": "gYR8xQHhYfL+VuB7NJAUjtMHxZaLQ1mCf/R26wxkWSw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Curves.BezierQuadratic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Curves.BezierQuadratic.html",
+          "hash": "wLUsPWamSRdLTyrVdctGsatR2xjiVQE3J/+xf/tmG0A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Curves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Curves.html",
+          "hash": "aEzjTc86OA5AEquAgDSdFRqkszqUmY4mtgVAt80uFSw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Equations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Equations.html",
+          "hash": "/p4hgL3knejXUEFBItrtDkFyxfwawEyZ/tyuZ70bHog="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.QuaternionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.QuaternionUtility.html",
+          "hash": "Z5/pFqC7OgaIiuiz5PCz7E3bhDUZqt3vKVlA4zglGtk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Shapes.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Shapes.Circle.html",
+          "hash": "DjdmsnusXM1MQoFUajGXhBySEM/NIcfx+JjzNlczfo0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Shapes.Square.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Shapes.Square.html",
+          "hash": "7cMSc8iLc8ZWj1pafvaMINVaReoFQeFONnWIjSip2ew="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Shapes.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Shapes.Triangle.html",
+          "hash": "EvFgJNn18MfIOr+m2uNJPJqFwMTlzhZPpJyZftazTY0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Shapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Shapes.html",
+          "hash": "F00/IpBxKvL/3iwujGkdM/1SquklpQxBWwTi9feEGIA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Splines.CatmulRomSpline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Splines.CatmulRomSpline.html",
+          "hash": "u+t0FaH7rXgvFC8TbRorrYiPuhiP5c+X8Ywr+zcAatU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Splines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Splines.html",
+          "hash": "Up3Z9IunjWLIw4Mx/EXLiQCyCUS/mxI7feM5SizR3Sk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.html",
+          "hash": "47ykrmNlU7jg/DaAuhpRzDsz/ARwPoTSRVxuEyhGTTg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.AudioUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.AudioUtility.html",
+          "hash": "cc/etS2ot0IkHmVkEViqqBrl+gkTl33sO3vavNd7rY4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.LayerMaskUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.LayerMaskUtility.html",
+          "hash": "i/pjy6wyYVfz7RXaBDA8evGIkIIijTW/R0uGwxCnMR4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.MainThread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.MainThread.html",
+          "hash": "IFw2EEKqu+PnyzDd/vbYVJ9+NXmVYEFGbEh7xUZLaio="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TextureUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TextureUtility.html",
+          "hash": "zUkAMsTucqdipL6Dc/iG6wrRnAF4C9jDqitwU6MsgvM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TransformUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TransformUtility.html",
+          "hash": "lBmuiA0KPpMqFAkZ1zOzQ9HRPe8nrfJl7oMJNDjFlXw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.html",
+          "hash": "x9V34ZBC/4WKZzLBd6sA6iIkO8I3Ymke3PZg4vuSwpI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "CGCEjFBla1hucJhAoVV0VvJeDVxKg8iJYZUo+DJu2H0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "n1q/mKCw18arZedYpEp/5LAjcMmIek48IH2k1UHTdGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "qiEap0cNBATp6AlQ7GXFGrdOOFZI4PSTXU+pS9bp2s8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "esjRZ0LNrTUUawk3WA6oH9nBEfJE3HN0fvcidHtcSM8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 28,
+          "skipped_file_count": 28
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "metadata": [
     {
-      "src": [
+		"src": [
 		  {
 			"src": "../",
 			"files": [
@@ -9,7 +9,7 @@
 			]
 		  }
 		],
-      "dest": "api",
+	  "dest": "api",
       "globalNamespaceId": "Global",
       "filter": "filterconfig.yml"
     }
