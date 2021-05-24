@@ -4,7 +4,7 @@ using System.Collections.Concurrent;
 using UnityEditor;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	/// <summary>
 	/// Provides a way to handle tasks outside of the main thread to be executed on the main thread.
 	/// <br></br><br></br>

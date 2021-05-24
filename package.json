@@ -1,8 +1,8 @@
 {
-  "name": "com.nomnom.utilities",
-  "version": "1.1.0",
+  "name": "com.nomutils",
+  "version": "1.1.1",
   "displayName": "Nomnom's Utilities",
-  "description": "Description",
+  "description": "A package dedicated towards providing helpful utilities for easier project creation. There are various types of utilities that deal with concepts such as:\n- Math equations\n- Intersection tests\n- Editor helpers\n- Bitmask learning tools\n- And much more",
   "unity": "2020.3",
   "unityRelease": "3f1",
   "dependencies": {},
@@ -10,6 +10,6 @@
   "author": {
     "name": "Andrew Burke",
     "email": "nomnomab1@gmail.com",
-    "url": "https://www.unity3d.com"
+    "url": "https://github.com/nomnomab"
   }
 }

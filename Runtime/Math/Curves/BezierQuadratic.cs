@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Curves {
+namespace NomUtils.Math.Curves {
 	/// <summary>
 	/// Defined by a set of control points, where the first and last points are the start and end points.
 	/// <br></br>

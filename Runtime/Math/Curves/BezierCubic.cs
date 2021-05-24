@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Curves {
+namespace NomUtils.Math.Curves {
 	public static class BezierCubic {
 		/// <summary>
 		/// Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Curves {
+namespace NomUtils.Math.Curves {
 	public static class BezierLinear {
 		/// <summary>
 		/// Samples a point along a bezier curve at time t.

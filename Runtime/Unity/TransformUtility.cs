@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	public static class TransformUtility {
 		/// <summary>
 		/// Destroys all children that exist on a parent at the end of the current frame.

@@ -1,8 +1,8 @@
 ﻿#if UNITY_EDITOR
-using Nomnom.Utilities.Math.Shapes;
+using NomUtils.Math.Shapes;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Editor {
+namespace NomUtils.Editor {
 	public static class MoreGizmos {
 		public static void DrawWireTriangle(in Vector2 center, float radius) {
 			Vector2 topPoint = Triangle.GetTopPoint(in center, radius);

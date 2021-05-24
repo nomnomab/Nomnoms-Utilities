@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Concurrent;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	public class MainThread: MonoBehaviour {
 		private const uint MAX_TASKS_PER_FRAME = 6;
 		

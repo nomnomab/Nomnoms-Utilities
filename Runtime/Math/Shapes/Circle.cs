@@ -1,8 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
-using Nomnom.Utilities.Math.Curves;
+using NomUtils.Math.Curves;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Shapes {
+namespace NomUtils.Math.Shapes {
 	public static class Circle {
 		/// <summary>
 		/// Generates a random point in a circle between two angles in degrees.

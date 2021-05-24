@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	public static class AudioUtility {
 		/// <summary>
 		/// Converts an index &#060;= length to its closest frequency.

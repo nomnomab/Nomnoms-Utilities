@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Math {
+namespace NomUtils.Math {
 	public static class QuaternionUtility {
 		/// <summary>
 		/// Returns true if the provided Quaternion is within a precision range of the original.

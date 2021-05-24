@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace Nomnom.Utilities.Math {
+namespace NomUtils.Math {
 	public static class BitUtility {
 		private static readonly Regex _dividerRegex = new Regex(".{4}");
 		

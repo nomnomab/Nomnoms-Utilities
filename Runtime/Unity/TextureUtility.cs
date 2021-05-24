@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	public static class TextureUtility {
 		 /// <summary>
         /// Generates a 1D lookup texture for a given gradient.

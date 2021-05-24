@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Nomnom.Utilities.General {
+namespace NomUtils.General {
 	public static class CollectionUtility {
 		/// <summary>
 		/// Gets the interpolated index between two differently sized collections.

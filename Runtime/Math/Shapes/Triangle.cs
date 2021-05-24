@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Shapes {
+namespace NomUtils.Math.Shapes {
 	public static class Triangle {
 		private const float COS_NEG_PI_OVER_SIX = 0.8660254038f;
 		private const float SIN_NEG_PI_OVER_SIX = -0.5f;

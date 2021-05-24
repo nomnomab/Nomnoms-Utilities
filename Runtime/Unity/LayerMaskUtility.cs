@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Unity {
+namespace NomUtils.Unity {
 	public static class LayerMaskUtility {
 		/// <summary>
 		/// Returns the index of the LayerMask. This expects a LayerMask of a single input index, not multiple.

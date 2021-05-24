@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using Self = Nomnom.Utilities.Math.Bits.Bit64;
+using Self = NomUtils.Math.Bits.Bit64;
 using InternalType = System.Int64;
 
-namespace Nomnom.Utilities.Math.Bits {
+namespace NomUtils.Math.Bits {
 	public class Bit64 {
 		private InternalType _value;
 

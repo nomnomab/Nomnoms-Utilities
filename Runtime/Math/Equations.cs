@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Math {
+namespace NomUtils.Math {
 	public static class Equations {
 		/// <summary>
 		/// Calculates the square root of the mean square.

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using UnityEngine;
 
-namespace Nomnom.Utilities.Math.Shapes {
+namespace NomUtils.Math.Shapes {
 	public static class Square {
 		/// <summary>
 		/// Square-Point intersection

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using Self = Nomnom.Utilities.Math.Bits.Bit16;
+using Self = NomUtils.Math.Bits.Bit16;
 using InternalType = System.Int16;
 
-namespace Nomnom.Utilities.Math.Bits {
+namespace NomUtils.Math.Bits {
 	public class Bit16 {
 		private InternalType _value;
 

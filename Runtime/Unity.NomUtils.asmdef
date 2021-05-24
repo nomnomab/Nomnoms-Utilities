@@ -1,0 +1,5 @@
+{
+	"name": "Unity.NomUtils",
+	"allowUnsafeCode": true,
+	"rootNamespace": "NomUtils"
+}
