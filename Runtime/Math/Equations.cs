@@ -115,5 +115,24 @@ namespace NomUtils.Math {
 		public static float CalculateMagnitude(in Vector4 vector) {
 			return Mathf.Sqrt(vector.x * vector.x + vector.y * vector.y + vector.z * vector.z + vector.w * vector.w);
 		}
+
+		/// <summary>
+		/// Estimates the reciprocal of the square root of a 32-bit floating-point number.
+		/// </summary>
+		/// <param name="value">IEEE 754 floating-point value</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static unsafe float FastInversSquareRoot(float value) {
+			const float THREE_HALVES = 1.5f;
+			const long ADDRESS = 0x5f3759df;
+
+			float x2 = value * 0.5f;
+			float y = value;
+			long i = *(long*) &y;
+			i = ADDRESS - (i >> 1);
+			y = *(float*) &i;
+			y *= (THREE_HALVES - (x2 * y * y));
+
+			return y;
+		}
 	}
 }
