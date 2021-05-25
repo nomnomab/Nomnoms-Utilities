@@ -76,7 +76,11 @@
 <li>Docs</li>
 <li>Vector operators
 <ul>
-<li>Addition and subtraction, with copy and reference variants.</li>
+<li><code>VectorOps.MultiplyScalar</code></li>
+<li><code>VectorOps.AddCopy</code></li>
+<li><code>VectorOps.AddRef</code></li>
+<li><code>VectorOps.SubtractCopy</code></li>
+<li><code>VectorOps.SubtractRef</code></li>
 </ul>
 </li>
 <li>Line operators
@@ -87,15 +91,26 @@
 </li>
 <li>Color utilities
 <ul>
-<li>Euclidean distance.</li>
+<li><code>Color.GetEuclideanDistance</code></li>
 </ul>
 </li>
 <li>Gizmos
 <ul>
-<li>Infinite* line.</li>
+<li><code>MoreGizmos.DrawInfiniteLine</code></li>
 </ul>
 </li>
-<li>Diamond angle and conversions between radians/degrees.</li>
+<li>Angle support
+<ul>
+<li><code>VectorUtility.GetAngleRadians</code></li>
+<li><code>VectorUtility.GetAngleDegrees</code></li>
+<li><code>VectorUtility.GetAngleDiamond</code></li>
+<li><code>Equations.GetAngleDiamond</code></li>
+<li><code>Equations.RadiansToDiamondAngle</code></li>
+<li><code>Equations.DiamondAngleToRadians</code></li>
+<li><code>Equations.DiamondAngleToDegrees</code></li>
+<li><code>Equations.DiamondAngleToPoint</code></li>
+</ul>
+</li>
 </ul>
 <h3 id="changed">Changed</h3>
 <ul>

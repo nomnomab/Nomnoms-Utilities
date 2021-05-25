@@ -10,7 +10,7 @@ namespace NomUtils.Unity {
 		/// <param name="colorB"></param>
 		/// <returns></returns>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float EuclideanColorDistance(Color colorA, Color colorB) {
+		public static float GetEuclideanDistance(Color colorA, Color colorB) {
 			// get distance of each color
 			float redD = colorA.r - colorB.r;
 			float greenD = colorA.g - colorB.g;

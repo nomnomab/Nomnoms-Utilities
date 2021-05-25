@@ -2585,19 +2585,19 @@ references:
   commentId: T:NomUtils.Unity.ColorUtility
   fullName: NomUtils.Unity.ColorUtility
   nameWithType: ColorUtility
-- uid: NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color,Color)
-  name: EuclideanColorDistance(Color, Color)
-  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_EuclideanColorDistance_Color_Color_
-  commentId: M:NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color,Color)
-  fullName: NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color, Color)
-  nameWithType: ColorUtility.EuclideanColorDistance(Color, Color)
-- uid: NomUtils.Unity.ColorUtility.EuclideanColorDistance*
-  name: EuclideanColorDistance
-  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_EuclideanColorDistance_
-  commentId: Overload:NomUtils.Unity.ColorUtility.EuclideanColorDistance
+- uid: NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color,Color)
+  name: GetEuclideanDistance(Color, Color)
+  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_GetEuclideanDistance_Color_Color_
+  commentId: M:NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color,Color)
+  fullName: NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color, Color)
+  nameWithType: ColorUtility.GetEuclideanDistance(Color, Color)
+- uid: NomUtils.Unity.ColorUtility.GetEuclideanDistance*
+  name: GetEuclideanDistance
+  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_GetEuclideanDistance_
+  commentId: Overload:NomUtils.Unity.ColorUtility.GetEuclideanDistance
   isSpec: "True"
-  fullName: NomUtils.Unity.ColorUtility.EuclideanColorDistance
-  nameWithType: ColorUtility.EuclideanColorDistance
+  fullName: NomUtils.Unity.ColorUtility.GetEuclideanDistance
+  nameWithType: ColorUtility.GetEuclideanDistance
 - uid: NomUtils.Unity.LayerMaskUtility
   name: LayerMaskUtility
   href: api/NomUtils.Unity.LayerMaskUtility.html
