@@ -34,6 +34,17 @@ namespace NomUtils.Math.Shapes {
 		public static float GetHypotenuse(float a, float b) {
 			return (float)System.Math.Sqrt(a * a + b * b);
 		}
+
+		/// <summary>
+		/// Gets the slope between two points. Rise / Run.
+		/// </summary>
+		/// <param name="lhs">Left-most vector</param>
+		/// <param name="rhs">Right-most vector</param>
+		/// <returns></returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static float GetSlope(in Vector2 lhs, in Vector2 rhs) {
+			return (rhs.y - lhs.y) / (rhs.x - lhs.x);
+		}
 		
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static float GetAngle(in Vector2 a, in Vector2 b, in Vector2 c) {

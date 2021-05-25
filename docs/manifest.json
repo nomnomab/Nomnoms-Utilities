@@ -149,11 +149,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Curves.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Curves.Line.html",
+          "hash": "RTNiVcwhXp6Wlo0McuV4xQ3rfkKqKGYHpqfeB2BfPrw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Math.Curves.yml",
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.html",
-          "hash": "aEzjTc86OA5AEquAgDSdFRqkszqUmY4mtgVAt80uFSw="
+          "hash": "4zvIqrNVb0cF9Odo3pbiimyAv5LsxIFBoJRIjI5AJpg="
         }
       },
       "is_incremental": true,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Shapes.Triangle.html",
-          "hash": "EvFgJNn18MfIOr+m2uNJPJqFwMTlzhZPpJyZftazTY0="
+          "hash": "Lrn9EONL+uhoivNG+4hyO/qvJ+GXNYZ4HfYq0ZAEJoQ="
         }
       },
       "is_incremental": true,
@@ -257,11 +269,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Math.VectorUtility.yml",
+      "source_relative_path": "api/NomUtils.Math.Vectors.VectorOps.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Math.VectorUtility.html",
-          "hash": "QdiW7LWn+otE/CLOckddjnTT7yrL/3PKAbq+eNYarnI="
+          "relative_path": "api/NomUtils.Math.Vectors.VectorOps.html",
+          "hash": "y19qjJTEbzUKPCfnOf+wHTg7UF0uWeFMFvN4EMMKI7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Vectors.VectorUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Vectors.VectorUtility.html",
+          "hash": "CVqPG/CYbZ7ToCjqj9aiX7pF5j2nGAe++2NMj5Z2VG8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Vectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Vectors.html",
+          "hash": "YO7g+ChjExYoMtJ7KGdQpDTqhTIgTnXSpPjcyTc/tfU="
         }
       },
       "is_incremental": true,
@@ -273,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.html",
-          "hash": "nMSbO/L45IPlueJsxwYWpQW6As/NzhdS1d67h5KdbPA="
+          "hash": "47ykrmNlU7jg/DaAuhpRzDsz/ARwPoTSRVxuEyhGTTg="
         }
       },
       "is_incremental": true,
@@ -286,6 +322,18 @@
         ".html": {
           "relative_path": "api/NomUtils.Unity.AudioUtility.html",
           "hash": "cc/etS2ot0IkHmVkEViqqBrl+gkTl33sO3vavNd7rY4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.ColorUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.ColorUtility.html",
+          "hash": "TTcmKhwKeKi5HK2B9VNLyiNvYK4bi2jsp3rood1ZNHM="
         }
       },
       "is_incremental": true,
@@ -345,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Unity.html",
-          "hash": "x9V34ZBC/4WKZzLBd6sA6iIkO8I3Ymke3PZg4vuSwpI="
+          "hash": "Vp9qFH9vSlPUl538Esdav7/I6ae1z6vcAaGKcekrNTQ="
         }
       },
       "is_incremental": true,
@@ -357,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "CGCEjFBla1hucJhAoVV0VvJeDVxKg8iJYZUo+DJu2H0="
+          "hash": "2uKPw3yBDpxke3srtXBOvrY7adlKe8M/kmG8rP7Jh4Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Czbn2///kJNLBmPheqkXGXWIUjmumuIimvBdgcYLnQQ="
+          "hash": "oCyxdzDv4IgEUP27PdajU6QP9JtUrDA1xi2H5UhswIY="
         }
       },
       "is_incremental": false,
@@ -437,13 +485,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 29,
-          "skipped_file_count": 29
+          "total_file_count": 33,
+          "skipped_file_count": 33
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

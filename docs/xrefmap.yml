@@ -1235,6 +1235,44 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierQuadratic.SampleVelocity
   nameWithType: BezierQuadratic.SampleVelocity
+- uid: NomUtils.Math.Curves.Line
+  name: Line
+  href: api/NomUtils.Math.Curves.Line.html
+  commentId: T:NomUtils.Math.Curves.Line
+  fullName: NomUtils.Math.Curves.Line
+  nameWithType: Line
+- uid: NomUtils.Math.Curves.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
+  name: ClosestPoint(Vector3, Vector3, Vector3)
+  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPoint_Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Curves.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
+  name.vb: ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Curves.Line.ClosestPoint(Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Curves.Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.ClosestPoint(Vector3, Vector3, Vector3)
+  nameWithType.vb: Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.Line.ClosestPoint*
+  name: ClosestPoint
+  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPoint_
+  commentId: Overload:NomUtils.Math.Curves.Line.ClosestPoint
+  isSpec: "True"
+  fullName: NomUtils.Math.Curves.Line.ClosestPoint
+  nameWithType: Line.ClosestPoint
+- uid: NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
+  name: ClosestPointInfinite(Vector3, Vector3, Vector3)
+  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPointInfinite_Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
+  name.vb: ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Curves.Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
+  nameWithType.vb: Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Curves.Line.ClosestPointInfinite*
+  name: ClosestPointInfinite
+  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPointInfinite_
+  commentId: Overload:NomUtils.Math.Curves.Line.ClosestPointInfinite
+  isSpec: "True"
+  fullName: NomUtils.Math.Curves.Line.ClosestPointInfinite
+  nameWithType: Line.ClosestPointInfinite
 - uid: NomUtils.Math.Equations
   name: Equations
   href: api/NomUtils.Math.Equations.html
@@ -1744,6 +1782,22 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Shapes.Triangle.GetHypotenuse
   nameWithType: Triangle.GetHypotenuse
+- uid: NomUtils.Math.Shapes.Triangle.GetSlope(Vector2@,Vector2@)
+  name: GetSlope(Vector2, Vector2)
+  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetSlope_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Shapes.Triangle.GetSlope(Vector2@,Vector2@)
+  name.vb: GetSlope(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Shapes.Triangle.GetSlope(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Shapes.Triangle.GetSlope(ByRef Vector2, ByRef Vector2)
+  nameWithType: Triangle.GetSlope(Vector2, Vector2)
+  nameWithType.vb: Triangle.GetSlope(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Shapes.Triangle.GetSlope*
+  name: GetSlope
+  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetSlope_
+  commentId: Overload:NomUtils.Math.Shapes.Triangle.GetSlope
+  isSpec: "True"
+  fullName: NomUtils.Math.Shapes.Triangle.GetSlope
+  nameWithType: Triangle.GetSlope
 - uid: NomUtils.Math.Shapes.Triangle.GetTopPoint(Vector2@,System.Single)
   name: GetTopPoint(Vector2, Single)
   href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetTopPoint_Vector2__System_Single_
@@ -1804,412 +1858,660 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint
   nameWithType: CatmulRomSpline.SamplePoint
-- uid: NomUtils.Math.VectorUtility
+- uid: NomUtils.Math.Vectors
+  name: NomUtils.Math.Vectors
+  href: api/NomUtils.Math.Vectors.html
+  commentId: N:NomUtils.Math.Vectors
+  fullName: NomUtils.Math.Vectors
+  nameWithType: NomUtils.Math.Vectors
+- uid: NomUtils.Math.Vectors.VectorOps
+  name: VectorOps
+  href: api/NomUtils.Math.Vectors.VectorOps.html
+  commentId: T:NomUtils.Math.Vectors.VectorOps
+  fullName: NomUtils.Math.Vectors.VectorOps
+  nameWithType: VectorOps
+- uid: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector2@,Vector2@)
+  name: AddCopy(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddCopy_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddCopy(Vector2@,Vector2@)
+  name.vb: AddCopy(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddCopy(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorOps.AddCopy(Vector2, Vector2)
+  nameWithType.vb: VectorOps.AddCopy(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector3@,Vector3@)
+  name: AddCopy(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddCopy_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddCopy(Vector3@,Vector3@)
+  name.vb: AddCopy(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddCopy(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorOps.AddCopy(Vector3, Vector3)
+  nameWithType.vb: VectorOps.AddCopy(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector4@,Vector4@)
+  name: AddCopy(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddCopy_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddCopy(Vector4@,Vector4@)
+  name.vb: AddCopy(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddCopy(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddCopy(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorOps.AddCopy(Vector4, Vector4)
+  nameWithType.vb: VectorOps.AddCopy(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorOps.AddCopy*
+  name: AddCopy
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.AddCopy
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.AddCopy
+  nameWithType: VectorOps.AddCopy
+- uid: NomUtils.Math.Vectors.VectorOps.AddRef(Vector2@,Vector2@)
+  name: AddRef(ref Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddRef_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddRef(Vector2@,Vector2@)
+  name.vb: AddRef(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddRef(ref Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddRef(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorOps.AddRef(ref Vector2, Vector2)
+  nameWithType.vb: VectorOps.AddRef(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorOps.AddRef(Vector3@,Vector3@)
+  name: AddRef(ref Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddRef_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddRef(Vector3@,Vector3@)
+  name.vb: AddRef(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddRef(ref Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddRef(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorOps.AddRef(ref Vector3, Vector3)
+  nameWithType.vb: VectorOps.AddRef(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorOps.AddRef(Vector4@,Vector4@)
+  name: AddRef(ref Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddRef_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.AddRef(Vector4@,Vector4@)
+  name.vb: AddRef(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorOps.AddRef(ref Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.AddRef(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorOps.AddRef(ref Vector4, Vector4)
+  nameWithType.vb: VectorOps.AddRef(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorOps.AddRef*
+  name: AddRef
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_AddRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.AddRef
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.AddRef
+  nameWithType: VectorOps.AddRef
+- uid: NomUtils.Math.Vectors.VectorOps.MultiplyScalar(Vector3@,System.Single)
+  name: MultiplyScalar(ref Vector3, Single)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_MultiplyScalar_Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorOps.MultiplyScalar(Vector3@,System.Single)
+  name.vb: MultiplyScalar(ByRef Vector3, Single)
+  fullName: NomUtils.Math.Vectors.VectorOps.MultiplyScalar(ref Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.MultiplyScalar(ByRef Vector3, System.Single)
+  nameWithType: VectorOps.MultiplyScalar(ref Vector3, Single)
+  nameWithType.vb: VectorOps.MultiplyScalar(ByRef Vector3, Single)
+- uid: NomUtils.Math.Vectors.VectorOps.MultiplyScalar*
+  name: MultiplyScalar
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_MultiplyScalar_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.MultiplyScalar
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.MultiplyScalar
+  nameWithType: VectorOps.MultiplyScalar
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector2@,Vector2@)
+  name: SubtractCopy(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractCopy_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector2@,Vector2@)
+  name.vb: SubtractCopy(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractCopy(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorOps.SubtractCopy(Vector2, Vector2)
+  nameWithType.vb: VectorOps.SubtractCopy(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector3@,Vector3@)
+  name: SubtractCopy(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractCopy_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector3@,Vector3@)
+  name.vb: SubtractCopy(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractCopy(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorOps.SubtractCopy(Vector3, Vector3)
+  nameWithType.vb: VectorOps.SubtractCopy(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector4@,Vector4@)
+  name: SubtractCopy(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractCopy_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector4@,Vector4@)
+  name.vb: SubtractCopy(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractCopy(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractCopy(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorOps.SubtractCopy(Vector4, Vector4)
+  nameWithType.vb: VectorOps.SubtractCopy(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractCopy*
+  name: SubtractCopy
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.SubtractCopy
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractCopy
+  nameWithType: VectorOps.SubtractCopy
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector2@,Vector2@)
+  name: SubtractRef(ref Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractRef_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector2@,Vector2@)
+  name.vb: SubtractRef(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractRef(ref Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractRef(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorOps.SubtractRef(ref Vector2, Vector2)
+  nameWithType.vb: VectorOps.SubtractRef(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector3@,Vector3@)
+  name: SubtractRef(ref Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractRef_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector3@,Vector3@)
+  name.vb: SubtractRef(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractRef(ref Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractRef(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorOps.SubtractRef(ref Vector3, Vector3)
+  nameWithType.vb: VectorOps.SubtractRef(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector4@,Vector4@)
+  name: SubtractRef(ref Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractRef_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.SubtractRef(Vector4@,Vector4@)
+  name.vb: SubtractRef(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractRef(ref Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.SubtractRef(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorOps.SubtractRef(ref Vector4, Vector4)
+  nameWithType.vb: VectorOps.SubtractRef(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorOps.SubtractRef*
+  name: SubtractRef
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_SubtractRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.SubtractRef
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.SubtractRef
+  nameWithType: VectorOps.SubtractRef
+- uid: NomUtils.Math.Vectors.VectorUtility
   name: VectorUtility
-  href: api/NomUtils.Math.VectorUtility.html
-  commentId: T:NomUtils.Math.VectorUtility
-  fullName: NomUtils.Math.VectorUtility
+  href: api/NomUtils.Math.Vectors.VectorUtility.html
+  commentId: T:NomUtils.Math.Vectors.VectorUtility
+  fullName: NomUtils.Math.Vectors.VectorUtility
   nameWithType: VectorUtility
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2@)
-  name: CalculateMagnitude(Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2@)
-  name.vb: CalculateMagnitude(ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector2)
-  nameWithType: VectorUtility.CalculateMagnitude(Vector2)
-  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3@)
-  name: CalculateMagnitude(Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3@)
-  name.vb: CalculateMagnitude(ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector3)
-  nameWithType: VectorUtility.CalculateMagnitude(Vector3)
-  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4@)
-  name: CalculateMagnitude(Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4@)
-  name.vb: CalculateMagnitude(ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude(Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitude(ByRef Vector4)
-  nameWithType: VectorUtility.CalculateMagnitude(Vector4)
-  nameWithType.vb: VectorUtility.CalculateMagnitude(ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitude*
-  name: CalculateMagnitude
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitude_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitude
+- uid: NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3@,Vector3@)
+  name: CrossCopy(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossCopy_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3@,Vector3@)
+  name.vb: CrossCopy(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.CrossCopy(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CrossCopy(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CrossCopy(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.CrossCopy*
+  name: CrossCopy
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.CrossCopy
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitude
-  nameWithType: VectorUtility.CalculateMagnitude
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2@,Vector2@)
-  name: CalculateMagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2@,Vector2@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3@,Vector3@)
-  name: CalculateMagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3@,Vector3@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4@,Vector4@)
-  name: CalculateMagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4@,Vector4@)
-  name.vb: CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.CalculateMagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd*
-  name: CalculateMagnitudeAdd
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeAdd_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitudeAdd
+  fullName: NomUtils.Math.Vectors.VectorUtility.CrossCopy
+  nameWithType: VectorUtility.CrossCopy
+- uid: NomUtils.Math.Vectors.VectorUtility.CrossRef(Vector3@,Vector3@)
+  name: CrossRef(ref Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossRef_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.CrossRef(Vector3@,Vector3@)
+  name.vb: CrossRef(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.CrossRef(ref Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.CrossRef(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.CrossRef(ref Vector3, Vector3)
+  nameWithType.vb: VectorUtility.CrossRef(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.CrossRef*
+  name: CrossRef
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.CrossRef
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeAdd
-  nameWithType: VectorUtility.CalculateMagnitudeAdd
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2@,Vector2@)
-  name: CalculateMagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2@,Vector2@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3@,Vector3@)
-  name: CalculateMagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3@,Vector3@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4@,Vector4@)
-  name: CalculateMagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4@,Vector4@)
-  name.vb: CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.CalculateMagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.CalculateMagnitudeSub(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateMagnitudeSub*
-  name: CalculateMagnitudeSub
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateMagnitudeSub_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateMagnitudeSub
-  isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateMagnitudeSub
-  nameWithType: VectorUtility.CalculateMagnitudeSub
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2@)
-  name: CalculateSqrMagnitude(Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector2)
-  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector2)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3@)
-  name: CalculateSqrMagnitude(Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector3)
-  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector3)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4@)
-  name: CalculateSqrMagnitude(Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4@)
-  name.vb: CalculateSqrMagnitude(ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitude(ByRef Vector4)
-  nameWithType: VectorUtility.CalculateSqrMagnitude(Vector4)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitude(ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitude*
-  name: CalculateSqrMagnitude
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitude_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitude
-  isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitude
-  nameWithType: VectorUtility.CalculateSqrMagnitude
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
-  name: CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2@,Vector2@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
-  name: CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3@,Vector3@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
-  name: CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4@,Vector4@)
-  name.vb: CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd*
-  name: CalculateSqrMagnitudeAdd
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeAdd_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd
-  isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeAdd
-  nameWithType: VectorUtility.CalculateSqrMagnitudeAdd
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
-  name: CalculateSqrMagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2@,Vector2@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
-  name: CalculateSqrMagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3@,Vector3@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
-  name: CalculateSqrMagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4@,Vector4@)
-  name.vb: CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.CalculateSqrMagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.CalculateSqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub*
-  name: CalculateSqrMagnitudeSub
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_CalculateSqrMagnitudeSub_
-  commentId: Overload:NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub
-  isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.CalculateSqrMagnitudeSub
-  nameWithType: VectorUtility.CalculateSqrMagnitudeSub
-- uid: NomUtils.Math.VectorUtility.Dot(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtility.CrossRef
+  nameWithType: VectorUtility.CrossRef
+- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector2@,Vector2@)
   name: Dot(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector2@,Vector2@)
   name.vb: Dot(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.Dot(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
   nameWithType: VectorUtility.Dot(Vector2, Vector2)
   nameWithType.vb: VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.Dot(Vector3@,Vector3@)
+- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector3@,Vector3@)
   name: Dot(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector3@,Vector3@)
   name.vb: Dot(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.Dot(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
   nameWithType: VectorUtility.Dot(Vector3, Vector3)
   nameWithType.vb: VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.Dot(Vector4@,Vector4@)
+- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector4@,Vector4@)
   name: Dot(Vector4, Vector4)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_Vector4__Vector4__
-  commentId: M:NomUtils.Math.VectorUtility.Dot(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector4@,Vector4@)
   name.vb: Dot(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.VectorUtility.Dot(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
   nameWithType: VectorUtility.Dot(Vector4, Vector4)
   nameWithType.vb: VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.VectorUtility.Dot*
+- uid: NomUtils.Math.Vectors.VectorUtility.Dot*
   name: Dot
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Dot_
-  commentId: Overload:NomUtils.Math.VectorUtility.Dot
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Dot
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.Dot
+  fullName: NomUtils.Math.Vectors.VectorUtility.Dot
   nameWithType: VectorUtility.Dot
-- uid: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
   name: GetAngleDegrees(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
   name.vb: GetAngleDegrees(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
   nameWithType: VectorUtility.GetAngleDegrees(Vector2, Vector2)
   nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
   name: GetAngleDegrees(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
   name.vb: GetAngleDegrees(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
   nameWithType: VectorUtility.GetAngleDegrees(Vector3, Vector3)
   nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.GetAngleDegrees*
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees*
   name: GetAngleDegrees
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDegrees_
-  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleDegrees
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.GetAngleDegrees
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees
   nameWithType: VectorUtility.GetAngleDegrees
-- uid: NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2@)
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2@)
   name: GetAngleDiamond(Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDiamond_Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDiamond_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2@)
   name.vb: GetAngleDiamond(ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.GetAngleDiamond(Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.GetAngleDiamond(ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(ByRef Vector2)
   nameWithType: VectorUtility.GetAngleDiamond(Vector2)
   nameWithType.vb: VectorUtility.GetAngleDiamond(ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.GetAngleDiamond*
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond*
   name: GetAngleDiamond
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleDiamond_
-  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleDiamond
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDiamond_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.GetAngleDiamond
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond
   nameWithType: VectorUtility.GetAngleDiamond
-- uid: NomUtils.Math.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
   name: GetAngleRadians(Vector2, Vector2)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_Vector2__Vector2__
-  commentId: M:NomUtils.Math.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
   name.vb: GetAngleRadians(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.VectorUtility.GetAngleRadians(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
   nameWithType: VectorUtility.GetAngleRadians(Vector2, Vector2)
   nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
   name: GetAngleRadians(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
   name.vb: GetAngleRadians(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.GetAngleRadians(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
   nameWithType: VectorUtility.GetAngleRadians(Vector3, Vector3)
   nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.GetAngleRadians*
+- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians*
   name: GetAngleRadians
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetAngleRadians_
-  commentId: Overload:NomUtils.Math.VectorUtility.GetAngleRadians
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.GetAngleRadians
+  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians
   nameWithType: VectorUtility.GetAngleRadians
-- uid: NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3@,Vector3@)
-  name: GetMiddlePoint(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetMiddlePoint_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3@,Vector3@)
-  name.vb: GetMiddlePoint(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.GetMiddlePoint(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.GetMiddlePoint(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.GetMiddlePoint(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.GetMiddlePoint(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.GetMiddlePoint*
-  name: GetMiddlePoint
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_GetMiddlePoint_
-  commentId: Overload:NomUtils.Math.VectorUtility.GetMiddlePoint
-  isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.GetMiddlePoint
-  nameWithType: VectorUtility.GetMiddlePoint
-- uid: NomUtils.Math.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+- uid: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
   name: IsOrthogonal(Vector3, Vector3)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_IsOrthogonal_Vector3__Vector3__
-  commentId: M:NomUtils.Math.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_IsOrthogonal_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
   name.vb: IsOrthogonal(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.VectorUtility.IsOrthogonal(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
   nameWithType: VectorUtility.IsOrthogonal(Vector3, Vector3)
   nameWithType.vb: VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.VectorUtility.IsOrthogonal*
+- uid: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal*
   name: IsOrthogonal
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_IsOrthogonal_
-  commentId: Overload:NomUtils.Math.VectorUtility.IsOrthogonal
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_IsOrthogonal_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.IsOrthogonal
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.IsOrthogonal
+  fullName: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal
   nameWithType: VectorUtility.IsOrthogonal
-- uid: NomUtils.Math.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+- uid: NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
   name: Lerp(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Lerp_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Lerp_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
   name.vb: Lerp(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.VectorUtility.Lerp(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, System.Single)
   nameWithType: VectorUtility.Lerp(Vector3, Vector3, Single)
   nameWithType.vb: VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.VectorUtility.Lerp*
+- uid: NomUtils.Math.Vectors.VectorUtility.Lerp*
   name: Lerp
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_Lerp_
-  commentId: Overload:NomUtils.Math.VectorUtility.Lerp
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Lerp_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Lerp
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.Lerp
+  fullName: NomUtils.Math.Vectors.VectorUtility.Lerp
   nameWithType: VectorUtility.Lerp
-- uid: NomUtils.Math.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+- uid: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
   name: LerpUnclamped(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_LerpUnclamped_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_LerpUnclamped_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
   name.vb: LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.VectorUtility.LerpUnclamped(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, System.Single)
   nameWithType: VectorUtility.LerpUnclamped(Vector3, Vector3, Single)
   nameWithType.vb: VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.VectorUtility.LerpUnclamped*
+- uid: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped*
   name: LerpUnclamped
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_LerpUnclamped_
-  commentId: Overload:NomUtils.Math.VectorUtility.LerpUnclamped
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_LerpUnclamped_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.LerpUnclamped
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.LerpUnclamped
+  fullName: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped
   nameWithType: VectorUtility.LerpUnclamped
-- uid: NomUtils.Math.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2@)
+  name: Magnitude(Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2@)
+  name.vb: Magnitude(ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector2)
+  nameWithType: VectorUtility.Magnitude(Vector2)
+  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3@)
+  name: Magnitude(Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3@)
+  name.vb: Magnitude(ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector3)
+  nameWithType: VectorUtility.Magnitude(Vector3)
+  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4@)
+  name: Magnitude(Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4@)
+  name.vb: Magnitude(ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector4)
+  nameWithType: VectorUtility.Magnitude(Vector4)
+  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude*
+  name: Magnitude
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Magnitude
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude
+  nameWithType: VectorUtility.Magnitude
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2@,Vector2@)
+  name: MagnitudeAdd(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2@,Vector2@)
+  name.vb: MagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.MagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3@,Vector3@)
+  name: MagnitudeAdd(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3@,Vector3@)
+  name.vb: MagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.MagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4@,Vector4@)
+  name: MagnitudeAdd(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4@,Vector4@)
+  name.vb: MagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.MagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd*
+  name: MagnitudeAdd
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd
+  nameWithType: VectorUtility.MagnitudeAdd
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2@,Vector2@)
+  name: MagnitudeSub(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2@,Vector2@)
+  name.vb: MagnitudeSub(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.MagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3@,Vector3@)
+  name: MagnitudeSub(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3@,Vector3@)
+  name.vb: MagnitudeSub(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.MagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4@,Vector4@)
+  name: MagnitudeSub(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4@,Vector4@)
+  name.vb: MagnitudeSub(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.MagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub*
+  name: MagnitudeSub
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub
+  nameWithType: VectorUtility.MagnitudeSub
+- uid: NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
   name: MoveTowards(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MoveTowards_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MoveTowards_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
   name.vb: MoveTowards(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.VectorUtility.MoveTowards(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, System.Single)
   nameWithType: VectorUtility.MoveTowards(Vector3, Vector3, Single)
   nameWithType.vb: VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.VectorUtility.MoveTowards*
+- uid: NomUtils.Math.Vectors.VectorUtility.MoveTowards*
   name: MoveTowards
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MoveTowards_
-  commentId: Overload:NomUtils.Math.VectorUtility.MoveTowards
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MoveTowards_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MoveTowards
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.MoveTowards
+  fullName: NomUtils.Math.Vectors.VectorUtility.MoveTowards
   nameWithType: VectorUtility.MoveTowards
-- uid: NomUtils.Math.VectorUtility.MultiplyScalar(Vector3@,System.Single)
-  name: MultiplyScalar(ref Vector3, Single)
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MultiplyScalar_Vector3__System_Single_
-  commentId: M:NomUtils.Math.VectorUtility.MultiplyScalar(Vector3@,System.Single)
-  name.vb: MultiplyScalar(ByRef Vector3, Single)
-  fullName: NomUtils.Math.VectorUtility.MultiplyScalar(ref Vector3, System.Single)
-  fullName.vb: NomUtils.Math.VectorUtility.MultiplyScalar(ByRef Vector3, System.Single)
-  nameWithType: VectorUtility.MultiplyScalar(ref Vector3, Single)
-  nameWithType.vb: VectorUtility.MultiplyScalar(ByRef Vector3, Single)
-- uid: NomUtils.Math.VectorUtility.MultiplyScalar*
-  name: MultiplyScalar
-  href: api/NomUtils.Math.VectorUtility.html#NomUtils_Math_VectorUtility_MultiplyScalar_
-  commentId: Overload:NomUtils.Math.VectorUtility.MultiplyScalar
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2@)
+  name: NormalizeCopy(Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2@)
+  name.vb: NormalizeCopy(ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector2)
+  nameWithType: VectorUtility.NormalizeCopy(Vector2)
+  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3@)
+  name: NormalizeCopy(Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3@)
+  name.vb: NormalizeCopy(ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector3)
+  nameWithType: VectorUtility.NormalizeCopy(Vector3)
+  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4@)
+  name: NormalizeCopy(Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4@)
+  name.vb: NormalizeCopy(ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector4)
+  nameWithType: VectorUtility.NormalizeCopy(Vector4)
+  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy*
+  name: NormalizeCopy
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy
   isSpec: "True"
-  fullName: NomUtils.Math.VectorUtility.MultiplyScalar
-  nameWithType: VectorUtility.MultiplyScalar
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy
+  nameWithType: VectorUtility.NormalizeCopy
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector2@)
+  name: NormalizeRef(ref Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector2@)
+  name.vb: NormalizeRef(ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector2)
+  nameWithType: VectorUtility.NormalizeRef(ref Vector2)
+  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector3@)
+  name: NormalizeRef(ref Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector3@)
+  name.vb: NormalizeRef(ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector3)
+  nameWithType: VectorUtility.NormalizeRef(ref Vector3)
+  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector4@)
+  name: NormalizeRef(ref Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector4@)
+  name.vb: NormalizeRef(ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector4)
+  nameWithType: VectorUtility.NormalizeRef(ref Vector4)
+  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef*
+  name: NormalizeRef
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.NormalizeRef
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef
+  nameWithType: VectorUtility.NormalizeRef
+- uid: NomUtils.Math.Vectors.VectorUtility.Project(Vector3@,Vector3@)
+  name: Project(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Project_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.Project(Vector3@,Vector3@)
+  name.vb: Project(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.Project(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Project(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.Project(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.Project(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.Project*
+  name: Project
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Project_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Project
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.Project
+  nameWithType: VectorUtility.Project
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2@)
+  name: SqrMagnitude(Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2@)
+  name.vb: SqrMagnitude(ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector2)
+  nameWithType: VectorUtility.SqrMagnitude(Vector2)
+  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3@)
+  name: SqrMagnitude(Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3@)
+  name.vb: SqrMagnitude(ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector3)
+  nameWithType: VectorUtility.SqrMagnitude(Vector3)
+  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4@)
+  name: SqrMagnitude(Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4@)
+  name.vb: SqrMagnitude(ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector4)
+  nameWithType: VectorUtility.SqrMagnitude(Vector4)
+  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude*
+  name: SqrMagnitude
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude
+  nameWithType: VectorUtility.SqrMagnitude
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2@,Vector2@)
+  name: SqrMagnitudeAdd(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2@,Vector2@)
+  name.vb: SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3@,Vector3@)
+  name: SqrMagnitudeAdd(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3@,Vector3@)
+  name.vb: SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4@,Vector4@)
+  name: SqrMagnitudeAdd(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4@,Vector4@)
+  name.vb: SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd*
+  name: SqrMagnitudeAdd
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd
+  nameWithType: VectorUtility.SqrMagnitudeAdd
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2@,Vector2@)
+  name: SqrMagnitudeSub(Vector2, Vector2)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2@,Vector2@)
+  name.vb: SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtility.SqrMagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3@,Vector3@)
+  name: SqrMagnitudeSub(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3@,Vector3@)
+  name.vb: SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtility.SqrMagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4@,Vector4@)
+  name: SqrMagnitudeSub(Vector4, Vector4)
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4@,Vector4@)
+  name.vb: SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtility.SqrMagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub*
+  name: SqrMagnitudeSub
+  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub
+  nameWithType: VectorUtility.SqrMagnitudeSub
 - uid: NomUtils.Unity
   name: NomUtils.Unity
   href: api/NomUtils.Unity.html
@@ -2277,6 +2579,25 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.AudioUtility.IndexToFrequency
   nameWithType: AudioUtility.IndexToFrequency
+- uid: NomUtils.Unity.ColorUtility
+  name: ColorUtility
+  href: api/NomUtils.Unity.ColorUtility.html
+  commentId: T:NomUtils.Unity.ColorUtility
+  fullName: NomUtils.Unity.ColorUtility
+  nameWithType: ColorUtility
+- uid: NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color,Color)
+  name: EuclideanColorDistance(Color, Color)
+  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_EuclideanColorDistance_Color_Color_
+  commentId: M:NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color,Color)
+  fullName: NomUtils.Unity.ColorUtility.EuclideanColorDistance(Color, Color)
+  nameWithType: ColorUtility.EuclideanColorDistance(Color, Color)
+- uid: NomUtils.Unity.ColorUtility.EuclideanColorDistance*
+  name: EuclideanColorDistance
+  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_EuclideanColorDistance_
+  commentId: Overload:NomUtils.Unity.ColorUtility.EuclideanColorDistance
+  isSpec: "True"
+  fullName: NomUtils.Unity.ColorUtility.EuclideanColorDistance
+  nameWithType: ColorUtility.EuclideanColorDistance
 - uid: NomUtils.Unity.LayerMaskUtility
   name: LayerMaskUtility
   href: api/NomUtils.Unity.LayerMaskUtility.html

@@ -1,5 +1,7 @@
 ﻿#if UNITY_EDITOR
+using NomUtils.Math;
 using NomUtils.Math.Shapes;
+using NomUtils.Math.Vectors;
 using UnityEngine;
 
 namespace NomUtils.Editor {
@@ -12,6 +14,14 @@ namespace NomUtils.Editor {
 			Gizmos.DrawLine(topPoint, bottomRightPoint);
 			Gizmos.DrawLine(bottomRightPoint, bottomLeftPoint);
 			Gizmos.DrawLine(bottomLeftPoint, topPoint);
+		}
+
+		public static void DrawInfiniteLine(in Vector2 center, in Vector2 direction) {
+			const float LARGE_NUM = 2000;
+			Vector2 normalizedDirection = VectorUtility.NormalizeCopy(in direction);
+			Vector2 startPoint = center - normalizedDirection * LARGE_NUM;
+			Vector2 endPoint = center + normalizedDirection * LARGE_NUM;
+			Gizmos.DrawLine(startPoint, endPoint);
 		}
 	}
 }
