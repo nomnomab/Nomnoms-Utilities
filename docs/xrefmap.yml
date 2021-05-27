@@ -2816,6 +2816,19 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.SetFramelessWindow
   nameWithType: WindowsAPI.SetFramelessWindow
+- uid: NomUtils.Raw.WindowsAPI.SetWindowPos(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: SetWindowPos(Int32, Int32, Int32, Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetWindowPos_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.SetWindowPos(System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.SetWindowPos(System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: WindowsAPI.SetWindowPos(Int32, Int32, Int32, Int32)
+- uid: NomUtils.Raw.WindowsAPI.SetWindowPos*
+  name: SetWindowPos
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetWindowPos_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.SetWindowPos
+  isSpec: "True"
+  fullName: NomUtils.Raw.WindowsAPI.SetWindowPos
+  nameWithType: WindowsAPI.SetWindowPos
 - uid: NomUtils.Raw.WindowsAPI.ShowWindow(NomUtils.Raw.WindowsAPI.ShowWindowType)
   name: ShowWindow(WindowsAPI.ShowWindowType)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ShowWindow_NomUtils_Raw_WindowsAPI_ShowWindowType_

@@ -327,6 +327,21 @@ namespace NomUtils.Raw {
 			MoveWindow(hwnd, x, y, width, height, true);
 #endif
 		}
+		
+		/// <summary>
+		/// Moves the active window to (x, y), and applies a new size to it.
+		/// Top-left of screen is (0, 0)
+		/// </summary>
+		/// <param name="x">Absolute x position</param>
+		/// <param name="y">Absolute y position</param>
+		/// <param name="width">New width</param>
+		/// <param name="height">New height</param>
+		public static void SetWindowPos(int x, int y, int width, int height) {
+#if !UNITY_EDITOR
+			IntPtr hwnd = GetActiveWindow();
+			MoveWindow(hwnd, x, y, width, height, true);
+#endif
+		}
 
 		/// <summary>
 		/// Sets the cursor to a system icon.

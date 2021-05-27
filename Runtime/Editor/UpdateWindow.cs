@@ -33,7 +33,7 @@ namespace NomUtils.Editor {
 			}
 			
 			GUILayout.BeginHorizontal();
-			if (GUILayout.Button("Check for Updates", GUILayout.Width(position.size.x - 50))) {
+			if (GUILayout.Button("Check for Updates", GUILayout.Width(position.size.x - 100))) {
 				// check the github repo for the latest version
 				GetWebVersion();
 			}
@@ -56,6 +56,24 @@ namespace NomUtils.Editor {
 				});
 			}
 			GUI.enabled = true;
+
+			if (GUILayout.Button(EditorGUIUtility.IconContent("DebuggerEnabled@2x"))) {
+				// force download
+				// download new update
+				UpdateJson("Packages/manifest.json", jsonDic =>
+				{
+					// Add to dependencies.
+					Dictionary<string, object> dependencies = jsonDic["dependencies"] as Dictionary<string, object>;
+					dependencies?.Add("com.nomutils", "https://github.com/nomnomab/Nomnoms-Utilities.git" + "#" + _webVersion);
+				});
+				
+				UpdateJson("Packages/packages-lock.json", jsonDic =>
+				{
+					// Add to dependencies.
+					Dictionary<string, object> dependencies = jsonDic["dependencies"] as Dictionary<string, object>;
+					dependencies?.Remove("com.nomutils");
+				});
+			}
 
 			if (string.IsNullOrEmpty(_currentVersion)) {
 				_currentVersion = GetCurrentVersion();
