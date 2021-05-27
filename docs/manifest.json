@@ -5,30 +5,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Coffee.UpmGitExtension.Json.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Coffee.UpmGitExtension.Json.html",
-          "hash": "W/DV5njd/tCnv8nCaSAdid0i19iW411YjE8NSGyyh2o="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Coffee.UpmGitExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Coffee.UpmGitExtension.html",
-          "hash": "p90dkvNWnRLIJiaXm5/cHOSKxo4rBJH2hJCF6X8OqqA="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.yml",
       "output": {
         ".html": {
@@ -36,7 +12,7 @@
           "hash": "YhRDYIa1rqSrObZvGLjNRA9MZgh0zJ4B6AvuB30uTlc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +24,7 @@
           "hash": "zOlnRSDlcJxjOtN5FqCXKnz5ajsNu3JErxo/OxU0kgA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +36,7 @@
           "hash": "H2c4t+Ix4WNeCNU/V8aNzHqKwItfCjwKnYznPZkVSnM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+dut4ISnkMkMjLb+RRmHgHcy9FUI44Ng8P6OELrus14="
+          "hash": "bx+JlleZtfKNGA10k2HO3TZ+rrTILc0vJSS7y2VJdus="
         }
       },
       "is_incremental": false,
@@ -605,13 +581,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 43,
-          "skipped_file_count": 14
+          "total_file_count": 41,
+          "skipped_file_count": 41
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
