@@ -334,7 +334,7 @@ namespace NomUtils.Raw {
 		/// <summary>
 		/// Sets the cursor to a system icon.
 		/// </summary>
-		public static void SetHandCursor(WindowsCursor cursor) {
+		public static void SetCursor(WindowsCursor cursor) {
 			if (_currentCursor == cursor) {
 				return;
 			}

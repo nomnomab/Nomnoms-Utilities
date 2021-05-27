@@ -259,12 +259,12 @@ references:
   commentId: T:NomUtils.Editor.UpdateWindow
   fullName: NomUtils.Editor.UpdateWindow
   nameWithType: UpdateWindow
-- uid: NomUtils.Editor.UpdateWindow.CheckForProjectVersion
-  name: CheckForProjectVersion()
-  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_CheckForProjectVersion
-  commentId: M:NomUtils.Editor.UpdateWindow.CheckForProjectVersion
-  fullName: NomUtils.Editor.UpdateWindow.CheckForProjectVersion()
-  nameWithType: UpdateWindow.CheckForProjectVersion()
+- uid: NomUtils.Editor.UpdateWindow.CheckForProjectVersion(System.Boolean)
+  name: CheckForProjectVersion(Boolean)
+  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_CheckForProjectVersion_System_Boolean_
+  commentId: M:NomUtils.Editor.UpdateWindow.CheckForProjectVersion(System.Boolean)
+  fullName: NomUtils.Editor.UpdateWindow.CheckForProjectVersion(System.Boolean)
+  nameWithType: UpdateWindow.CheckForProjectVersion(Boolean)
 - uid: NomUtils.Editor.UpdateWindow.CheckForProjectVersion*
   name: CheckForProjectVersion
   href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_CheckForProjectVersion_
