@@ -115,8 +115,7 @@ namespace NomUtils.Editor {
 				}
 
 				_localPackageRoot = $"{directory}";
-
-				Debug.Log($"{_localPackageRoot}/{PACKAGE_PATH}");
+				
 				if (File.Exists($"{_localPackageRoot}/{PACKAGE_PATH}")) {
 					return true;
 				}
