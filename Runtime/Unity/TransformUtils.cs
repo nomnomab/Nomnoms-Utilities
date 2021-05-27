@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace NomUtils.Unity {
-	public static class TransformUtility {
+	public static class TransformUtils {
 		/// <summary>
 		/// Destroys all children that exist on a parent at the end of the current frame.
 		/// </summary>

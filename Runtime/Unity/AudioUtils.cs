@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace NomUtils.Unity {
-	public static class AudioUtility {
+	public static class AudioUtils {
 		/// <summary>
 		/// Converts an index &#060;= length to its closest frequency.
 		/// </summary>

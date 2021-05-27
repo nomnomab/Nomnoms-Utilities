@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace NomUtils.Unity {
-	public static class TextureUtility {
+	public static class TextureUtils {
 		 /// <summary>
         /// Generates a 1D lookup texture for a given gradient.
         /// </summary>

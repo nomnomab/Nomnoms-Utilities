@@ -5,26 +5,62 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.General.CollectionUtility.yml",
+      "source_relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.General.CollectionUtility.html",
-          "hash": "2xVVGNnD0L+l4VyVolmej98wAx3jo0cc4+Nu5W/faAg="
+          "relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.html",
+          "hash": "YhRDYIa1rqSrObZvGLjNRA9MZgh0zJ4B6AvuB30uTlc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.General.EnumUtility.yml",
+      "source_relative_path": "api/NomUtils.Editor.MoreDebugs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.General.EnumUtility.html",
-          "hash": "JpwgffBwGZRGc34hJNcFjrVVo35/AvOZ83lO/N/hL54="
+          "relative_path": "api/NomUtils.Editor.MoreDebugs.html",
+          "hash": "zOlnRSDlcJxjOtN5FqCXKnz5ajsNu3JErxo/OxU0kgA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Editor.html",
+          "hash": "izq9ZkbVJN30YAPKl1zD7JhI3Z0X1Bu0uNsw59e5GxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.CollectionUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.CollectionUtils.html",
+          "hash": "wDTYhOp59ez7d6YOQMIPLephvAV5j/adghmaFDfsAs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.EnumUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.EnumUtils.html",
+          "hash": "n9oZvlA2osYdNn5wLLiZOaE1Zs3BxJ4GQxQ7hTa0UXc="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.General.html",
-          "hash": "0AM1VCFH01nKxQByq0X84WlrYYLY9KQG4hMqWq9fXFs="
+          "hash": "d70/QssurMCPpcAIBdDKKATax5+CIiW7rjEO/fOO/Us="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +84,7 @@
           "hash": "MPYLTKNC/pVa376DiKW8t5m0EeXuq3RceKJZOqWlidA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Bits.Bit16.html",
-          "hash": "sCe+7AtsNn7nUNItpmuqYJDFw0JbKAfGjMUfBiJyJ78="
+          "hash": "glr8ls5rQn8AdzbebgVHbYRX042mGJNcXKapov9pHXo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Bits.Bit32.html",
-          "hash": "PnkuWu2OM4t8sBCm+lAV1HCxeyaCXfropl25Y81JkU0="
+          "hash": "MZvGIia1juAr/mKnK5A2YHm1aIskDm0wpV9mkIz+cEI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Bits.Bit64.html",
-          "hash": "RZNphYRxruhgH+0Frk7dRZE2+V8bhn0aHKpKlwWhuEw="
+          "hash": "SRjjJws4p4p4MgeXW0jVd9pbZREMD4A5UqvEsla9Rbs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Bits.Bit8.html",
-          "hash": "ENWqmQBaLmBhnMHDPvhoGYzARMGYSE3FVYSC56g9U7Q="
+          "hash": "z7KIwlSwjzl5W+emDZNQPCuWdOY4xK5KRGTCk1V1IM0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +144,7 @@
           "hash": "+PF+3phGUgjCqDQxHmG+1+GdHkttpzXCTlRMgNTv2Jg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.BezierCubic.html",
-          "hash": "E2CgPWVB8eDo6xdiW4n45uTqxip1P+SIseS85hlIPUQ="
+          "hash": "KvhIHzSvBky+c/GrcRWi2GwctNlkEPl+Vq8EencjCzA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +168,7 @@
           "hash": "ros+PDCJ7giwvmVDDl6yqbFafHRWgrKl+OBl9clhOAQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,22 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.BezierQuadratic.html",
-          "hash": "PjjxrSzm67iI+soh6xDe5hBufSyVSXYLlZotE30uhDg="
+          "hash": "HdYnLLoz/uVnDiT1pNVSj3s5Ux39MfUjuZWtkWAFNHw="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Math.Curves.Line.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Math.Curves.Line.html",
-          "hash": "RTNiVcwhXp6Wlo0McuV4xQ3rfkKqKGYHpqfeB2BfPrw="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Curves.html",
-          "hash": "4zvIqrNVb0cF9Odo3pbiimyAv5LsxIFBoJRIjI5AJpg="
+          "hash": "aEzjTc86OA5AEquAgDSdFRqkszqUmY4mtgVAt80uFSw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,19 +204,19 @@
           "hash": "QT7Zwg3cOVkNdnWaq6B9Vp1jszoCy6z8/dcmcd/OQqQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Math.QuaternionUtility.yml",
+      "source_relative_path": "api/NomUtils.Math.QuaternionUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Math.QuaternionUtility.html",
-          "hash": "8C7YkHvkj86WHV7zAOqGuPvvt80Y2zeIDXyIqQvsUeU="
+          "relative_path": "api/NomUtils.Math.QuaternionUtils.html",
+          "hash": "lEd7TJoimtEcJFmtg4v6WdbjBIyT42kaC0urVHGcW3A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +228,19 @@
           "hash": "DjdmsnusXM1MQoFUajGXhBySEM/NIcfx+JjzNlczfo0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.Shapes.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.Shapes.Line.html",
+          "hash": "svqJ1pRn+9LDzYNsjlDy5kadM9gXCpK9XcSTak2Fp1c="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -216,7 +252,7 @@
           "hash": "7cMSc8iLc8ZWj1pafvaMINVaReoFQeFONnWIjSip2ew="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Shapes.Triangle.html",
-          "hash": "Lrn9EONL+uhoivNG+4hyO/qvJ+GXNYZ4HfYq0ZAEJoQ="
+          "hash": "b/0nhdBX3ROY15mmyknACvwRCPL6+p5ZB8wlTVYziYg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Shapes.html",
-          "hash": "F00/IpBxKvL/3iwujGkdM/1SquklpQxBWwTi9feEGIA="
+          "hash": "Vo/lRqgB8VnoNMT4cxaDOxgptyrPMEkcxI2FjQFazCw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +288,7 @@
           "hash": "u+t0FaH7rXgvFC8TbRorrYiPuhiP5c+X8Ywr+zcAatU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +300,19 @@
           "hash": "Up3Z9IunjWLIw4Mx/EXLiQCyCUS/mxI7feM5SizR3Sk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Math.TrigOps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Math.TrigOps.html",
+          "hash": "TXaItnLEj55LYUwzvXd8Jh2LHSAXXEW0qsZCNe/a20s="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -276,19 +324,19 @@
           "hash": "y19qjJTEbzUKPCfnOf+wHTg7UF0uWeFMFvN4EMMKI7Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Math.Vectors.VectorUtility.yml",
+      "source_relative_path": "api/NomUtils.Math.Vectors.VectorUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Math.Vectors.VectorUtility.html",
-          "hash": "CVqPG/CYbZ7ToCjqj9aiX7pF5j2nGAe++2NMj5Z2VG8="
+          "relative_path": "api/NomUtils.Math.Vectors.VectorUtils.html",
+          "hash": "bONwZF2VvX1t90Z5CRiRa5ILnwIo+iEPQkcmEWIlzgM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.Vectors.html",
-          "hash": "YO7g+ChjExYoMtJ7KGdQpDTqhTIgTnXSpPjcyTc/tfU="
+          "hash": "KYrXjdr+bK5Qy3uwyUGZtaCvOTlrAQ28d2MdyJxL8ic="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,31 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Math.html",
-          "hash": "47ykrmNlU7jg/DaAuhpRzDsz/ARwPoTSRVxuEyhGTTg="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Unity.AudioUtility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Unity.AudioUtility.html",
-          "hash": "cc/etS2ot0IkHmVkEViqqBrl+gkTl33sO3vavNd7rY4="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Unity.ColorUtility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Unity.ColorUtility.html",
-          "hash": "5sWww6iyTqhIX9W9+2rfgJmkBSvJpxOx7vmstMFthL0="
+          "hash": "+NRUNLt4QBQuH4jVy9O7zwCzvqExljuOeu5hro5rwrg="
         }
       },
       "is_incremental": false,
@@ -341,14 +365,50 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Unity.LayerMaskUtility.yml",
+      "source_relative_path": "api/NomUtils.Unity.ArrayUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Unity.LayerMaskUtility.html",
-          "hash": "i/pjy6wyYVfz7RXaBDA8evGIkIIijTW/R0uGwxCnMR4="
+          "relative_path": "api/NomUtils.Unity.ArrayUtils.html",
+          "hash": "w81XnbvrVNHmfW32sQeOXLcFdi0uOFDo6L86BDPTYso="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.AudioUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.AudioUtils.html",
+          "hash": "Dh/AlY6hNIsG7SoVyE114fLGvBQHvUugQjoR/Be7EgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.ColorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.ColorUtils.html",
+          "hash": "L/mECFdeWLVHmLXU/VabBTUo6nyAr8iJ4msipEhZmpo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.LayerMaskUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.LayerMaskUtils.html",
+          "hash": "pw1/7puEGWJsNm5iQZYxNXZn3e7KGOs+YzHZ5Xp6O+8="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,34 +417,34 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Unity.MainThread.html",
-          "hash": "IFw2EEKqu+PnyzDd/vbYVJ9+NXmVYEFGbEh7xUZLaio="
+          "hash": "W6YCSXIkEZVGm2/ssbEQL7kGHk0tNeMBzgEL3KgnIus="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Unity.TextureUtility.yml",
+      "source_relative_path": "api/NomUtils.Unity.TextureUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Unity.TextureUtility.html",
-          "hash": "zUkAMsTucqdipL6Dc/iG6wrRnAF4C9jDqitwU6MsgvM="
+          "relative_path": "api/NomUtils.Unity.TextureUtils.html",
+          "hash": "1HRW4g/eCdwKqxc0Uek6EPkrd27nUWedFi5qk424Utc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Unity.TransformUtility.yml",
+      "source_relative_path": "api/NomUtils.Unity.TransformUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NomUtils.Unity.TransformUtility.html",
-          "hash": "lBmuiA0KPpMqFAkZ1zOzQ9HRPe8nrfJl7oMJNDjFlXw="
+          "relative_path": "api/NomUtils.Unity.TransformUtils.html",
+          "hash": "n82b9/4eHkqzFFoDKeHbVbwuX+XYr9WSImcMBScMlBk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Unity.html",
-          "hash": "Vp9qFH9vSlPUl538Esdav7/I6ae1z6vcAaGKcekrNTQ="
+          "hash": "HdkedmhdNYbA/Kgj/HR61CD0TGApJgkneRyjNmOY53Q="
         }
       },
       "is_incremental": false,
@@ -405,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "+Xm+pJ4mIOnCt301iMHgOl9Jb7h4nHjcO5jOF8DlzGc="
+          "hash": "gNk/bH+PrqjpI/v850t6Rx2+8Pd6Hjq7PHeb94h6GD4="
         }
       },
       "is_incremental": false,
@@ -417,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "oCyxdzDv4IgEUP27PdajU6QP9JtUrDA1xi2H5UhswIY="
+          "hash": "4o3vn7p7l0HC8MthGvxvlg+iMrhg5gnXaoxQjl52NIw="
         }
       },
       "is_incremental": false,
@@ -490,8 +550,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 33,
-          "skipped_file_count": 32
+          "total_file_count": 38,
+          "skipped_file_count": 2
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

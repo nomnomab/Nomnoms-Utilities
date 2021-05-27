@@ -23,39 +23,6 @@ namespace NomUtils.Math.Shapes {
 		}
 
 		/// <summary>
-		/// a * a + b * b = c * c
-		/// <br></br><br></br>
-		/// Solves for c
-		/// </summary>
-		/// <param name="a"></param>
-		/// <param name="b"></param>
-		/// <returns></returns>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float GetHypotenuse(float a, float b) {
-			return (float)System.Math.Sqrt(a * a + b * b);
-		}
-
-		/// <summary>
-		/// Gets the slope between two points. Rise / Run.
-		/// </summary>
-		/// <param name="lhs">Left-most vector</param>
-		/// <param name="rhs">Right-most vector</param>
-		/// <returns></returns>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float GetSlope(in Vector2 lhs, in Vector2 rhs) {
-			return (rhs.y - lhs.y) / (rhs.x - lhs.x);
-		}
-		
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static float GetAngle(in Vector2 a, in Vector2 b, in Vector2 c) {
-			float ca = GetHypotenuse(c.x - a.x, c.y - a.y);
-			float cb = GetHypotenuse(c.x - b.x, c.y - b.y);
-			float ab = GetHypotenuse(a.x - b.x, a.y - b.y);
-			
-			return (float)System.Math.Acos((ca * ca + cb * cb - ab * ab) / (2 * ca * cb));
-		}
-
-		/// <summary>
 		/// Triangle-Point intersection
 		/// </summary>
 		/// <param name="point"></param>
@@ -67,10 +34,10 @@ namespace NomUtils.Math.Shapes {
 			Vector2 b = GetBottomLeftPoint(in triangleCenter, triangleRadius);
 			Vector2 c = GetBottomRightPoint(in triangleCenter, triangleRadius);
 
-			float ta = GetAngle(c, a, b);
+			float ta = TrigOps.GetAngle(c, a, b);
 
-			return GetAngle(point, c, b) < ta && 
-			       GetAngle(point, a, b) < ta && 
+			return TrigOps.GetAngle(point, c, b) < ta && 
+			       TrigOps.GetAngle(point, a, b) < ta && 
 			       InBorder(c, a, b, point);
 			
 			static bool InBorder(in Vector2 a, in Vector2 b, in Vector2 c, in Vector2 p) {

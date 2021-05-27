@@ -91,6 +91,74 @@
   
   
   <a id="NomUtils_Math_Curves_BezierCubic_SamplePoint_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePoint*"></a>
+  <h4 id="NomUtils_Math_Curves_BezierCubic_SamplePoint_Vector2__Vector2__Vector2__Vector2__System_Single_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)">SamplePoint(Vector2, Vector2, Vector2, Vector2, Single)</h4>
+  <div class="markdown level1 summary"><p>Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the &quot;arc pullers&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 SamplePoint(in Vector2 p0, in Vector2 p1, in Vector2 p2, in Vector2 p3, float t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p0</span></td>
+        <td><p>The starting point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td><p>Arc puller 1</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p2</span></td>
+        <td><p>Arc puller 2</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p3</span></td>
+        <td><p>The end point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>Time, from 0f to 1f</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Math_Curves_BezierCubic_SamplePoint_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePoint*"></a>
   <h4 id="NomUtils_Math_Curves_BezierCubic_SamplePoint_Vector3__Vector3__Vector3__Vector3__System_Single_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)">SamplePoint(Vector3, Vector3, Vector3, Vector3, Single)</h4>
   <div class="markdown level1 summary"><p>Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the &quot;arc pullers&quot;.</p>
 </div>
@@ -129,6 +197,76 @@
       </tr>
       <tr>
         <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">p3</span></td>
+        <td><p>The end point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>Time, from 0f to 1f</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePointExplicit*"></a>
+  <h4 id="NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_Vector2__Vector2__Vector2__Vector2__System_Single_" data-uid="NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)">SamplePointExplicit(Vector2, Vector2, Vector2, Vector2, Single)</h4>
+  <div class="markdown level1 summary"><p>Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the &quot;arc pullers&quot;.
+<br><br>
+Uses an explicit equation instead of using <em>BezierQuadratic.SamplePoint</em> twice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 SamplePointExplicit(in Vector2 p0, in Vector2 p1, in Vector2 p2, in Vector2 p3, float t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p0</span></td>
+        <td><p>The starting point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td><p>Arc puller 1</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">p2</span></td>
+        <td><p>Arc puller 2</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">p3</span></td>
         <td><p>The end point</p>
 </td>

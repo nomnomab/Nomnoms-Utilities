@@ -1,50 +1,239 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: NomUtils.Editor
+  name: NomUtils.Editor
+  href: api/NomUtils.Editor.html
+  commentId: N:NomUtils.Editor
+  fullName: NomUtils.Editor
+  nameWithType: NomUtils.Editor
+- uid: NomUtils.Editor.MoreDebugs
+  name: MoreDebugs
+  href: api/NomUtils.Editor.MoreDebugs.html
+  commentId: T:NomUtils.Editor.MoreDebugs
+  fullName: NomUtils.Editor.MoreDebugs
+  nameWithType: MoreDebugs
+- uid: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2@,Vector2@,Vector2@,Color,System.Int32)
+  name: DrawBezierLine(Vector2, Vector2, Vector2, Color, Int32)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawBezierLine_Vector2__Vector2__Vector2__Color_System_Int32_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2@,Vector2@,Vector2@,Color,System.Int32)
+  name.vb: DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, Int32)
+  fullName: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2, Vector2, Vector2, Color, System.Int32)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, System.Int32)
+  nameWithType: MoreDebugs.DrawBezierLine(Vector2, Vector2, Vector2, Color, Int32)
+  nameWithType.vb: MoreDebugs.DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, Int32)
+- uid: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2@,Vector2@,Vector2@,Vector2@,Color,System.Int32)
+  name: DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, Int32)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawBezierLine_Vector2__Vector2__Vector2__Vector2__Color_System_Int32_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2@,Vector2@,Vector2@,Vector2@,Color,System.Int32)
+  name.vb: DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, Int32)
+  fullName: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, System.Int32)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, System.Int32)
+  nameWithType: MoreDebugs.DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, Int32)
+  nameWithType.vb: MoreDebugs.DrawBezierLine(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Color, Int32)
+- uid: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3@,Vector3@,Vector3@,Color,System.Int32)
+  name: DrawBezierLine(Vector3, Vector3, Vector3, Color, Int32)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawBezierLine_Vector3__Vector3__Vector3__Color_System_Int32_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3@,Vector3@,Vector3@,Color,System.Int32)
+  name.vb: DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, Int32)
+  fullName: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3, Vector3, Vector3, Color, System.Int32)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, System.Int32)
+  nameWithType: MoreDebugs.DrawBezierLine(Vector3, Vector3, Vector3, Color, Int32)
+  nameWithType.vb: MoreDebugs.DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, Int32)
+- uid: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3@,Vector3@,Vector3@,Vector3@,Color,System.Int32)
+  name: DrawBezierLine(Vector3, Vector3, Vector3, Vector3, Color, Int32)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawBezierLine_Vector3__Vector3__Vector3__Vector3__Color_System_Int32_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3@,Vector3@,Vector3@,Vector3@,Color,System.Int32)
+  name.vb: DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, Int32)
+  fullName: NomUtils.Editor.MoreDebugs.DrawBezierLine(Vector3, Vector3, Vector3, Vector3, Color, System.Int32)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, System.Int32)
+  nameWithType: MoreDebugs.DrawBezierLine(Vector3, Vector3, Vector3, Vector3, Color, Int32)
+  nameWithType.vb: MoreDebugs.DrawBezierLine(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color, Int32)
+- uid: NomUtils.Editor.MoreDebugs.DrawBezierLine*
+  name: DrawBezierLine
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawBezierLine_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawBezierLine
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawBezierLine
+  nameWithType: MoreDebugs.DrawBezierLine
+- uid: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector2@,Vector2@,Color)
+  name: DrawInfiniteLine(Vector2, Vector2, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawInfiniteLine_Vector2__Vector2__Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector2@,Vector2@,Color)
+  name.vb: DrawInfiniteLine(ByRef Vector2, ByRef Vector2, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector2, Vector2, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(ByRef Vector2, ByRef Vector2, Color)
+  nameWithType: MoreDebugs.DrawInfiniteLine(Vector2, Vector2, Color)
+  nameWithType.vb: MoreDebugs.DrawInfiniteLine(ByRef Vector2, ByRef Vector2, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector3@,Vector3@,Color)
+  name: DrawInfiniteLine(Vector3, Vector3, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawInfiniteLine_Vector3__Vector3__Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector3@,Vector3@,Color)
+  name.vb: DrawInfiniteLine(ByRef Vector3, ByRef Vector3, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(Vector3, Vector3, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawInfiniteLine(ByRef Vector3, ByRef Vector3, Color)
+  nameWithType: MoreDebugs.DrawInfiniteLine(Vector3, Vector3, Color)
+  nameWithType.vb: MoreDebugs.DrawInfiniteLine(ByRef Vector3, ByRef Vector3, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawInfiniteLine*
+  name: DrawInfiniteLine
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawInfiniteLine_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawInfiniteLine
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawInfiniteLine
+  nameWithType: MoreDebugs.DrawInfiniteLine
+- uid: NomUtils.Editor.MoreDebugs.DrawTrigLine(NomUtils.Editor.MoreDebugs.WaveType,Vector3@,System.Single,System.Single,System.Single,System.Single,Color,System.Int32)
+  name: DrawTrigLine(MoreDebugs.WaveType, Vector3, Single, Single, Single, Single, Color, Int32)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawTrigLine_NomUtils_Editor_MoreDebugs_WaveType_Vector3__System_Single_System_Single_System_Single_System_Single_Color_System_Int32_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawTrigLine(NomUtils.Editor.MoreDebugs.WaveType,Vector3@,System.Single,System.Single,System.Single,System.Single,Color,System.Int32)
+  name.vb: DrawTrigLine(MoreDebugs.WaveType, ByRef Vector3, Single, Single, Single, Single, Color, Int32)
+  fullName: NomUtils.Editor.MoreDebugs.DrawTrigLine(NomUtils.Editor.MoreDebugs.WaveType, Vector3, System.Single, System.Single, System.Single, System.Single, Color, System.Int32)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawTrigLine(NomUtils.Editor.MoreDebugs.WaveType, ByRef Vector3, System.Single, System.Single, System.Single, System.Single, Color, System.Int32)
+  nameWithType: MoreDebugs.DrawTrigLine(MoreDebugs.WaveType, Vector3, Single, Single, Single, Single, Color, Int32)
+  nameWithType.vb: MoreDebugs.DrawTrigLine(MoreDebugs.WaveType, ByRef Vector3, Single, Single, Single, Single, Color, Int32)
+- uid: NomUtils.Editor.MoreDebugs.DrawTrigLine*
+  name: DrawTrigLine
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawTrigLine_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawTrigLine
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawTrigLine
+  nameWithType: MoreDebugs.DrawTrigLine
+- uid: NomUtils.Editor.MoreDebugs.DrawWireCylinder(Vector3@,System.Single,System.Single,Color)
+  name: DrawWireCylinder(Vector3, Single, Single, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireCylinder_Vector3__System_Single_System_Single_Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWireCylinder(Vector3@,System.Single,System.Single,Color)
+  name.vb: DrawWireCylinder(ByRef Vector3, Single, Single, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireCylinder(Vector3, System.Single, System.Single, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWireCylinder(ByRef Vector3, System.Single, System.Single, Color)
+  nameWithType: MoreDebugs.DrawWireCylinder(Vector3, Single, Single, Color)
+  nameWithType.vb: MoreDebugs.DrawWireCylinder(ByRef Vector3, Single, Single, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWireCylinder*
+  name: DrawWireCylinder
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireCylinder_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawWireCylinder
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireCylinder
+  nameWithType: MoreDebugs.DrawWireCylinder
+- uid: NomUtils.Editor.MoreDebugs.DrawWirePyramid(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@,Color)
+  name: DrawWirePyramid(Vector3, Vector3, Vector3, Vector3, Vector3, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWirePyramid_Vector3__Vector3__Vector3__Vector3__Vector3__Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWirePyramid(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@,Color)
+  name.vb: DrawWirePyramid(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWirePyramid(Vector3, Vector3, Vector3, Vector3, Vector3, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWirePyramid(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+  nameWithType: MoreDebugs.DrawWirePyramid(Vector3, Vector3, Vector3, Vector3, Vector3, Color)
+  nameWithType.vb: MoreDebugs.DrawWirePyramid(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWirePyramid*
+  name: DrawWirePyramid
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWirePyramid_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawWirePyramid
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawWirePyramid
+  nameWithType: MoreDebugs.DrawWirePyramid
+- uid: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2@,System.Single,Color)
+  name: DrawWireTriangle(Vector2, Single, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireTriangle_Vector2__System_Single_Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2@,System.Single,Color)
+  name.vb: DrawWireTriangle(ByRef Vector2, Single, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2, System.Single, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWireTriangle(ByRef Vector2, System.Single, Color)
+  nameWithType: MoreDebugs.DrawWireTriangle(Vector2, Single, Color)
+  nameWithType.vb: MoreDebugs.DrawWireTriangle(ByRef Vector2, Single, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2@,Vector2@,Vector2@,Color)
+  name: DrawWireTriangle(Vector2, Vector2, Vector2, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireTriangle_Vector2__Vector2__Vector2__Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2@,Vector2@,Vector2@,Color)
+  name.vb: DrawWireTriangle(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector2, Vector2, Vector2, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWireTriangle(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color)
+  nameWithType: MoreDebugs.DrawWireTriangle(Vector2, Vector2, Vector2, Color)
+  nameWithType.vb: MoreDebugs.DrawWireTriangle(ByRef Vector2, ByRef Vector2, ByRef Vector2, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3@,System.Single,Color)
+  name: DrawWireTriangle(Vector3, Single, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireTriangle_Vector3__System_Single_Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3@,System.Single,Color)
+  name.vb: DrawWireTriangle(ByRef Vector3, Single, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3, System.Single, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWireTriangle(ByRef Vector3, System.Single, Color)
+  nameWithType: MoreDebugs.DrawWireTriangle(Vector3, Single, Color)
+  nameWithType.vb: MoreDebugs.DrawWireTriangle(ByRef Vector3, Single, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3@,Vector3@,Vector3@,Color)
+  name: DrawWireTriangle(Vector3, Vector3, Vector3, Color)
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireTriangle_Vector3__Vector3__Vector3__Color_
+  commentId: M:NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3@,Vector3@,Vector3@,Color)
+  name.vb: DrawWireTriangle(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireTriangle(Vector3, Vector3, Vector3, Color)
+  fullName.vb: NomUtils.Editor.MoreDebugs.DrawWireTriangle(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+  nameWithType: MoreDebugs.DrawWireTriangle(Vector3, Vector3, Vector3, Color)
+  nameWithType.vb: MoreDebugs.DrawWireTriangle(ByRef Vector3, ByRef Vector3, ByRef Vector3, Color)
+- uid: NomUtils.Editor.MoreDebugs.DrawWireTriangle*
+  name: DrawWireTriangle
+  href: api/NomUtils.Editor.MoreDebugs.html#NomUtils_Editor_MoreDebugs_DrawWireTriangle_
+  commentId: Overload:NomUtils.Editor.MoreDebugs.DrawWireTriangle
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreDebugs.DrawWireTriangle
+  nameWithType: MoreDebugs.DrawWireTriangle
+- uid: NomUtils.Editor.MoreDebugs.WaveType
+  name: MoreDebugs.WaveType
+  href: api/NomUtils.Editor.MoreDebugs.WaveType.html
+  commentId: T:NomUtils.Editor.MoreDebugs.WaveType
+  fullName: NomUtils.Editor.MoreDebugs.WaveType
+  nameWithType: MoreDebugs.WaveType
+- uid: NomUtils.Editor.MoreDebugs.WaveType.Cos
+  name: Cos
+  href: api/NomUtils.Editor.MoreDebugs.WaveType.html#NomUtils_Editor_MoreDebugs_WaveType_Cos
+  commentId: F:NomUtils.Editor.MoreDebugs.WaveType.Cos
+  fullName: NomUtils.Editor.MoreDebugs.WaveType.Cos
+  nameWithType: MoreDebugs.WaveType.Cos
+- uid: NomUtils.Editor.MoreDebugs.WaveType.Sin
+  name: Sin
+  href: api/NomUtils.Editor.MoreDebugs.WaveType.html#NomUtils_Editor_MoreDebugs_WaveType_Sin
+  commentId: F:NomUtils.Editor.MoreDebugs.WaveType.Sin
+  fullName: NomUtils.Editor.MoreDebugs.WaveType.Sin
+  nameWithType: MoreDebugs.WaveType.Sin
 - uid: NomUtils.General
   name: NomUtils.General
   href: api/NomUtils.General.html
   commentId: N:NomUtils.General
   fullName: NomUtils.General
   nameWithType: NomUtils.General
-- uid: NomUtils.General.CollectionUtility
-  name: CollectionUtility
-  href: api/NomUtils.General.CollectionUtility.html
-  commentId: T:NomUtils.General.CollectionUtility
-  fullName: NomUtils.General.CollectionUtility
-  nameWithType: CollectionUtility
-- uid: NomUtils.General.CollectionUtility.GetInterpolatedIndex(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+- uid: NomUtils.General.CollectionUtils
+  name: CollectionUtils
+  href: api/NomUtils.General.CollectionUtils.html
+  commentId: T:NomUtils.General.CollectionUtils
+  fullName: NomUtils.General.CollectionUtils
+  nameWithType: CollectionUtils
+- uid: NomUtils.General.CollectionUtils.GetInterpolatedIndex(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   name: GetInterpolatedIndex(Int32, Int32, Int32, Int32, Int32)
-  href: api/NomUtils.General.CollectionUtility.html#NomUtils_General_CollectionUtility_GetInterpolatedIndex_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:NomUtils.General.CollectionUtility.GetInterpolatedIndex(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-  fullName: NomUtils.General.CollectionUtility.GetInterpolatedIndex(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
-  nameWithType: CollectionUtility.GetInterpolatedIndex(Int32, Int32, Int32, Int32, Int32)
-- uid: NomUtils.General.CollectionUtility.GetInterpolatedIndex*
+  href: api/NomUtils.General.CollectionUtils.html#NomUtils_General_CollectionUtils_GetInterpolatedIndex_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:NomUtils.General.CollectionUtils.GetInterpolatedIndex(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: NomUtils.General.CollectionUtils.GetInterpolatedIndex(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: CollectionUtils.GetInterpolatedIndex(Int32, Int32, Int32, Int32, Int32)
+- uid: NomUtils.General.CollectionUtils.GetInterpolatedIndex*
   name: GetInterpolatedIndex
-  href: api/NomUtils.General.CollectionUtility.html#NomUtils_General_CollectionUtility_GetInterpolatedIndex_
-  commentId: Overload:NomUtils.General.CollectionUtility.GetInterpolatedIndex
+  href: api/NomUtils.General.CollectionUtils.html#NomUtils_General_CollectionUtils_GetInterpolatedIndex_
+  commentId: Overload:NomUtils.General.CollectionUtils.GetInterpolatedIndex
   isSpec: "True"
-  fullName: NomUtils.General.CollectionUtility.GetInterpolatedIndex
-  nameWithType: CollectionUtility.GetInterpolatedIndex
-- uid: NomUtils.General.EnumUtility
-  name: EnumUtility
-  href: api/NomUtils.General.EnumUtility.html
-  commentId: T:NomUtils.General.EnumUtility
-  fullName: NomUtils.General.EnumUtility
-  nameWithType: EnumUtility
-- uid: NomUtils.General.EnumUtility.GetHexCode(Enum)
+  fullName: NomUtils.General.CollectionUtils.GetInterpolatedIndex
+  nameWithType: CollectionUtils.GetInterpolatedIndex
+- uid: NomUtils.General.EnumUtils
+  name: EnumUtils
+  href: api/NomUtils.General.EnumUtils.html
+  commentId: T:NomUtils.General.EnumUtils
+  fullName: NomUtils.General.EnumUtils
+  nameWithType: EnumUtils
+- uid: NomUtils.General.EnumUtils.GetHexCode(System.Enum)
   name: GetHexCode(Enum)
-  href: api/NomUtils.General.EnumUtility.html#NomUtils_General_EnumUtility_GetHexCode_Enum_
-  commentId: M:NomUtils.General.EnumUtility.GetHexCode(Enum)
-  fullName: NomUtils.General.EnumUtility.GetHexCode(Enum)
-  nameWithType: EnumUtility.GetHexCode(Enum)
-- uid: NomUtils.General.EnumUtility.GetHexCode*
+  href: api/NomUtils.General.EnumUtils.html#NomUtils_General_EnumUtils_GetHexCode_System_Enum_
+  commentId: M:NomUtils.General.EnumUtils.GetHexCode(System.Enum)
+  fullName: NomUtils.General.EnumUtils.GetHexCode(System.Enum)
+  nameWithType: EnumUtils.GetHexCode(Enum)
+- uid: NomUtils.General.EnumUtils.GetHexCode*
   name: GetHexCode
-  href: api/NomUtils.General.EnumUtility.html#NomUtils_General_EnumUtility_GetHexCode_
-  commentId: Overload:NomUtils.General.EnumUtility.GetHexCode
+  href: api/NomUtils.General.EnumUtils.html#NomUtils_General_EnumUtils_GetHexCode_
+  commentId: Overload:NomUtils.General.EnumUtils.GetHexCode
   isSpec: "True"
-  fullName: NomUtils.General.EnumUtility.GetHexCode
-  nameWithType: EnumUtility.GetHexCode
+  fullName: NomUtils.General.EnumUtils.GetHexCode
+  nameWithType: EnumUtils.GetHexCode
 - uid: NomUtils.Math
   name: NomUtils.Math
   href: api/NomUtils.Math.html
@@ -69,18 +258,18 @@ references:
   commentId: M:NomUtils.Math.Bits.Bit16.#ctor
   fullName: NomUtils.Math.Bits.Bit16.Bit16()
   nameWithType: Bit16.Bit16()
-- uid: NomUtils.Math.Bits.Bit16.#ctor(Enum)
-  name: Bit16(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16__ctor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.#ctor(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Bit16(Enum)
-  nameWithType: Bit16.Bit16(Enum)
 - uid: NomUtils.Math.Bits.Bit16.#ctor(InternalType)
   name: Bit16(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16__ctor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.#ctor(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Bit16(InternalType)
   nameWithType: Bit16.Bit16(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.#ctor(System.Enum)
+  name: Bit16(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16__ctor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.#ctor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Bit16(System.Enum)
+  nameWithType: Bit16.Bit16(Enum)
 - uid: NomUtils.Math.Bits.Bit16.#ctor*
   name: Bit16
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16__ctor_
@@ -88,18 +277,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit16.Bit16
   nameWithType: Bit16.Bit16
-- uid: NomUtils.Math.Bits.Bit16.And(Enum)
-  name: And(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_And_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.And(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.And(Enum)
-  nameWithType: Bit16.And(Enum)
 - uid: NomUtils.Math.Bits.Bit16.And(InternalType)
   name: And(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_And_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.And(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.And(InternalType)
   nameWithType: Bit16.And(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.And(System.Enum)
+  name: And(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_And_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.And(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.And(System.Enum)
+  nameWithType: Bit16.And(Enum)
 - uid: NomUtils.Math.Bits.Bit16.And*
   name: And
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_And_
@@ -120,18 +309,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit16.Clear
   nameWithType: Bit16.Clear
-- uid: NomUtils.Math.Bits.Bit16.Contains(Enum)
-  name: Contains(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Contains_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.Contains(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Contains(Enum)
-  nameWithType: Bit16.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Contains(InternalType)
   name: Contains(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Contains_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.Contains(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Contains(InternalType)
   nameWithType: Bit16.Contains(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.Contains(System.Enum)
+  name: Contains(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Contains_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.Contains(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Contains(System.Enum)
+  nameWithType: Bit16.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Contains*
   name: Contains
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Contains_
@@ -139,18 +328,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit16.Contains
   nameWithType: Bit16.Contains
-- uid: NomUtils.Math.Bits.Bit16.Equals(Enum)
-  name: Equals(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Equals_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.Equals(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Equals(Enum)
-  nameWithType: Bit16.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Equals(InternalType)
   name: Equals(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Equals_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.Equals(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Equals(InternalType)
   nameWithType: Bit16.Equals(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.Equals(System.Enum)
+  name: Equals(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Equals_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.Equals(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Equals(System.Enum)
+  nameWithType: Bit16.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Equals*
   name: Equals
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Equals_
@@ -190,18 +379,18 @@ references:
   fullName.vb: NomUtils.Math.Bits.Bit16.Widening
   nameWithType: Bit16.Implicit
   nameWithType.vb: Bit16.Widening
-- uid: NomUtils.Math.Bits.Bit16.Or(Enum)
-  name: Or(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Or_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.Or(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Or(Enum)
-  nameWithType: Bit16.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Or(InternalType)
   name: Or(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Or_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.Or(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Or(InternalType)
   nameWithType: Bit16.Or(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.Or(System.Enum)
+  name: Or(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Or_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.Or(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Or(System.Enum)
+  nameWithType: Bit16.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Or*
   name: Or
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Or_
@@ -209,18 +398,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit16.Or
   nameWithType: Bit16.Or
-- uid: NomUtils.Math.Bits.Bit16.Set(Enum)
-  name: Set(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Set_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.Set(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Set(Enum)
-  nameWithType: Bit16.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Set(InternalType)
   name: Set(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Set_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.Set(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Set(InternalType)
   nameWithType: Bit16.Set(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.Set(System.Enum)
+  name: Set(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Set_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.Set(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Set(System.Enum)
+  nameWithType: Bit16.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Set*
   name: Set
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Set_
@@ -280,18 +469,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit16.ToString
   nameWithType: Bit16.ToString
-- uid: NomUtils.Math.Bits.Bit16.Xor(Enum)
-  name: Xor(Enum)
-  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Xor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit16.Xor(Enum)
-  fullName: NomUtils.Math.Bits.Bit16.Xor(Enum)
-  nameWithType: Bit16.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Xor(InternalType)
   name: Xor(InternalType)
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Xor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit16.Xor(InternalType)
   fullName: NomUtils.Math.Bits.Bit16.Xor(InternalType)
   nameWithType: Bit16.Xor(InternalType)
+- uid: NomUtils.Math.Bits.Bit16.Xor(System.Enum)
+  name: Xor(Enum)
+  href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Xor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit16.Xor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit16.Xor(System.Enum)
+  nameWithType: Bit16.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit16.Xor*
   name: Xor
   href: api/NomUtils.Math.Bits.Bit16.html#NomUtils_Math_Bits_Bit16_Xor_
@@ -311,18 +500,18 @@ references:
   commentId: M:NomUtils.Math.Bits.Bit32.#ctor
   fullName: NomUtils.Math.Bits.Bit32.Bit32()
   nameWithType: Bit32.Bit32()
-- uid: NomUtils.Math.Bits.Bit32.#ctor(Enum)
-  name: Bit32(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32__ctor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.#ctor(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Bit32(Enum)
-  nameWithType: Bit32.Bit32(Enum)
 - uid: NomUtils.Math.Bits.Bit32.#ctor(InternalType)
   name: Bit32(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32__ctor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.#ctor(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Bit32(InternalType)
   nameWithType: Bit32.Bit32(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.#ctor(System.Enum)
+  name: Bit32(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32__ctor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.#ctor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Bit32(System.Enum)
+  nameWithType: Bit32.Bit32(Enum)
 - uid: NomUtils.Math.Bits.Bit32.#ctor*
   name: Bit32
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32__ctor_
@@ -330,18 +519,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit32.Bit32
   nameWithType: Bit32.Bit32
-- uid: NomUtils.Math.Bits.Bit32.And(Enum)
-  name: And(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_And_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.And(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.And(Enum)
-  nameWithType: Bit32.And(Enum)
 - uid: NomUtils.Math.Bits.Bit32.And(InternalType)
   name: And(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_And_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.And(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.And(InternalType)
   nameWithType: Bit32.And(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.And(System.Enum)
+  name: And(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_And_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.And(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.And(System.Enum)
+  nameWithType: Bit32.And(Enum)
 - uid: NomUtils.Math.Bits.Bit32.And*
   name: And
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_And_
@@ -362,18 +551,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit32.Clear
   nameWithType: Bit32.Clear
-- uid: NomUtils.Math.Bits.Bit32.Contains(Enum)
-  name: Contains(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Contains_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.Contains(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Contains(Enum)
-  nameWithType: Bit32.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Contains(InternalType)
   name: Contains(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Contains_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.Contains(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Contains(InternalType)
   nameWithType: Bit32.Contains(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.Contains(System.Enum)
+  name: Contains(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Contains_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.Contains(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Contains(System.Enum)
+  nameWithType: Bit32.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Contains*
   name: Contains
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Contains_
@@ -381,18 +570,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit32.Contains
   nameWithType: Bit32.Contains
-- uid: NomUtils.Math.Bits.Bit32.Equals(Enum)
-  name: Equals(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Equals_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.Equals(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Equals(Enum)
-  nameWithType: Bit32.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Equals(InternalType)
   name: Equals(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Equals_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.Equals(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Equals(InternalType)
   nameWithType: Bit32.Equals(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.Equals(System.Enum)
+  name: Equals(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Equals_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.Equals(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Equals(System.Enum)
+  nameWithType: Bit32.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Equals*
   name: Equals
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Equals_
@@ -432,18 +621,18 @@ references:
   fullName.vb: NomUtils.Math.Bits.Bit32.Widening
   nameWithType: Bit32.Implicit
   nameWithType.vb: Bit32.Widening
-- uid: NomUtils.Math.Bits.Bit32.Or(Enum)
-  name: Or(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Or_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.Or(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Or(Enum)
-  nameWithType: Bit32.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Or(InternalType)
   name: Or(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Or_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.Or(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Or(InternalType)
   nameWithType: Bit32.Or(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.Or(System.Enum)
+  name: Or(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Or_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.Or(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Or(System.Enum)
+  nameWithType: Bit32.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Or*
   name: Or
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Or_
@@ -451,18 +640,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit32.Or
   nameWithType: Bit32.Or
-- uid: NomUtils.Math.Bits.Bit32.Set(Enum)
-  name: Set(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Set_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.Set(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Set(Enum)
-  nameWithType: Bit32.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Set(InternalType)
   name: Set(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Set_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.Set(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Set(InternalType)
   nameWithType: Bit32.Set(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.Set(System.Enum)
+  name: Set(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Set_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.Set(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Set(System.Enum)
+  nameWithType: Bit32.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Set*
   name: Set
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Set_
@@ -522,18 +711,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit32.ToString
   nameWithType: Bit32.ToString
-- uid: NomUtils.Math.Bits.Bit32.Xor(Enum)
-  name: Xor(Enum)
-  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Xor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit32.Xor(Enum)
-  fullName: NomUtils.Math.Bits.Bit32.Xor(Enum)
-  nameWithType: Bit32.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Xor(InternalType)
   name: Xor(InternalType)
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Xor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit32.Xor(InternalType)
   fullName: NomUtils.Math.Bits.Bit32.Xor(InternalType)
   nameWithType: Bit32.Xor(InternalType)
+- uid: NomUtils.Math.Bits.Bit32.Xor(System.Enum)
+  name: Xor(Enum)
+  href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Xor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit32.Xor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit32.Xor(System.Enum)
+  nameWithType: Bit32.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit32.Xor*
   name: Xor
   href: api/NomUtils.Math.Bits.Bit32.html#NomUtils_Math_Bits_Bit32_Xor_
@@ -553,18 +742,18 @@ references:
   commentId: M:NomUtils.Math.Bits.Bit64.#ctor
   fullName: NomUtils.Math.Bits.Bit64.Bit64()
   nameWithType: Bit64.Bit64()
-- uid: NomUtils.Math.Bits.Bit64.#ctor(Enum)
-  name: Bit64(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64__ctor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.#ctor(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Bit64(Enum)
-  nameWithType: Bit64.Bit64(Enum)
 - uid: NomUtils.Math.Bits.Bit64.#ctor(InternalType)
   name: Bit64(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64__ctor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.#ctor(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Bit64(InternalType)
   nameWithType: Bit64.Bit64(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.#ctor(System.Enum)
+  name: Bit64(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64__ctor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.#ctor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Bit64(System.Enum)
+  nameWithType: Bit64.Bit64(Enum)
 - uid: NomUtils.Math.Bits.Bit64.#ctor*
   name: Bit64
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64__ctor_
@@ -572,18 +761,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit64.Bit64
   nameWithType: Bit64.Bit64
-- uid: NomUtils.Math.Bits.Bit64.And(Enum)
-  name: And(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_And_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.And(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.And(Enum)
-  nameWithType: Bit64.And(Enum)
 - uid: NomUtils.Math.Bits.Bit64.And(InternalType)
   name: And(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_And_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.And(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.And(InternalType)
   nameWithType: Bit64.And(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.And(System.Enum)
+  name: And(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_And_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.And(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.And(System.Enum)
+  nameWithType: Bit64.And(Enum)
 - uid: NomUtils.Math.Bits.Bit64.And*
   name: And
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_And_
@@ -604,18 +793,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit64.Clear
   nameWithType: Bit64.Clear
-- uid: NomUtils.Math.Bits.Bit64.Contains(Enum)
-  name: Contains(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Contains_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.Contains(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Contains(Enum)
-  nameWithType: Bit64.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Contains(InternalType)
   name: Contains(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Contains_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.Contains(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Contains(InternalType)
   nameWithType: Bit64.Contains(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.Contains(System.Enum)
+  name: Contains(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Contains_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.Contains(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Contains(System.Enum)
+  nameWithType: Bit64.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Contains*
   name: Contains
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Contains_
@@ -623,18 +812,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit64.Contains
   nameWithType: Bit64.Contains
-- uid: NomUtils.Math.Bits.Bit64.Equals(Enum)
-  name: Equals(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Equals_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.Equals(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Equals(Enum)
-  nameWithType: Bit64.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Equals(InternalType)
   name: Equals(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Equals_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.Equals(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Equals(InternalType)
   nameWithType: Bit64.Equals(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.Equals(System.Enum)
+  name: Equals(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Equals_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.Equals(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Equals(System.Enum)
+  nameWithType: Bit64.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Equals*
   name: Equals
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Equals_
@@ -674,18 +863,18 @@ references:
   fullName.vb: NomUtils.Math.Bits.Bit64.Widening
   nameWithType: Bit64.Implicit
   nameWithType.vb: Bit64.Widening
-- uid: NomUtils.Math.Bits.Bit64.Or(Enum)
-  name: Or(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Or_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.Or(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Or(Enum)
-  nameWithType: Bit64.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Or(InternalType)
   name: Or(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Or_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.Or(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Or(InternalType)
   nameWithType: Bit64.Or(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.Or(System.Enum)
+  name: Or(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Or_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.Or(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Or(System.Enum)
+  nameWithType: Bit64.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Or*
   name: Or
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Or_
@@ -693,18 +882,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit64.Or
   nameWithType: Bit64.Or
-- uid: NomUtils.Math.Bits.Bit64.Set(Enum)
-  name: Set(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Set_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.Set(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Set(Enum)
-  nameWithType: Bit64.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Set(InternalType)
   name: Set(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Set_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.Set(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Set(InternalType)
   nameWithType: Bit64.Set(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.Set(System.Enum)
+  name: Set(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Set_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.Set(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Set(System.Enum)
+  nameWithType: Bit64.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Set*
   name: Set
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Set_
@@ -764,18 +953,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit64.ToString
   nameWithType: Bit64.ToString
-- uid: NomUtils.Math.Bits.Bit64.Xor(Enum)
-  name: Xor(Enum)
-  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Xor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit64.Xor(Enum)
-  fullName: NomUtils.Math.Bits.Bit64.Xor(Enum)
-  nameWithType: Bit64.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Xor(InternalType)
   name: Xor(InternalType)
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Xor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit64.Xor(InternalType)
   fullName: NomUtils.Math.Bits.Bit64.Xor(InternalType)
   nameWithType: Bit64.Xor(InternalType)
+- uid: NomUtils.Math.Bits.Bit64.Xor(System.Enum)
+  name: Xor(Enum)
+  href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Xor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit64.Xor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit64.Xor(System.Enum)
+  nameWithType: Bit64.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit64.Xor*
   name: Xor
   href: api/NomUtils.Math.Bits.Bit64.html#NomUtils_Math_Bits_Bit64_Xor_
@@ -795,18 +984,18 @@ references:
   commentId: M:NomUtils.Math.Bits.Bit8.#ctor
   fullName: NomUtils.Math.Bits.Bit8.Bit8()
   nameWithType: Bit8.Bit8()
-- uid: NomUtils.Math.Bits.Bit8.#ctor(Enum)
-  name: Bit8(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8__ctor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.#ctor(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Bit8(Enum)
-  nameWithType: Bit8.Bit8(Enum)
 - uid: NomUtils.Math.Bits.Bit8.#ctor(InternalType)
   name: Bit8(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8__ctor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.#ctor(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Bit8(InternalType)
   nameWithType: Bit8.Bit8(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.#ctor(System.Enum)
+  name: Bit8(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8__ctor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.#ctor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Bit8(System.Enum)
+  nameWithType: Bit8.Bit8(Enum)
 - uid: NomUtils.Math.Bits.Bit8.#ctor*
   name: Bit8
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8__ctor_
@@ -814,18 +1003,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit8.Bit8
   nameWithType: Bit8.Bit8
-- uid: NomUtils.Math.Bits.Bit8.And(Enum)
-  name: And(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_And_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.And(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.And(Enum)
-  nameWithType: Bit8.And(Enum)
 - uid: NomUtils.Math.Bits.Bit8.And(InternalType)
   name: And(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_And_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.And(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.And(InternalType)
   nameWithType: Bit8.And(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.And(System.Enum)
+  name: And(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_And_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.And(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.And(System.Enum)
+  nameWithType: Bit8.And(Enum)
 - uid: NomUtils.Math.Bits.Bit8.And*
   name: And
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_And_
@@ -846,18 +1035,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit8.Clear
   nameWithType: Bit8.Clear
-- uid: NomUtils.Math.Bits.Bit8.Contains(Enum)
-  name: Contains(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Contains_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.Contains(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Contains(Enum)
-  nameWithType: Bit8.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Contains(InternalType)
   name: Contains(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Contains_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.Contains(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Contains(InternalType)
   nameWithType: Bit8.Contains(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.Contains(System.Enum)
+  name: Contains(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Contains_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.Contains(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Contains(System.Enum)
+  nameWithType: Bit8.Contains(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Contains*
   name: Contains
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Contains_
@@ -865,18 +1054,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit8.Contains
   nameWithType: Bit8.Contains
-- uid: NomUtils.Math.Bits.Bit8.Equals(Enum)
-  name: Equals(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Equals_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.Equals(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Equals(Enum)
-  nameWithType: Bit8.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Equals(InternalType)
   name: Equals(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Equals_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.Equals(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Equals(InternalType)
   nameWithType: Bit8.Equals(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.Equals(System.Enum)
+  name: Equals(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Equals_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.Equals(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Equals(System.Enum)
+  nameWithType: Bit8.Equals(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Equals*
   name: Equals
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Equals_
@@ -916,18 +1105,18 @@ references:
   fullName.vb: NomUtils.Math.Bits.Bit8.Widening
   nameWithType: Bit8.Implicit
   nameWithType.vb: Bit8.Widening
-- uid: NomUtils.Math.Bits.Bit8.Or(Enum)
-  name: Or(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Or_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.Or(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Or(Enum)
-  nameWithType: Bit8.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Or(InternalType)
   name: Or(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Or_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.Or(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Or(InternalType)
   nameWithType: Bit8.Or(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.Or(System.Enum)
+  name: Or(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Or_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.Or(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Or(System.Enum)
+  nameWithType: Bit8.Or(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Or*
   name: Or
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Or_
@@ -935,18 +1124,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit8.Or
   nameWithType: Bit8.Or
-- uid: NomUtils.Math.Bits.Bit8.Set(Enum)
-  name: Set(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Set_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.Set(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Set(Enum)
-  nameWithType: Bit8.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Set(InternalType)
   name: Set(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Set_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.Set(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Set(InternalType)
   nameWithType: Bit8.Set(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.Set(System.Enum)
+  name: Set(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Set_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.Set(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Set(System.Enum)
+  nameWithType: Bit8.Set(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Set*
   name: Set
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Set_
@@ -1006,18 +1195,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Bits.Bit8.ToString
   nameWithType: Bit8.ToString
-- uid: NomUtils.Math.Bits.Bit8.Xor(Enum)
-  name: Xor(Enum)
-  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Xor_Enum_
-  commentId: M:NomUtils.Math.Bits.Bit8.Xor(Enum)
-  fullName: NomUtils.Math.Bits.Bit8.Xor(Enum)
-  nameWithType: Bit8.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Xor(InternalType)
   name: Xor(InternalType)
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Xor_InternalType_
   commentId: M:NomUtils.Math.Bits.Bit8.Xor(InternalType)
   fullName: NomUtils.Math.Bits.Bit8.Xor(InternalType)
   nameWithType: Bit8.Xor(InternalType)
+- uid: NomUtils.Math.Bits.Bit8.Xor(System.Enum)
+  name: Xor(Enum)
+  href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Xor_System_Enum_
+  commentId: M:NomUtils.Math.Bits.Bit8.Xor(System.Enum)
+  fullName: NomUtils.Math.Bits.Bit8.Xor(System.Enum)
+  nameWithType: Bit8.Xor(Enum)
 - uid: NomUtils.Math.Bits.Bit8.Xor*
   name: Xor
   href: api/NomUtils.Math.Bits.Bit8.html#NomUtils_Math_Bits_Bit8_Xor_
@@ -1095,6 +1284,15 @@ references:
   commentId: T:NomUtils.Math.Curves.BezierCubic
   fullName: NomUtils.Math.Curves.BezierCubic
   nameWithType: BezierCubic
+- uid: NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)
+  name: SamplePoint(Vector2, Vector2, Vector2, Vector2, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePoint_Vector2__Vector2__Vector2__Vector2__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)
+  name.vb: SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector2, Vector2, Vector2, Vector2, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, System.Single)
+  nameWithType: BezierCubic.SamplePoint(Vector2, Vector2, Vector2, Vector2, Single)
+  nameWithType.vb: BezierCubic.SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SamplePoint(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
   name: SamplePoint(Vector3, Vector3, Vector3, Vector3, Single)
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePoint_Vector3__Vector3__Vector3__Vector3__System_Single_
@@ -1111,6 +1309,15 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierCubic.SamplePoint
   nameWithType: BezierCubic.SamplePoint
+- uid: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)
+  name: SamplePointExplicit(Vector2, Vector2, Vector2, Vector2, Single)
+  href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_Vector2__Vector2__Vector2__Vector2__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector2@,Vector2@,Vector2@,Vector2@,System.Single)
+  name.vb: SamplePointExplicit(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
+  fullName: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector2, Vector2, Vector2, Vector2, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, System.Single)
+  nameWithType: BezierCubic.SamplePointExplicit(Vector2, Vector2, Vector2, Vector2, Single)
+  nameWithType.vb: BezierCubic.SamplePointExplicit(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
 - uid: NomUtils.Math.Curves.BezierCubic.SamplePointExplicit(Vector3@,Vector3@,Vector3@,Vector3@,System.Single)
   name: SamplePointExplicit(Vector3, Vector3, Vector3, Vector3, Single)
   href: api/NomUtils.Math.Curves.BezierCubic.html#NomUtils_Math_Curves_BezierCubic_SamplePointExplicit_Vector3__Vector3__Vector3__Vector3__System_Single_
@@ -1187,6 +1394,15 @@ references:
   commentId: T:NomUtils.Math.Curves.BezierQuadratic
   fullName: NomUtils.Math.Curves.BezierQuadratic
   nameWithType: BezierQuadratic
+- uid: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector2@,Vector2@,Vector2@,System.Single)
+  name: SamplePoint(Vector2, Vector2, Vector2, Single)
+  href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SamplePoint_Vector2__Vector2__Vector2__System_Single_
+  commentId: M:NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector2@,Vector2@,Vector2@,System.Single)
+  name.vb: SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
+  fullName: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector2, Vector2, Vector2, System.Single)
+  fullName.vb: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, System.Single)
+  nameWithType: BezierQuadratic.SamplePoint(Vector2, Vector2, Vector2, Single)
+  nameWithType.vb: BezierQuadratic.SamplePoint(ByRef Vector2, ByRef Vector2, ByRef Vector2, Single)
 - uid: NomUtils.Math.Curves.BezierQuadratic.SamplePoint(Vector3@,Vector3@,Vector3@,System.Single)
   name: SamplePoint(Vector3, Vector3, Vector3, Single)
   href: api/NomUtils.Math.Curves.BezierQuadratic.html#NomUtils_Math_Curves_BezierQuadratic_SamplePoint_Vector3__Vector3__Vector3__System_Single_
@@ -1235,44 +1451,6 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Curves.BezierQuadratic.SampleVelocity
   nameWithType: BezierQuadratic.SampleVelocity
-- uid: NomUtils.Math.Curves.Line
-  name: Line
-  href: api/NomUtils.Math.Curves.Line.html
-  commentId: T:NomUtils.Math.Curves.Line
-  fullName: NomUtils.Math.Curves.Line
-  nameWithType: Line
-- uid: NomUtils.Math.Curves.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
-  name: ClosestPoint(Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPoint_Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
-  name.vb: ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.Line.ClosestPoint(Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: Line.ClosestPoint(Vector3, Vector3, Vector3)
-  nameWithType.vb: Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Curves.Line.ClosestPoint*
-  name: ClosestPoint
-  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPoint_
-  commentId: Overload:NomUtils.Math.Curves.Line.ClosestPoint
-  isSpec: "True"
-  fullName: NomUtils.Math.Curves.Line.ClosestPoint
-  nameWithType: Line.ClosestPoint
-- uid: NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
-  name: ClosestPointInfinite(Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPointInfinite_Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
-  name.vb: ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Curves.Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Curves.Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
-  nameWithType.vb: Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Curves.Line.ClosestPointInfinite*
-  name: ClosestPointInfinite
-  href: api/NomUtils.Math.Curves.Line.html#NomUtils_Math_Curves_Line_ClosestPointInfinite_
-  commentId: Overload:NomUtils.Math.Curves.Line.ClosestPointInfinite
-  isSpec: "True"
-  fullName: NomUtils.Math.Curves.Line.ClosestPointInfinite
-  nameWithType: Line.ClosestPointInfinite
 - uid: NomUtils.Math.Equations
   name: Equations
   href: api/NomUtils.Math.Equations.html
@@ -1528,69 +1706,69 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Equations.RadiansToDiamondAngle
   nameWithType: Equations.RadiansToDiamondAngle
-- uid: NomUtils.Math.QuaternionUtility
-  name: QuaternionUtility
-  href: api/NomUtils.Math.QuaternionUtility.html
-  commentId: T:NomUtils.Math.QuaternionUtility
-  fullName: NomUtils.Math.QuaternionUtility
-  nameWithType: QuaternionUtility
-- uid: NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion@,System.Single)
+- uid: NomUtils.Math.QuaternionUtils
+  name: QuaternionUtils
+  href: api/NomUtils.Math.QuaternionUtils.html
+  commentId: T:NomUtils.Math.QuaternionUtils
+  fullName: NomUtils.Math.QuaternionUtils
+  nameWithType: QuaternionUtils
+- uid: NomUtils.Math.QuaternionUtils.Approximately(Quaternion,Quaternion@,System.Single)
   name: Approximately(Quaternion, Quaternion, Single)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_Approximately_Quaternion_Quaternion__System_Single_
-  commentId: M:NomUtils.Math.QuaternionUtility.Approximately(Quaternion,Quaternion@,System.Single)
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_Approximately_Quaternion_Quaternion__System_Single_
+  commentId: M:NomUtils.Math.QuaternionUtils.Approximately(Quaternion,Quaternion@,System.Single)
   name.vb: Approximately(Quaternion, ByRef Quaternion, Single)
-  fullName: NomUtils.Math.QuaternionUtility.Approximately(Quaternion, Quaternion, System.Single)
-  fullName.vb: NomUtils.Math.QuaternionUtility.Approximately(Quaternion, ByRef Quaternion, System.Single)
-  nameWithType: QuaternionUtility.Approximately(Quaternion, Quaternion, Single)
-  nameWithType.vb: QuaternionUtility.Approximately(Quaternion, ByRef Quaternion, Single)
-- uid: NomUtils.Math.QuaternionUtility.Approximately*
+  fullName: NomUtils.Math.QuaternionUtils.Approximately(Quaternion, Quaternion, System.Single)
+  fullName.vb: NomUtils.Math.QuaternionUtils.Approximately(Quaternion, ByRef Quaternion, System.Single)
+  nameWithType: QuaternionUtils.Approximately(Quaternion, Quaternion, Single)
+  nameWithType.vb: QuaternionUtils.Approximately(Quaternion, ByRef Quaternion, Single)
+- uid: NomUtils.Math.QuaternionUtils.Approximately*
   name: Approximately
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_Approximately_
-  commentId: Overload:NomUtils.Math.QuaternionUtility.Approximately
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_Approximately_
+  commentId: Overload:NomUtils.Math.QuaternionUtils.Approximately
   isSpec: "True"
-  fullName: NomUtils.Math.QuaternionUtility.Approximately
-  nameWithType: QuaternionUtility.Approximately
-- uid: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector2@,Vector2@,System.Single)
+  fullName: NomUtils.Math.QuaternionUtils.Approximately
+  nameWithType: QuaternionUtils.Approximately
+- uid: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector2@,Vector2@,System.Single)
   name: RotatePointAroundPivot(Vector2, Vector2, Single)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_RotatePointAroundPivot_Vector2__Vector2__System_Single_
-  commentId: M:NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector2@,Vector2@,System.Single)
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_RotatePointAroundPivot_Vector2__Vector2__System_Single_
+  commentId: M:NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector2@,Vector2@,System.Single)
   name.vb: RotatePointAroundPivot(ByRef Vector2, ByRef Vector2, Single)
-  fullName: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector2, Vector2, System.Single)
-  fullName.vb: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(ByRef Vector2, ByRef Vector2, System.Single)
-  nameWithType: QuaternionUtility.RotatePointAroundPivot(Vector2, Vector2, Single)
-  nameWithType.vb: QuaternionUtility.RotatePointAroundPivot(ByRef Vector2, ByRef Vector2, Single)
-- uid: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector3@,Vector3@,Vector3@)
+  fullName: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector2, Vector2, System.Single)
+  fullName.vb: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(ByRef Vector2, ByRef Vector2, System.Single)
+  nameWithType: QuaternionUtils.RotatePointAroundPivot(Vector2, Vector2, Single)
+  nameWithType.vb: QuaternionUtils.RotatePointAroundPivot(ByRef Vector2, ByRef Vector2, Single)
+- uid: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector3@,Vector3@,Vector3@)
   name: RotatePointAroundPivot(Vector3, Vector3, Vector3)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_RotatePointAroundPivot_Vector3__Vector3__Vector3__
-  commentId: M:NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector3@,Vector3@,Vector3@)
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_RotatePointAroundPivot_Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector3@,Vector3@,Vector3@)
   name.vb: RotatePointAroundPivot(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(Vector3, Vector3, Vector3)
-  fullName.vb: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-  nameWithType: QuaternionUtility.RotatePointAroundPivot(Vector3, Vector3, Vector3)
-  nameWithType.vb: QuaternionUtility.RotatePointAroundPivot(ByRef Vector3, ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot*
+  fullName: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: QuaternionUtils.RotatePointAroundPivot(Vector3, Vector3, Vector3)
+  nameWithType.vb: QuaternionUtils.RotatePointAroundPivot(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot*
   name: RotatePointAroundPivot
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_RotatePointAroundPivot_
-  commentId: Overload:NomUtils.Math.QuaternionUtility.RotatePointAroundPivot
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_RotatePointAroundPivot_
+  commentId: Overload:NomUtils.Math.QuaternionUtils.RotatePointAroundPivot
   isSpec: "True"
-  fullName: NomUtils.Math.QuaternionUtility.RotatePointAroundPivot
-  nameWithType: QuaternionUtility.RotatePointAroundPivot
-- uid: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
+  fullName: NomUtils.Math.QuaternionUtils.RotatePointAroundPivot
+  nameWithType: QuaternionUtils.RotatePointAroundPivot
+- uid: NomUtils.Math.QuaternionUtils.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
   name: SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_SmoothDamp_Quaternion__Quaternion__Quaternion__System_Single_
-  commentId: M:NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_SmoothDamp_Quaternion__Quaternion__Quaternion__System_Single_
+  commentId: M:NomUtils.Math.QuaternionUtils.SmoothDamp(Quaternion@,Quaternion@,Quaternion@,System.Single)
   name.vb: SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, Single)
-  fullName: NomUtils.Math.QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ref Quaternion, System.Single)
-  fullName.vb: NomUtils.Math.QuaternionUtility.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, System.Single)
-  nameWithType: QuaternionUtility.SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)
-  nameWithType.vb: QuaternionUtility.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, Single)
-- uid: NomUtils.Math.QuaternionUtility.SmoothDamp*
+  fullName: NomUtils.Math.QuaternionUtils.SmoothDamp(Quaternion, Quaternion, ref Quaternion, System.Single)
+  fullName.vb: NomUtils.Math.QuaternionUtils.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, System.Single)
+  nameWithType: QuaternionUtils.SmoothDamp(Quaternion, Quaternion, ref Quaternion, Single)
+  nameWithType.vb: QuaternionUtils.SmoothDamp(ByRef Quaternion, ByRef Quaternion, ByRef Quaternion, Single)
+- uid: NomUtils.Math.QuaternionUtils.SmoothDamp*
   name: SmoothDamp
-  href: api/NomUtils.Math.QuaternionUtility.html#NomUtils_Math_QuaternionUtility_SmoothDamp_
-  commentId: Overload:NomUtils.Math.QuaternionUtility.SmoothDamp
+  href: api/NomUtils.Math.QuaternionUtils.html#NomUtils_Math_QuaternionUtils_SmoothDamp_
+  commentId: Overload:NomUtils.Math.QuaternionUtils.SmoothDamp
   isSpec: "True"
-  fullName: NomUtils.Math.QuaternionUtility.SmoothDamp
-  nameWithType: QuaternionUtility.SmoothDamp
+  fullName: NomUtils.Math.QuaternionUtils.SmoothDamp
+  nameWithType: QuaternionUtils.SmoothDamp
 - uid: NomUtils.Math.Shapes
   name: NomUtils.Math.Shapes
   href: api/NomUtils.Math.Shapes.html
@@ -1677,6 +1855,85 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Shapes.Circle.RandomPointInCircleRad
   nameWithType: Circle.RandomPointInCircleRad
+- uid: NomUtils.Math.Shapes.Line
+  name: Line
+  href: api/NomUtils.Math.Shapes.Line.html
+  commentId: T:NomUtils.Math.Shapes.Line
+  fullName: NomUtils.Math.Shapes.Line
+  nameWithType: Line
+- uid: NomUtils.Math.Shapes.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
+  name: ClosestPoint(Vector3, Vector3, Vector3)
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPoint_Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Shapes.Line.ClosestPoint(Vector3@,Vector3@,Vector3@)
+  name.vb: ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Shapes.Line.ClosestPoint(Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Shapes.Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.ClosestPoint(Vector3, Vector3, Vector3)
+  nameWithType.vb: Line.ClosestPoint(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Shapes.Line.ClosestPoint*
+  name: ClosestPoint
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPoint_
+  commentId: Overload:NomUtils.Math.Shapes.Line.ClosestPoint
+  isSpec: "True"
+  fullName: NomUtils.Math.Shapes.Line.ClosestPoint
+  nameWithType: Line.ClosestPoint
+- uid: NomUtils.Math.Shapes.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
+  name: ClosestPointInfinite(Vector3, Vector3, Vector3)
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPointInfinite_Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Shapes.Line.ClosestPointInfinite(Vector3@,Vector3@,Vector3@)
+  name.vb: ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Shapes.Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Shapes.Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.ClosestPointInfinite(Vector3, Vector3, Vector3)
+  nameWithType.vb: Line.ClosestPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Shapes.Line.ClosestPointInfinite*
+  name: ClosestPointInfinite
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPointInfinite_
+  commentId: Overload:NomUtils.Math.Shapes.Line.ClosestPointInfinite
+  isSpec: "True"
+  fullName: NomUtils.Math.Shapes.Line.ClosestPointInfinite
+  nameWithType: Line.ClosestPointInfinite
+- uid: NomUtils.Math.Shapes.Line.ClosestPoints(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@,Vector3@)
+  name: ClosestPoints(Vector3, Vector3, Vector3, Vector3, out Vector3, out Vector3)
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPoints_Vector3__Vector3__Vector3__Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Shapes.Line.ClosestPoints(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@,Vector3@)
+  name.vb: ClosestPoints(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Shapes.Line.ClosestPoints(Vector3, Vector3, Vector3, Vector3, out Vector3, out Vector3)
+  fullName.vb: NomUtils.Math.Shapes.Line.ClosestPoints(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.ClosestPoints(Vector3, Vector3, Vector3, Vector3, out Vector3, out Vector3)
+  nameWithType.vb: Line.ClosestPoints(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Shapes.Line.ClosestPoints*
+  name: ClosestPoints
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_ClosestPoints_
+  commentId: Overload:NomUtils.Math.Shapes.Line.ClosestPoints
+  isSpec: "True"
+  fullName: NomUtils.Math.Shapes.Line.ClosestPoints
+  nameWithType: Line.ClosestPoints
+- uid: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector2@,Vector2@,Vector2@,Vector2@)
+  name: IntersectionPointInfinite(Vector2, Vector2, Vector2, Vector2)
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_IntersectionPointInfinite_Vector2__Vector2__Vector2__Vector2__
+  commentId: M:NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector2@,Vector2@,Vector2@,Vector2@)
+  name.vb: IntersectionPointInfinite(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector2, Vector2, Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  nameWithType: Line.IntersectionPointInfinite(Vector2, Vector2, Vector2, Vector2)
+  nameWithType.vb: Line.IntersectionPointInfinite(ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@)
+  name: IntersectionPointInfinite(Vector3, Vector3, Vector3, Vector3, out Vector3)
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_IntersectionPointInfinite_Vector3__Vector3__Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector3@,Vector3@,Vector3@,Vector3@,Vector3@)
+  name.vb: IntersectionPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(Vector3, Vector3, Vector3, Vector3, out Vector3)
+  fullName.vb: NomUtils.Math.Shapes.Line.IntersectionPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: Line.IntersectionPointInfinite(Vector3, Vector3, Vector3, Vector3, out Vector3)
+  nameWithType.vb: Line.IntersectionPointInfinite(ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Shapes.Line.IntersectionPointInfinite*
+  name: IntersectionPointInfinite
+  href: api/NomUtils.Math.Shapes.Line.html#NomUtils_Math_Shapes_Line_IntersectionPointInfinite_
+  commentId: Overload:NomUtils.Math.Shapes.Line.IntersectionPointInfinite
+  isSpec: "True"
+  fullName: NomUtils.Math.Shapes.Line.IntersectionPointInfinite
+  nameWithType: Line.IntersectionPointInfinite
 - uid: NomUtils.Math.Shapes.Square
   name: Square
   href: api/NomUtils.Math.Shapes.Square.html
@@ -1721,22 +1978,6 @@ references:
   commentId: T:NomUtils.Math.Shapes.Triangle
   fullName: NomUtils.Math.Shapes.Triangle
   nameWithType: Triangle
-- uid: NomUtils.Math.Shapes.Triangle.GetAngle(Vector2@,Vector2@,Vector2@)
-  name: GetAngle(Vector2, Vector2, Vector2)
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetAngle_Vector2__Vector2__Vector2__
-  commentId: M:NomUtils.Math.Shapes.Triangle.GetAngle(Vector2@,Vector2@,Vector2@)
-  name.vb: GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Shapes.Triangle.GetAngle(Vector2, Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Shapes.Triangle.GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
-  nameWithType: Triangle.GetAngle(Vector2, Vector2, Vector2)
-  nameWithType.vb: Triangle.GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Shapes.Triangle.GetAngle*
-  name: GetAngle
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetAngle_
-  commentId: Overload:NomUtils.Math.Shapes.Triangle.GetAngle
-  isSpec: "True"
-  fullName: NomUtils.Math.Shapes.Triangle.GetAngle
-  nameWithType: Triangle.GetAngle
 - uid: NomUtils.Math.Shapes.Triangle.GetBottomLeftPoint(Vector2@,System.Single)
   name: GetBottomLeftPoint(Vector2, Single)
   href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetBottomLeftPoint_Vector2__System_Single_
@@ -1769,35 +2010,6 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Shapes.Triangle.GetBottomRightPoint
   nameWithType: Triangle.GetBottomRightPoint
-- uid: NomUtils.Math.Shapes.Triangle.GetHypotenuse(System.Single,System.Single)
-  name: GetHypotenuse(Single, Single)
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetHypotenuse_System_Single_System_Single_
-  commentId: M:NomUtils.Math.Shapes.Triangle.GetHypotenuse(System.Single,System.Single)
-  fullName: NomUtils.Math.Shapes.Triangle.GetHypotenuse(System.Single, System.Single)
-  nameWithType: Triangle.GetHypotenuse(Single, Single)
-- uid: NomUtils.Math.Shapes.Triangle.GetHypotenuse*
-  name: GetHypotenuse
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetHypotenuse_
-  commentId: Overload:NomUtils.Math.Shapes.Triangle.GetHypotenuse
-  isSpec: "True"
-  fullName: NomUtils.Math.Shapes.Triangle.GetHypotenuse
-  nameWithType: Triangle.GetHypotenuse
-- uid: NomUtils.Math.Shapes.Triangle.GetSlope(Vector2@,Vector2@)
-  name: GetSlope(Vector2, Vector2)
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetSlope_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Shapes.Triangle.GetSlope(Vector2@,Vector2@)
-  name.vb: GetSlope(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Shapes.Triangle.GetSlope(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Shapes.Triangle.GetSlope(ByRef Vector2, ByRef Vector2)
-  nameWithType: Triangle.GetSlope(Vector2, Vector2)
-  nameWithType.vb: Triangle.GetSlope(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Shapes.Triangle.GetSlope*
-  name: GetSlope
-  href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetSlope_
-  commentId: Overload:NomUtils.Math.Shapes.Triangle.GetSlope
-  isSpec: "True"
-  fullName: NomUtils.Math.Shapes.Triangle.GetSlope
-  nameWithType: Triangle.GetSlope
 - uid: NomUtils.Math.Shapes.Triangle.GetTopPoint(Vector2@,System.Single)
   name: GetTopPoint(Vector2, Single)
   href: api/NomUtils.Math.Shapes.Triangle.html#NomUtils_Math_Shapes_Triangle_GetTopPoint_Vector2__System_Single_
@@ -1858,6 +2070,155 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint
   nameWithType: CatmulRomSpline.SamplePoint
+- uid: NomUtils.Math.TrigOps
+  name: TrigOps
+  href: api/NomUtils.Math.TrigOps.html
+  commentId: T:NomUtils.Math.TrigOps
+  fullName: NomUtils.Math.TrigOps
+  nameWithType: TrigOps
+- uid: NomUtils.Math.TrigOps.GetAngle(Vector2@,Vector2@,Vector2@)
+  name: GetAngle(Vector2, Vector2, Vector2)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetAngle_Vector2__Vector2__Vector2__
+  commentId: M:NomUtils.Math.TrigOps.GetAngle(Vector2@,Vector2@,Vector2@)
+  name.vb: GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.TrigOps.GetAngle(Vector2, Vector2, Vector2)
+  fullName.vb: NomUtils.Math.TrigOps.GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  nameWithType: TrigOps.GetAngle(Vector2, Vector2, Vector2)
+  nameWithType.vb: TrigOps.GetAngle(ByRef Vector2, ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.TrigOps.GetAngle*
+  name: GetAngle
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetAngle_
+  commentId: Overload:NomUtils.Math.TrigOps.GetAngle
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetAngle
+  nameWithType: TrigOps.GetAngle
+- uid: NomUtils.Math.TrigOps.GetHypotenuse(System.Single,System.Single)
+  name: GetHypotenuse(Single, Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetHypotenuse_System_Single_System_Single_
+  commentId: M:NomUtils.Math.TrigOps.GetHypotenuse(System.Single,System.Single)
+  fullName: NomUtils.Math.TrigOps.GetHypotenuse(System.Single, System.Single)
+  nameWithType: TrigOps.GetHypotenuse(Single, Single)
+- uid: NomUtils.Math.TrigOps.GetHypotenuse*
+  name: GetHypotenuse
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetHypotenuse_
+  commentId: Overload:NomUtils.Math.TrigOps.GetHypotenuse
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetHypotenuse
+  nameWithType: TrigOps.GetHypotenuse
+- uid: NomUtils.Math.TrigOps.GetMissingSide(System.Single,System.Single)
+  name: GetMissingSide(Single, Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetMissingSide_System_Single_System_Single_
+  commentId: M:NomUtils.Math.TrigOps.GetMissingSide(System.Single,System.Single)
+  fullName: NomUtils.Math.TrigOps.GetMissingSide(System.Single, System.Single)
+  nameWithType: TrigOps.GetMissingSide(Single, Single)
+- uid: NomUtils.Math.TrigOps.GetMissingSide*
+  name: GetMissingSide
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetMissingSide_
+  commentId: Overload:NomUtils.Math.TrigOps.GetMissingSide
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetMissingSide
+  nameWithType: TrigOps.GetMissingSide
+- uid: NomUtils.Math.TrigOps.GetSlope(Vector2@,Vector2@)
+  name: GetSlope(Vector2, Vector2)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlope_Vector2__Vector2__
+  commentId: M:NomUtils.Math.TrigOps.GetSlope(Vector2@,Vector2@)
+  name.vb: GetSlope(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.TrigOps.GetSlope(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.TrigOps.GetSlope(ByRef Vector2, ByRef Vector2)
+  nameWithType: TrigOps.GetSlope(Vector2, Vector2)
+  nameWithType.vb: TrigOps.GetSlope(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.TrigOps.GetSlope(Vector3@,Vector3@)
+  name: GetSlope(Vector3, Vector3)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlope_Vector3__Vector3__
+  commentId: M:NomUtils.Math.TrigOps.GetSlope(Vector3@,Vector3@)
+  name.vb: GetSlope(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.TrigOps.GetSlope(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.TrigOps.GetSlope(ByRef Vector3, ByRef Vector3)
+  nameWithType: TrigOps.GetSlope(Vector3, Vector3)
+  nameWithType.vb: TrigOps.GetSlope(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.TrigOps.GetSlope*
+  name: GetSlope
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlope_
+  commentId: Overload:NomUtils.Math.TrigOps.GetSlope
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetSlope
+  nameWithType: TrigOps.GetSlope
+- uid: NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector2@,Vector2@)
+  name: GetSlopeFromDirection(Vector2, Vector2)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlopeFromDirection_Vector2__Vector2__
+  commentId: M:NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector2@,Vector2@)
+  name.vb: GetSlopeFromDirection(ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.TrigOps.GetSlopeFromDirection(ByRef Vector2, ByRef Vector2)
+  nameWithType: TrigOps.GetSlopeFromDirection(Vector2, Vector2)
+  nameWithType.vb: TrigOps.GetSlopeFromDirection(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector3@,Vector3@)
+  name: GetSlopeFromDirection(Vector3, Vector3)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlopeFromDirection_Vector3__Vector3__
+  commentId: M:NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector3@,Vector3@)
+  name.vb: GetSlopeFromDirection(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.TrigOps.GetSlopeFromDirection(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.TrigOps.GetSlopeFromDirection(ByRef Vector3, ByRef Vector3)
+  nameWithType: TrigOps.GetSlopeFromDirection(Vector3, Vector3)
+  nameWithType.vb: TrigOps.GetSlopeFromDirection(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.TrigOps.GetSlopeFromDirection*
+  name: GetSlopeFromDirection
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetSlopeFromDirection_
+  commentId: Overload:NomUtils.Math.TrigOps.GetSlopeFromDirection
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetSlopeFromDirection
+  nameWithType: TrigOps.GetSlopeFromDirection
+- uid: NomUtils.Math.TrigOps.GetYIntercept(Vector2@,System.Single)
+  name: GetYIntercept(Vector2, Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetYIntercept_Vector2__System_Single_
+  commentId: M:NomUtils.Math.TrigOps.GetYIntercept(Vector2@,System.Single)
+  name.vb: GetYIntercept(ByRef Vector2, Single)
+  fullName: NomUtils.Math.TrigOps.GetYIntercept(Vector2, System.Single)
+  fullName.vb: NomUtils.Math.TrigOps.GetYIntercept(ByRef Vector2, System.Single)
+  nameWithType: TrigOps.GetYIntercept(Vector2, Single)
+  nameWithType.vb: TrigOps.GetYIntercept(ByRef Vector2, Single)
+- uid: NomUtils.Math.TrigOps.GetYIntercept(Vector3@,System.Single)
+  name: GetYIntercept(Vector3, Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetYIntercept_Vector3__System_Single_
+  commentId: M:NomUtils.Math.TrigOps.GetYIntercept(Vector3@,System.Single)
+  name.vb: GetYIntercept(ByRef Vector3, Single)
+  fullName: NomUtils.Math.TrigOps.GetYIntercept(Vector3, System.Single)
+  fullName.vb: NomUtils.Math.TrigOps.GetYIntercept(ByRef Vector3, System.Single)
+  nameWithType: TrigOps.GetYIntercept(Vector3, Single)
+  nameWithType.vb: TrigOps.GetYIntercept(ByRef Vector3, Single)
+- uid: NomUtils.Math.TrigOps.GetYIntercept*
+  name: GetYIntercept
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_GetYIntercept_
+  commentId: Overload:NomUtils.Math.TrigOps.GetYIntercept
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.GetYIntercept
+  nameWithType: TrigOps.GetYIntercept
+- uid: NomUtils.Math.TrigOps.InvertLog(System.Single,System.Single)
+  name: InvertLog(Single, Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_InvertLog_System_Single_System_Single_
+  commentId: M:NomUtils.Math.TrigOps.InvertLog(System.Single,System.Single)
+  fullName: NomUtils.Math.TrigOps.InvertLog(System.Single, System.Single)
+  nameWithType: TrigOps.InvertLog(Single, Single)
+- uid: NomUtils.Math.TrigOps.InvertLog*
+  name: InvertLog
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_InvertLog_
+  commentId: Overload:NomUtils.Math.TrigOps.InvertLog
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.InvertLog
+  nameWithType: TrigOps.InvertLog
+- uid: NomUtils.Math.TrigOps.InvertLog10(System.Single)
+  name: InvertLog10(Single)
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_InvertLog10_System_Single_
+  commentId: M:NomUtils.Math.TrigOps.InvertLog10(System.Single)
+  fullName: NomUtils.Math.TrigOps.InvertLog10(System.Single)
+  nameWithType: TrigOps.InvertLog10(Single)
+- uid: NomUtils.Math.TrigOps.InvertLog10*
+  name: InvertLog10
+  href: api/NomUtils.Math.TrigOps.html#NomUtils_Math_TrigOps_InvertLog10_
+  commentId: Overload:NomUtils.Math.TrigOps.InvertLog10
+  isSpec: "True"
+  fullName: NomUtils.Math.TrigOps.InvertLog10
+  nameWithType: TrigOps.InvertLog10
 - uid: NomUtils.Math.Vectors
   name: NomUtils.Math.Vectors
   href: api/NomUtils.Math.Vectors.html
@@ -2022,601 +2383,623 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Vectors.VectorOps.SubtractRef
   nameWithType: VectorOps.SubtractRef
-- uid: NomUtils.Math.Vectors.VectorUtility
-  name: VectorUtility
-  href: api/NomUtils.Math.Vectors.VectorUtility.html
-  commentId: T:NomUtils.Math.Vectors.VectorUtility
-  fullName: NomUtils.Math.Vectors.VectorUtility
-  nameWithType: VectorUtility
-- uid: NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3@,Vector3@)
+- uid: NomUtils.Math.Vectors.VectorUtils
+  name: VectorUtils
+  href: api/NomUtils.Math.Vectors.VectorUtils.html
+  commentId: T:NomUtils.Math.Vectors.VectorUtils
+  fullName: NomUtils.Math.Vectors.VectorUtils
+  nameWithType: VectorUtils
+- uid: NomUtils.Math.Vectors.VectorUtils.Approximately(Vector3@,Vector3@)
+  name: Approximately(Vector3, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Approximately_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Approximately(Vector3@,Vector3@)
+  name.vb: Approximately(ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Approximately(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Approximately(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.Approximately(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.Approximately(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.Approximately*
+  name: Approximately
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Approximately_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.Approximately
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorUtils.Approximately
+  nameWithType: VectorUtils.Approximately
+- uid: NomUtils.Math.Vectors.VectorUtils.CrossCopy(Vector3@,Vector3@)
   name: CrossCopy(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossCopy_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_CrossCopy_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.CrossCopy(Vector3@,Vector3@)
   name.vb: CrossCopy(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.CrossCopy(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.CrossCopy(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CrossCopy(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CrossCopy(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.CrossCopy*
+  fullName: NomUtils.Math.Vectors.VectorUtils.CrossCopy(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.CrossCopy(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.CrossCopy(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.CrossCopy(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.CrossCopy*
   name: CrossCopy
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossCopy_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.CrossCopy
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_CrossCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.CrossCopy
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.CrossCopy
-  nameWithType: VectorUtility.CrossCopy
-- uid: NomUtils.Math.Vectors.VectorUtility.CrossRef(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.CrossCopy
+  nameWithType: VectorUtils.CrossCopy
+- uid: NomUtils.Math.Vectors.VectorUtils.CrossRef(Vector3@,Vector3@)
   name: CrossRef(ref Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossRef_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.CrossRef(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_CrossRef_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.CrossRef(Vector3@,Vector3@)
   name.vb: CrossRef(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.CrossRef(ref Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.CrossRef(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.CrossRef(ref Vector3, Vector3)
-  nameWithType.vb: VectorUtility.CrossRef(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.CrossRef*
+  fullName: NomUtils.Math.Vectors.VectorUtils.CrossRef(ref Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.CrossRef(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.CrossRef(ref Vector3, Vector3)
+  nameWithType.vb: VectorUtils.CrossRef(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.CrossRef*
   name: CrossRef
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_CrossRef_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.CrossRef
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_CrossRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.CrossRef
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.CrossRef
-  nameWithType: VectorUtility.CrossRef
-- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.CrossRef
+  nameWithType: VectorUtils.CrossRef
+- uid: NomUtils.Math.Vectors.VectorUtils.Dot(Vector2@,Vector2@)
   name: Dot(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Dot_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Dot(Vector2@,Vector2@)
   name.vb: Dot(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.Dot(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.Dot(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Dot(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Dot(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.Dot(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.Dot(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.Dot(Vector3@,Vector3@)
   name: Dot(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Dot_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Dot(Vector3@,Vector3@)
   name.vb: Dot(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.Dot(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.Dot(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.Dot(Vector4@,Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Dot(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Dot(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.Dot(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.Dot(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.Dot(Vector4@,Vector4@)
   name: Dot(Vector4, Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Dot(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Dot_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Dot(Vector4@,Vector4@)
   name.vb: Dot(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Dot(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.Dot(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.Dot(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.Dot*
+  fullName: NomUtils.Math.Vectors.VectorUtils.Dot(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Dot(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtils.Dot(Vector4, Vector4)
+  nameWithType.vb: VectorUtils.Dot(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.Dot*
   name: Dot
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Dot_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Dot
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Dot_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.Dot
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.Dot
-  nameWithType: VectorUtility.Dot
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Dot
+  nameWithType: VectorUtils.Dot
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector2@,Vector2@)
   name: GetAngleDegrees(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleDegrees_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector2@,Vector2@)
   name.vb: GetAngleDegrees(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.GetAngleDegrees(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.GetAngleDegrees(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.GetAngleDegrees(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector3@,Vector3@)
   name: GetAngleDegrees(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleDegrees_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector3@,Vector3@)
   name.vb: GetAngleDegrees(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.GetAngleDegrees(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees*
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.GetAngleDegrees(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.GetAngleDegrees(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees*
   name: GetAngleDegrees
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDegrees_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleDegrees_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDegrees
-  nameWithType: VectorUtility.GetAngleDegrees
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleDegrees
+  nameWithType: VectorUtils.GetAngleDegrees
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond(Vector2@)
   name: GetAngleDiamond(Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDiamond_Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleDiamond_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond(Vector2@)
   name.vb: GetAngleDiamond(ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond(ByRef Vector2)
-  nameWithType: VectorUtility.GetAngleDiamond(Vector2)
-  nameWithType.vb: VectorUtility.GetAngleDiamond(ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond*
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond(ByRef Vector2)
+  nameWithType: VectorUtils.GetAngleDiamond(Vector2)
+  nameWithType.vb: VectorUtils.GetAngleDiamond(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond*
   name: GetAngleDiamond
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleDiamond_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleDiamond_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleDiamond
-  nameWithType: VectorUtility.GetAngleDiamond
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleDiamond
+  nameWithType: VectorUtils.GetAngleDiamond
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector2@,Vector2@)
   name: GetAngleRadians(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleRadians_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector2@,Vector2@)
   name.vb: GetAngleRadians(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.GetAngleRadians(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.GetAngleRadians(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.GetAngleRadians(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector3@,Vector3@)
   name: GetAngleRadians(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleRadians_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector3@,Vector3@)
   name.vb: GetAngleRadians(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.GetAngleRadians(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.GetAngleRadians(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians*
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.GetAngleRadians(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.GetAngleRadians(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians*
   name: GetAngleRadians
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_GetAngleRadians_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.GetAngleRadians
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_GetAngleRadians_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.GetAngleRadians
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.GetAngleRadians
-  nameWithType: VectorUtility.GetAngleRadians
-- uid: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.GetAngleRadians
+  nameWithType: VectorUtils.GetAngleRadians
+- uid: NomUtils.Math.Vectors.VectorUtils.IsOrthogonal(Vector3@,Vector3@)
   name: IsOrthogonal(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_IsOrthogonal_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_IsOrthogonal_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.IsOrthogonal(Vector3@,Vector3@)
   name.vb: IsOrthogonal(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.IsOrthogonal(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.IsOrthogonal(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal*
+  fullName: NomUtils.Math.Vectors.VectorUtils.IsOrthogonal(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.IsOrthogonal(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.IsOrthogonal(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.IsOrthogonal(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.IsOrthogonal*
   name: IsOrthogonal
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_IsOrthogonal_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.IsOrthogonal
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_IsOrthogonal_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.IsOrthogonal
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.IsOrthogonal
-  nameWithType: VectorUtility.IsOrthogonal
-- uid: NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtils.IsOrthogonal
+  nameWithType: VectorUtils.IsOrthogonal
+- uid: NomUtils.Math.Vectors.VectorUtils.Lerp(Vector3@,Vector3@,System.Single)
   name: Lerp(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Lerp_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Lerp_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Lerp(Vector3@,Vector3@,System.Single)
   name.vb: Lerp(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Lerp(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, System.Single)
-  nameWithType: VectorUtility.Lerp(Vector3, Vector3, Single)
-  nameWithType.vb: VectorUtility.Lerp(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.Vectors.VectorUtility.Lerp*
+  fullName: NomUtils.Math.Vectors.VectorUtils.Lerp(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Lerp(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtils.Lerp(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtils.Lerp(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.Vectors.VectorUtils.Lerp*
   name: Lerp
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Lerp_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Lerp
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Lerp_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.Lerp
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.Lerp
-  nameWithType: VectorUtility.Lerp
-- uid: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Lerp
+  nameWithType: VectorUtils.Lerp
+- uid: NomUtils.Math.Vectors.VectorUtils.LerpUnclamped(Vector3@,Vector3@,System.Single)
   name: LerpUnclamped(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_LerpUnclamped_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_LerpUnclamped_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.LerpUnclamped(Vector3@,Vector3@,System.Single)
   name.vb: LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, System.Single)
-  nameWithType: VectorUtility.LerpUnclamped(Vector3, Vector3, Single)
-  nameWithType.vb: VectorUtility.LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped*
+  fullName: NomUtils.Math.Vectors.VectorUtils.LerpUnclamped(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.LerpUnclamped(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtils.LerpUnclamped(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtils.LerpUnclamped(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.Vectors.VectorUtils.LerpUnclamped*
   name: LerpUnclamped
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_LerpUnclamped_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.LerpUnclamped
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_LerpUnclamped_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.LerpUnclamped
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.LerpUnclamped
-  nameWithType: VectorUtility.LerpUnclamped
-- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.LerpUnclamped
+  nameWithType: VectorUtils.LerpUnclamped
+- uid: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector2@)
   name: Magnitude(Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Magnitude_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector2@)
   name.vb: Magnitude(ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector2)
-  nameWithType: VectorUtility.Magnitude(Vector2)
-  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Magnitude(ByRef Vector2)
+  nameWithType: VectorUtils.Magnitude(Vector2)
+  nameWithType.vb: VectorUtils.Magnitude(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector3@)
   name: Magnitude(Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Magnitude_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector3@)
   name.vb: Magnitude(ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector3)
-  nameWithType: VectorUtility.Magnitude(Vector3)
-  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Magnitude(ByRef Vector3)
+  nameWithType: VectorUtils.Magnitude(Vector3)
+  nameWithType.vb: VectorUtils.Magnitude(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector4@)
   name: Magnitude(Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Magnitude_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector4@)
   name.vb: Magnitude(ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude(Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Magnitude(ByRef Vector4)
-  nameWithType: VectorUtility.Magnitude(Vector4)
-  nameWithType.vb: VectorUtility.Magnitude(ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.Magnitude*
+  fullName: NomUtils.Math.Vectors.VectorUtils.Magnitude(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Magnitude(ByRef Vector4)
+  nameWithType: VectorUtils.Magnitude(Vector4)
+  nameWithType.vb: VectorUtils.Magnitude(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.Magnitude*
   name: Magnitude
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Magnitude_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Magnitude
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Magnitude_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.Magnitude
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.Magnitude
-  nameWithType: VectorUtility.Magnitude
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Magnitude
+  nameWithType: VectorUtils.Magnitude
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector2@,Vector2@)
   name: MagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector2@,Vector2@)
   name.vb: MagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.MagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.MagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.MagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector3@,Vector3@)
   name: MagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector3@,Vector3@)
   name.vb: MagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.MagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4@,Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.MagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.MagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector4@,Vector4@)
   name: MagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector4@,Vector4@)
   name.vb: MagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.MagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd*
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtils.MagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtils.MagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd*
   name: MagnitudeAdd
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeAdd_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeAdd_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeAdd
-  nameWithType: VectorUtility.MagnitudeAdd
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeAdd
+  nameWithType: VectorUtils.MagnitudeAdd
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector2@,Vector2@)
   name: MagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector2@,Vector2@)
   name.vb: MagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.MagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.MagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.MagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector3@,Vector3@)
   name: MagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector3@,Vector3@)
   name.vb: MagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.MagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4@,Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.MagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.MagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector4@,Vector4@)
   name: MagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector4@,Vector4@)
   name.vb: MagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.MagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.MagnitudeSub(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub*
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtils.MagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtils.MagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub*
   name: MagnitudeSub
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MagnitudeSub_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MagnitudeSub
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MagnitudeSub_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.MagnitudeSub
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.MagnitudeSub
-  nameWithType: VectorUtility.MagnitudeSub
-- uid: NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MagnitudeSub
+  nameWithType: VectorUtils.MagnitudeSub
+- uid: NomUtils.Math.Vectors.VectorUtils.MoveTowards(Vector3@,Vector3@,System.Single)
   name: MoveTowards(Vector3, Vector3, Single)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MoveTowards_Vector3__Vector3__System_Single_
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3@,Vector3@,System.Single)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MoveTowards_Vector3__Vector3__System_Single_
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.MoveTowards(Vector3@,Vector3@,System.Single)
   name.vb: MoveTowards(ByRef Vector3, ByRef Vector3, Single)
-  fullName: NomUtils.Math.Vectors.VectorUtility.MoveTowards(Vector3, Vector3, System.Single)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, System.Single)
-  nameWithType: VectorUtility.MoveTowards(Vector3, Vector3, Single)
-  nameWithType.vb: VectorUtility.MoveTowards(ByRef Vector3, ByRef Vector3, Single)
-- uid: NomUtils.Math.Vectors.VectorUtility.MoveTowards*
+  fullName: NomUtils.Math.Vectors.VectorUtils.MoveTowards(Vector3, Vector3, System.Single)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.MoveTowards(ByRef Vector3, ByRef Vector3, System.Single)
+  nameWithType: VectorUtils.MoveTowards(Vector3, Vector3, Single)
+  nameWithType.vb: VectorUtils.MoveTowards(ByRef Vector3, ByRef Vector3, Single)
+- uid: NomUtils.Math.Vectors.VectorUtils.MoveTowards*
   name: MoveTowards
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_MoveTowards_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.MoveTowards
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_MoveTowards_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.MoveTowards
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.MoveTowards
-  nameWithType: VectorUtility.MoveTowards
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.MoveTowards
+  nameWithType: VectorUtils.MoveTowards
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector2@)
   name: NormalizeCopy(Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeCopy_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector2@)
   name.vb: NormalizeCopy(ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector2)
-  nameWithType: VectorUtility.NormalizeCopy(Vector2)
-  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(ByRef Vector2)
+  nameWithType: VectorUtils.NormalizeCopy(Vector2)
+  nameWithType.vb: VectorUtils.NormalizeCopy(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector3@)
   name: NormalizeCopy(Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeCopy_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector3@)
   name.vb: NormalizeCopy(ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector3)
-  nameWithType: VectorUtility.NormalizeCopy(Vector3)
-  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(ByRef Vector3)
+  nameWithType: VectorUtils.NormalizeCopy(Vector3)
+  nameWithType.vb: VectorUtils.NormalizeCopy(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector4@)
   name: NormalizeCopy(Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeCopy_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector4@)
   name.vb: NormalizeCopy(ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy(ByRef Vector4)
-  nameWithType: VectorUtility.NormalizeCopy(Vector4)
-  nameWithType.vb: VectorUtility.NormalizeCopy(ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy*
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy(ByRef Vector4)
+  nameWithType: VectorUtils.NormalizeCopy(Vector4)
+  nameWithType.vb: VectorUtils.NormalizeCopy(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy*
   name: NormalizeCopy
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeCopy_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.NormalizeCopy
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeCopy_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.NormalizeCopy
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeCopy
-  nameWithType: VectorUtility.NormalizeCopy
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeCopy
+  nameWithType: VectorUtils.NormalizeCopy
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector2@)
   name: NormalizeRef(ref Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeRef_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector2@)
   name.vb: NormalizeRef(ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector2)
-  nameWithType: VectorUtility.NormalizeRef(ref Vector2)
-  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ref Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ByRef Vector2)
+  nameWithType: VectorUtils.NormalizeRef(ref Vector2)
+  nameWithType.vb: VectorUtils.NormalizeRef(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector3@)
   name: NormalizeRef(ref Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeRef_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector3@)
   name.vb: NormalizeRef(ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector3)
-  nameWithType: VectorUtility.NormalizeRef(ref Vector3)
-  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ref Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ByRef Vector3)
+  nameWithType: VectorUtils.NormalizeRef(ref Vector3)
+  nameWithType.vb: VectorUtils.NormalizeRef(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector4@)
   name: NormalizeRef(ref Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.NormalizeRef(Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeRef_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.NormalizeRef(Vector4@)
   name.vb: NormalizeRef(ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ref Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.NormalizeRef(ByRef Vector4)
-  nameWithType: VectorUtility.NormalizeRef(ref Vector4)
-  nameWithType.vb: VectorUtility.NormalizeRef(ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.NormalizeRef*
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ref Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.NormalizeRef(ByRef Vector4)
+  nameWithType: VectorUtils.NormalizeRef(ref Vector4)
+  nameWithType.vb: VectorUtils.NormalizeRef(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.NormalizeRef*
   name: NormalizeRef
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_NormalizeRef_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.NormalizeRef
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_NormalizeRef_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.NormalizeRef
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.NormalizeRef
-  nameWithType: VectorUtility.NormalizeRef
-- uid: NomUtils.Math.Vectors.VectorUtility.Project(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.NormalizeRef
+  nameWithType: VectorUtils.NormalizeRef
+- uid: NomUtils.Math.Vectors.VectorUtils.Project(Vector3@,Vector3@)
   name: Project(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Project_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.Project(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Project_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.Project(Vector3@,Vector3@)
   name.vb: Project(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.Project(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.Project(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.Project(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.Project(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.Project*
+  fullName: NomUtils.Math.Vectors.VectorUtils.Project(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.Project(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.Project(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.Project(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.Project*
   name: Project
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_Project_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.Project
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_Project_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.Project
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.Project
-  nameWithType: VectorUtility.Project
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.Project
+  nameWithType: VectorUtils.Project
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector2@)
   name: SqrMagnitude(Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitude_Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector2@)
   name.vb: SqrMagnitude(ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector2)
-  nameWithType: VectorUtility.SqrMagnitude(Vector2)
-  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(ByRef Vector2)
+  nameWithType: VectorUtils.SqrMagnitude(Vector2)
+  nameWithType.vb: VectorUtils.SqrMagnitude(ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector3@)
   name: SqrMagnitude(Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitude_Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector3@)
   name.vb: SqrMagnitude(ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector3)
-  nameWithType: VectorUtility.SqrMagnitude(Vector3)
-  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(ByRef Vector3)
+  nameWithType: VectorUtils.SqrMagnitude(Vector3)
+  nameWithType.vb: VectorUtils.SqrMagnitude(ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector4@)
   name: SqrMagnitude(Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitude_Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector4@)
   name.vb: SqrMagnitude(ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude(ByRef Vector4)
-  nameWithType: VectorUtility.SqrMagnitude(Vector4)
-  nameWithType.vb: VectorUtility.SqrMagnitude(ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude*
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude(ByRef Vector4)
+  nameWithType: VectorUtils.SqrMagnitude(Vector4)
+  nameWithType.vb: VectorUtils.SqrMagnitude(ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude*
   name: SqrMagnitude
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitude_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitude
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitude_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.SqrMagnitude
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitude
-  nameWithType: VectorUtility.SqrMagnitude
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitude
+  nameWithType: VectorUtils.SqrMagnitude
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector2@,Vector2@)
   name: SqrMagnitudeAdd(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeAdd_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector2@,Vector2@)
   name.vb: SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.SqrMagnitudeAdd(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.SqrMagnitudeAdd(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector3@,Vector3@)
   name: SqrMagnitudeAdd(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeAdd_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector3@,Vector3@)
   name.vb: SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4@,Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.SqrMagnitudeAdd(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.SqrMagnitudeAdd(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector4@,Vector4@)
   name: SqrMagnitudeAdd(Vector4, Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeAdd_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector4@,Vector4@)
   name.vb: SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.SqrMagnitudeAdd(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd*
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtils.SqrMagnitudeAdd(Vector4, Vector4)
+  nameWithType.vb: VectorUtils.SqrMagnitudeAdd(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd*
   name: SqrMagnitudeAdd
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeAdd_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeAdd_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeAdd
-  nameWithType: VectorUtility.SqrMagnitudeAdd
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2@,Vector2@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeAdd
+  nameWithType: VectorUtils.SqrMagnitudeAdd
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector2@,Vector2@)
   name: SqrMagnitudeSub(Vector2, Vector2)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector2__Vector2__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2@,Vector2@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeSub_Vector2__Vector2__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector2@,Vector2@)
   name.vb: SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector2, Vector2)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-  nameWithType: VectorUtility.SqrMagnitudeSub(Vector2, Vector2)
-  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3@,Vector3@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+  nameWithType: VectorUtils.SqrMagnitudeSub(Vector2, Vector2)
+  nameWithType.vb: VectorUtils.SqrMagnitudeSub(ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector3@,Vector3@)
   name: SqrMagnitudeSub(Vector3, Vector3)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector3__Vector3__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3@,Vector3@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeSub_Vector3__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector3@,Vector3@)
   name.vb: SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector3, Vector3)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-  nameWithType: VectorUtility.SqrMagnitudeSub(Vector3, Vector3)
-  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4@,Vector4@)
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+  nameWithType: VectorUtils.SqrMagnitudeSub(Vector3, Vector3)
+  nameWithType.vb: VectorUtils.SqrMagnitudeSub(ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector4@,Vector4@)
   name: SqrMagnitudeSub(Vector4, Vector4)
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_Vector4__Vector4__
-  commentId: M:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4@,Vector4@)
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeSub_Vector4__Vector4__
+  commentId: M:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector4@,Vector4@)
   name.vb: SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(Vector4, Vector4)
-  fullName.vb: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-  nameWithType: VectorUtility.SqrMagnitudeSub(Vector4, Vector4)
-  nameWithType.vb: VectorUtility.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
-- uid: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub*
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(Vector4, Vector4)
+  fullName.vb: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+  nameWithType: VectorUtils.SqrMagnitudeSub(Vector4, Vector4)
+  nameWithType.vb: VectorUtils.SqrMagnitudeSub(ByRef Vector4, ByRef Vector4)
+- uid: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub*
   name: SqrMagnitudeSub
-  href: api/NomUtils.Math.Vectors.VectorUtility.html#NomUtils_Math_Vectors_VectorUtility_SqrMagnitudeSub_
-  commentId: Overload:NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub
+  href: api/NomUtils.Math.Vectors.VectorUtils.html#NomUtils_Math_Vectors_VectorUtils_SqrMagnitudeSub_
+  commentId: Overload:NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub
   isSpec: "True"
-  fullName: NomUtils.Math.Vectors.VectorUtility.SqrMagnitudeSub
-  nameWithType: VectorUtility.SqrMagnitudeSub
+  fullName: NomUtils.Math.Vectors.VectorUtils.SqrMagnitudeSub
+  nameWithType: VectorUtils.SqrMagnitudeSub
 - uid: NomUtils.Unity
   name: NomUtils.Unity
   href: api/NomUtils.Unity.html
   commentId: N:NomUtils.Unity
   fullName: NomUtils.Unity
   nameWithType: NomUtils.Unity
-- uid: NomUtils.Unity.AudioUtility
-  name: AudioUtility
-  href: api/NomUtils.Unity.AudioUtility.html
-  commentId: T:NomUtils.Unity.AudioUtility
-  fullName: NomUtils.Unity.AudioUtility
-  nameWithType: AudioUtility
-- uid: NomUtils.Unity.AudioUtility.FrequencyToIndex(System.Single,System.Int32)
+- uid: NomUtils.Unity.ArrayUtils
+  name: ArrayUtils
+  href: api/NomUtils.Unity.ArrayUtils.html
+  commentId: T:NomUtils.Unity.ArrayUtils
+  fullName: NomUtils.Unity.ArrayUtils
+  nameWithType: ArrayUtils
+- uid: NomUtils.Unity.AudioUtils
+  name: AudioUtils
+  href: api/NomUtils.Unity.AudioUtils.html
+  commentId: T:NomUtils.Unity.AudioUtils
+  fullName: NomUtils.Unity.AudioUtils
+  nameWithType: AudioUtils
+- uid: NomUtils.Unity.AudioUtils.FrequencyToIndex(System.Single,System.Int32)
   name: FrequencyToIndex(Single, Int32)
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_FrequencyToIndex_System_Single_System_Int32_
-  commentId: M:NomUtils.Unity.AudioUtility.FrequencyToIndex(System.Single,System.Int32)
-  fullName: NomUtils.Unity.AudioUtility.FrequencyToIndex(System.Single, System.Int32)
-  nameWithType: AudioUtility.FrequencyToIndex(Single, Int32)
-- uid: NomUtils.Unity.AudioUtility.FrequencyToIndex*
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_FrequencyToIndex_System_Single_System_Int32_
+  commentId: M:NomUtils.Unity.AudioUtils.FrequencyToIndex(System.Single,System.Int32)
+  fullName: NomUtils.Unity.AudioUtils.FrequencyToIndex(System.Single, System.Int32)
+  nameWithType: AudioUtils.FrequencyToIndex(Single, Int32)
+- uid: NomUtils.Unity.AudioUtils.FrequencyToIndex*
   name: FrequencyToIndex
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_FrequencyToIndex_
-  commentId: Overload:NomUtils.Unity.AudioUtility.FrequencyToIndex
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_FrequencyToIndex_
+  commentId: Overload:NomUtils.Unity.AudioUtils.FrequencyToIndex
   isSpec: "True"
-  fullName: NomUtils.Unity.AudioUtility.FrequencyToIndex
-  nameWithType: AudioUtility.FrequencyToIndex
-- uid: NomUtils.Unity.AudioUtility.GenerateHertzRange(System.UInt32,System.UInt32,System.UInt32)
+  fullName: NomUtils.Unity.AudioUtils.FrequencyToIndex
+  nameWithType: AudioUtils.FrequencyToIndex
+- uid: NomUtils.Unity.AudioUtils.GenerateHertzRange(System.UInt32,System.UInt32,System.UInt32)
   name: GenerateHertzRange(UInt32, UInt32, UInt32)
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_GenerateHertzRange_System_UInt32_System_UInt32_System_UInt32_
-  commentId: M:NomUtils.Unity.AudioUtility.GenerateHertzRange(System.UInt32,System.UInt32,System.UInt32)
-  fullName: NomUtils.Unity.AudioUtility.GenerateHertzRange(System.UInt32, System.UInt32, System.UInt32)
-  nameWithType: AudioUtility.GenerateHertzRange(UInt32, UInt32, UInt32)
-- uid: NomUtils.Unity.AudioUtility.GenerateHertzRange*
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_GenerateHertzRange_System_UInt32_System_UInt32_System_UInt32_
+  commentId: M:NomUtils.Unity.AudioUtils.GenerateHertzRange(System.UInt32,System.UInt32,System.UInt32)
+  fullName: NomUtils.Unity.AudioUtils.GenerateHertzRange(System.UInt32, System.UInt32, System.UInt32)
+  nameWithType: AudioUtils.GenerateHertzRange(UInt32, UInt32, UInt32)
+- uid: NomUtils.Unity.AudioUtils.GenerateHertzRange*
   name: GenerateHertzRange
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_GenerateHertzRange_
-  commentId: Overload:NomUtils.Unity.AudioUtility.GenerateHertzRange
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_GenerateHertzRange_
+  commentId: Overload:NomUtils.Unity.AudioUtils.GenerateHertzRange
   isSpec: "True"
-  fullName: NomUtils.Unity.AudioUtility.GenerateHertzRange
-  nameWithType: AudioUtility.GenerateHertzRange
-- uid: NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc(System.Single[],System.UInt32,System.UInt32)
+  fullName: NomUtils.Unity.AudioUtils.GenerateHertzRange
+  nameWithType: AudioUtils.GenerateHertzRange
+- uid: NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc(System.Single[],System.UInt32,System.UInt32)
   name: GenerateHertzRangeNonAlloc(Single[], UInt32, UInt32)
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_GenerateHertzRangeNonAlloc_System_Single___System_UInt32_System_UInt32_
-  commentId: M:NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc(System.Single[],System.UInt32,System.UInt32)
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_GenerateHertzRangeNonAlloc_System_Single___System_UInt32_System_UInt32_
+  commentId: M:NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc(System.Single[],System.UInt32,System.UInt32)
   name.vb: GenerateHertzRangeNonAlloc(Single(), UInt32, UInt32)
-  fullName: NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc(System.Single[], System.UInt32, System.UInt32)
-  fullName.vb: NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc(System.Single(), System.UInt32, System.UInt32)
-  nameWithType: AudioUtility.GenerateHertzRangeNonAlloc(Single[], UInt32, UInt32)
-  nameWithType.vb: AudioUtility.GenerateHertzRangeNonAlloc(Single(), UInt32, UInt32)
-- uid: NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc*
+  fullName: NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc(System.Single[], System.UInt32, System.UInt32)
+  fullName.vb: NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc(System.Single(), System.UInt32, System.UInt32)
+  nameWithType: AudioUtils.GenerateHertzRangeNonAlloc(Single[], UInt32, UInt32)
+  nameWithType.vb: AudioUtils.GenerateHertzRangeNonAlloc(Single(), UInt32, UInt32)
+- uid: NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc*
   name: GenerateHertzRangeNonAlloc
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_GenerateHertzRangeNonAlloc_
-  commentId: Overload:NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_GenerateHertzRangeNonAlloc_
+  commentId: Overload:NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc
   isSpec: "True"
-  fullName: NomUtils.Unity.AudioUtility.GenerateHertzRangeNonAlloc
-  nameWithType: AudioUtility.GenerateHertzRangeNonAlloc
-- uid: NomUtils.Unity.AudioUtility.IndexToFrequency(System.Single,System.Int32)
+  fullName: NomUtils.Unity.AudioUtils.GenerateHertzRangeNonAlloc
+  nameWithType: AudioUtils.GenerateHertzRangeNonAlloc
+- uid: NomUtils.Unity.AudioUtils.IndexToFrequency(System.Single,System.Int32)
   name: IndexToFrequency(Single, Int32)
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_IndexToFrequency_System_Single_System_Int32_
-  commentId: M:NomUtils.Unity.AudioUtility.IndexToFrequency(System.Single,System.Int32)
-  fullName: NomUtils.Unity.AudioUtility.IndexToFrequency(System.Single, System.Int32)
-  nameWithType: AudioUtility.IndexToFrequency(Single, Int32)
-- uid: NomUtils.Unity.AudioUtility.IndexToFrequency*
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_IndexToFrequency_System_Single_System_Int32_
+  commentId: M:NomUtils.Unity.AudioUtils.IndexToFrequency(System.Single,System.Int32)
+  fullName: NomUtils.Unity.AudioUtils.IndexToFrequency(System.Single, System.Int32)
+  nameWithType: AudioUtils.IndexToFrequency(Single, Int32)
+- uid: NomUtils.Unity.AudioUtils.IndexToFrequency*
   name: IndexToFrequency
-  href: api/NomUtils.Unity.AudioUtility.html#NomUtils_Unity_AudioUtility_IndexToFrequency_
-  commentId: Overload:NomUtils.Unity.AudioUtility.IndexToFrequency
+  href: api/NomUtils.Unity.AudioUtils.html#NomUtils_Unity_AudioUtils_IndexToFrequency_
+  commentId: Overload:NomUtils.Unity.AudioUtils.IndexToFrequency
   isSpec: "True"
-  fullName: NomUtils.Unity.AudioUtility.IndexToFrequency
-  nameWithType: AudioUtility.IndexToFrequency
-- uid: NomUtils.Unity.ColorUtility
-  name: ColorUtility
-  href: api/NomUtils.Unity.ColorUtility.html
-  commentId: T:NomUtils.Unity.ColorUtility
-  fullName: NomUtils.Unity.ColorUtility
-  nameWithType: ColorUtility
-- uid: NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color,Color)
+  fullName: NomUtils.Unity.AudioUtils.IndexToFrequency
+  nameWithType: AudioUtils.IndexToFrequency
+- uid: NomUtils.Unity.ColorUtils
+  name: ColorUtils
+  href: api/NomUtils.Unity.ColorUtils.html
+  commentId: T:NomUtils.Unity.ColorUtils
+  fullName: NomUtils.Unity.ColorUtils
+  nameWithType: ColorUtils
+- uid: NomUtils.Unity.ColorUtils.GetEuclideanDistance(Color,Color)
   name: GetEuclideanDistance(Color, Color)
-  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_GetEuclideanDistance_Color_Color_
-  commentId: M:NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color,Color)
-  fullName: NomUtils.Unity.ColorUtility.GetEuclideanDistance(Color, Color)
-  nameWithType: ColorUtility.GetEuclideanDistance(Color, Color)
-- uid: NomUtils.Unity.ColorUtility.GetEuclideanDistance*
+  href: api/NomUtils.Unity.ColorUtils.html#NomUtils_Unity_ColorUtils_GetEuclideanDistance_Color_Color_
+  commentId: M:NomUtils.Unity.ColorUtils.GetEuclideanDistance(Color,Color)
+  fullName: NomUtils.Unity.ColorUtils.GetEuclideanDistance(Color, Color)
+  nameWithType: ColorUtils.GetEuclideanDistance(Color, Color)
+- uid: NomUtils.Unity.ColorUtils.GetEuclideanDistance*
   name: GetEuclideanDistance
-  href: api/NomUtils.Unity.ColorUtility.html#NomUtils_Unity_ColorUtility_GetEuclideanDistance_
-  commentId: Overload:NomUtils.Unity.ColorUtility.GetEuclideanDistance
+  href: api/NomUtils.Unity.ColorUtils.html#NomUtils_Unity_ColorUtils_GetEuclideanDistance_
+  commentId: Overload:NomUtils.Unity.ColorUtils.GetEuclideanDistance
   isSpec: "True"
-  fullName: NomUtils.Unity.ColorUtility.GetEuclideanDistance
-  nameWithType: ColorUtility.GetEuclideanDistance
-- uid: NomUtils.Unity.LayerMaskUtility
-  name: LayerMaskUtility
-  href: api/NomUtils.Unity.LayerMaskUtility.html
-  commentId: T:NomUtils.Unity.LayerMaskUtility
-  fullName: NomUtils.Unity.LayerMaskUtility
-  nameWithType: LayerMaskUtility
-- uid: NomUtils.Unity.LayerMaskUtility.GetIndex(LayerMask)
+  fullName: NomUtils.Unity.ColorUtils.GetEuclideanDistance
+  nameWithType: ColorUtils.GetEuclideanDistance
+- uid: NomUtils.Unity.LayerMaskUtils
+  name: LayerMaskUtils
+  href: api/NomUtils.Unity.LayerMaskUtils.html
+  commentId: T:NomUtils.Unity.LayerMaskUtils
+  fullName: NomUtils.Unity.LayerMaskUtils
+  nameWithType: LayerMaskUtils
+- uid: NomUtils.Unity.LayerMaskUtils.GetIndex(LayerMask)
   name: GetIndex(LayerMask)
-  href: api/NomUtils.Unity.LayerMaskUtility.html#NomUtils_Unity_LayerMaskUtility_GetIndex_LayerMask_
-  commentId: M:NomUtils.Unity.LayerMaskUtility.GetIndex(LayerMask)
-  fullName: NomUtils.Unity.LayerMaskUtility.GetIndex(LayerMask)
-  nameWithType: LayerMaskUtility.GetIndex(LayerMask)
-- uid: NomUtils.Unity.LayerMaskUtility.GetIndex*
+  href: api/NomUtils.Unity.LayerMaskUtils.html#NomUtils_Unity_LayerMaskUtils_GetIndex_LayerMask_
+  commentId: M:NomUtils.Unity.LayerMaskUtils.GetIndex(LayerMask)
+  fullName: NomUtils.Unity.LayerMaskUtils.GetIndex(LayerMask)
+  nameWithType: LayerMaskUtils.GetIndex(LayerMask)
+- uid: NomUtils.Unity.LayerMaskUtils.GetIndex*
   name: GetIndex
-  href: api/NomUtils.Unity.LayerMaskUtility.html#NomUtils_Unity_LayerMaskUtility_GetIndex_
-  commentId: Overload:NomUtils.Unity.LayerMaskUtility.GetIndex
+  href: api/NomUtils.Unity.LayerMaskUtils.html#NomUtils_Unity_LayerMaskUtils_GetIndex_
+  commentId: Overload:NomUtils.Unity.LayerMaskUtils.GetIndex
   isSpec: "True"
-  fullName: NomUtils.Unity.LayerMaskUtility.GetIndex
-  nameWithType: LayerMaskUtility.GetIndex
+  fullName: NomUtils.Unity.LayerMaskUtils.GetIndex
+  nameWithType: LayerMaskUtils.GetIndex
 - uid: NomUtils.Unity.MainThread
   name: MainThread
   href: api/NomUtils.Unity.MainThread.html
@@ -2649,11 +3032,11 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.MainThread.QueueCoroutine
   nameWithType: MainThread.QueueCoroutine
-- uid: NomUtils.Unity.MainThread.QueueTask(Action)
+- uid: NomUtils.Unity.MainThread.QueueTask(System.Action)
   name: QueueTask(Action)
-  href: api/NomUtils.Unity.MainThread.html#NomUtils_Unity_MainThread_QueueTask_Action_
-  commentId: M:NomUtils.Unity.MainThread.QueueTask(Action)
-  fullName: NomUtils.Unity.MainThread.QueueTask(Action)
+  href: api/NomUtils.Unity.MainThread.html#NomUtils_Unity_MainThread_QueueTask_System_Action_
+  commentId: M:NomUtils.Unity.MainThread.QueueTask(System.Action)
+  fullName: NomUtils.Unity.MainThread.QueueTask(System.Action)
   nameWithType: MainThread.QueueTask(Action)
 - uid: NomUtils.Unity.MainThread.QueueTask*
   name: QueueTask
@@ -2662,76 +3045,76 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.MainThread.QueueTask
   nameWithType: MainThread.QueueTask
-- uid: NomUtils.Unity.TextureUtility
-  name: TextureUtility
-  href: api/NomUtils.Unity.TextureUtility.html
-  commentId: T:NomUtils.Unity.TextureUtility
-  fullName: NomUtils.Unity.TextureUtility
-  nameWithType: TextureUtility
-- uid: NomUtils.Unity.TextureUtility.GenerateCurveTexture(AnimationCurve,System.UInt32,System.Boolean)
+- uid: NomUtils.Unity.TextureUtils
+  name: TextureUtils
+  href: api/NomUtils.Unity.TextureUtils.html
+  commentId: T:NomUtils.Unity.TextureUtils
+  fullName: NomUtils.Unity.TextureUtils
+  nameWithType: TextureUtils
+- uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture(AnimationCurve,System.UInt32,System.Boolean)
   name: GenerateCurveTexture(AnimationCurve, UInt32, Boolean)
-  href: api/NomUtils.Unity.TextureUtility.html#NomUtils_Unity_TextureUtility_GenerateCurveTexture_AnimationCurve_System_UInt32_System_Boolean_
-  commentId: M:NomUtils.Unity.TextureUtility.GenerateCurveTexture(AnimationCurve,System.UInt32,System.Boolean)
-  fullName: NomUtils.Unity.TextureUtility.GenerateCurveTexture(AnimationCurve, System.UInt32, System.Boolean)
-  nameWithType: TextureUtility.GenerateCurveTexture(AnimationCurve, UInt32, Boolean)
-- uid: NomUtils.Unity.TextureUtility.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateCurveTexture_AnimationCurve_System_UInt32_System_Boolean_
+  commentId: M:NomUtils.Unity.TextureUtils.GenerateCurveTexture(AnimationCurve,System.UInt32,System.Boolean)
+  fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture(AnimationCurve, System.UInt32, System.Boolean)
+  nameWithType: TextureUtils.GenerateCurveTexture(AnimationCurve, UInt32, Boolean)
+- uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
   name: GenerateCurveTexture(List<AnimationCurve>, UInt32, Boolean)
-  href: api/NomUtils.Unity.TextureUtility.html#NomUtils_Unity_TextureUtility_GenerateCurveTexture_List_AnimationCurve__System_UInt32_System_Boolean_
-  commentId: M:NomUtils.Unity.TextureUtility.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateCurveTexture_List_AnimationCurve__System_UInt32_System_Boolean_
+  commentId: M:NomUtils.Unity.TextureUtils.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
   name.vb: GenerateCurveTexture(List(Of AnimationCurve), UInt32, Boolean)
-  fullName: NomUtils.Unity.TextureUtility.GenerateCurveTexture(List<AnimationCurve>, System.UInt32, System.Boolean)
-  fullName.vb: NomUtils.Unity.TextureUtility.GenerateCurveTexture(List(Of AnimationCurve), System.UInt32, System.Boolean)
-  nameWithType: TextureUtility.GenerateCurveTexture(List<AnimationCurve>, UInt32, Boolean)
-  nameWithType.vb: TextureUtility.GenerateCurveTexture(List(Of AnimationCurve), UInt32, Boolean)
-- uid: NomUtils.Unity.TextureUtility.GenerateCurveTexture*
+  fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List<AnimationCurve>, System.UInt32, System.Boolean)
+  fullName.vb: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List(Of AnimationCurve), System.UInt32, System.Boolean)
+  nameWithType: TextureUtils.GenerateCurveTexture(List<AnimationCurve>, UInt32, Boolean)
+  nameWithType.vb: TextureUtils.GenerateCurveTexture(List(Of AnimationCurve), UInt32, Boolean)
+- uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture*
   name: GenerateCurveTexture
-  href: api/NomUtils.Unity.TextureUtility.html#NomUtils_Unity_TextureUtility_GenerateCurveTexture_
-  commentId: Overload:NomUtils.Unity.TextureUtility.GenerateCurveTexture
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateCurveTexture_
+  commentId: Overload:NomUtils.Unity.TextureUtils.GenerateCurveTexture
   isSpec: "True"
-  fullName: NomUtils.Unity.TextureUtility.GenerateCurveTexture
-  nameWithType: TextureUtility.GenerateCurveTexture
-- uid: NomUtils.Unity.TextureUtility.GenerateGradientTexture(Gradient,System.UInt32,System.Boolean)
+  fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture
+  nameWithType: TextureUtils.GenerateCurveTexture
+- uid: NomUtils.Unity.TextureUtils.GenerateGradientTexture(Gradient,System.UInt32,System.Boolean)
   name: GenerateGradientTexture(Gradient, UInt32, Boolean)
-  href: api/NomUtils.Unity.TextureUtility.html#NomUtils_Unity_TextureUtility_GenerateGradientTexture_Gradient_System_UInt32_System_Boolean_
-  commentId: M:NomUtils.Unity.TextureUtility.GenerateGradientTexture(Gradient,System.UInt32,System.Boolean)
-  fullName: NomUtils.Unity.TextureUtility.GenerateGradientTexture(Gradient, System.UInt32, System.Boolean)
-  nameWithType: TextureUtility.GenerateGradientTexture(Gradient, UInt32, Boolean)
-- uid: NomUtils.Unity.TextureUtility.GenerateGradientTexture*
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateGradientTexture_Gradient_System_UInt32_System_Boolean_
+  commentId: M:NomUtils.Unity.TextureUtils.GenerateGradientTexture(Gradient,System.UInt32,System.Boolean)
+  fullName: NomUtils.Unity.TextureUtils.GenerateGradientTexture(Gradient, System.UInt32, System.Boolean)
+  nameWithType: TextureUtils.GenerateGradientTexture(Gradient, UInt32, Boolean)
+- uid: NomUtils.Unity.TextureUtils.GenerateGradientTexture*
   name: GenerateGradientTexture
-  href: api/NomUtils.Unity.TextureUtility.html#NomUtils_Unity_TextureUtility_GenerateGradientTexture_
-  commentId: Overload:NomUtils.Unity.TextureUtility.GenerateGradientTexture
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateGradientTexture_
+  commentId: Overload:NomUtils.Unity.TextureUtils.GenerateGradientTexture
   isSpec: "True"
-  fullName: NomUtils.Unity.TextureUtility.GenerateGradientTexture
-  nameWithType: TextureUtility.GenerateGradientTexture
-- uid: NomUtils.Unity.TransformUtility
-  name: TransformUtility
-  href: api/NomUtils.Unity.TransformUtility.html
-  commentId: T:NomUtils.Unity.TransformUtility
-  fullName: NomUtils.Unity.TransformUtility
-  nameWithType: TransformUtility
-- uid: NomUtils.Unity.TransformUtility.CleanChildren(Transform)
+  fullName: NomUtils.Unity.TextureUtils.GenerateGradientTexture
+  nameWithType: TextureUtils.GenerateGradientTexture
+- uid: NomUtils.Unity.TransformUtils
+  name: TransformUtils
+  href: api/NomUtils.Unity.TransformUtils.html
+  commentId: T:NomUtils.Unity.TransformUtils
+  fullName: NomUtils.Unity.TransformUtils
+  nameWithType: TransformUtils
+- uid: NomUtils.Unity.TransformUtils.CleanChildren(Transform)
   name: CleanChildren(Transform)
-  href: api/NomUtils.Unity.TransformUtility.html#NomUtils_Unity_TransformUtility_CleanChildren_Transform_
-  commentId: M:NomUtils.Unity.TransformUtility.CleanChildren(Transform)
-  fullName: NomUtils.Unity.TransformUtility.CleanChildren(Transform)
-  nameWithType: TransformUtility.CleanChildren(Transform)
-- uid: NomUtils.Unity.TransformUtility.CleanChildren*
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_CleanChildren_Transform_
+  commentId: M:NomUtils.Unity.TransformUtils.CleanChildren(Transform)
+  fullName: NomUtils.Unity.TransformUtils.CleanChildren(Transform)
+  nameWithType: TransformUtils.CleanChildren(Transform)
+- uid: NomUtils.Unity.TransformUtils.CleanChildren*
   name: CleanChildren
-  href: api/NomUtils.Unity.TransformUtility.html#NomUtils_Unity_TransformUtility_CleanChildren_
-  commentId: Overload:NomUtils.Unity.TransformUtility.CleanChildren
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_CleanChildren_
+  commentId: Overload:NomUtils.Unity.TransformUtils.CleanChildren
   isSpec: "True"
-  fullName: NomUtils.Unity.TransformUtility.CleanChildren
-  nameWithType: TransformUtility.CleanChildren
-- uid: NomUtils.Unity.TransformUtility.CleanChildrenImmediate(Transform)
+  fullName: NomUtils.Unity.TransformUtils.CleanChildren
+  nameWithType: TransformUtils.CleanChildren
+- uid: NomUtils.Unity.TransformUtils.CleanChildrenImmediate(Transform)
   name: CleanChildrenImmediate(Transform)
-  href: api/NomUtils.Unity.TransformUtility.html#NomUtils_Unity_TransformUtility_CleanChildrenImmediate_Transform_
-  commentId: M:NomUtils.Unity.TransformUtility.CleanChildrenImmediate(Transform)
-  fullName: NomUtils.Unity.TransformUtility.CleanChildrenImmediate(Transform)
-  nameWithType: TransformUtility.CleanChildrenImmediate(Transform)
-- uid: NomUtils.Unity.TransformUtility.CleanChildrenImmediate*
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_CleanChildrenImmediate_Transform_
+  commentId: M:NomUtils.Unity.TransformUtils.CleanChildrenImmediate(Transform)
+  fullName: NomUtils.Unity.TransformUtils.CleanChildrenImmediate(Transform)
+  nameWithType: TransformUtils.CleanChildrenImmediate(Transform)
+- uid: NomUtils.Unity.TransformUtils.CleanChildrenImmediate*
   name: CleanChildrenImmediate
-  href: api/NomUtils.Unity.TransformUtility.html#NomUtils_Unity_TransformUtility_CleanChildrenImmediate_
-  commentId: Overload:NomUtils.Unity.TransformUtility.CleanChildrenImmediate
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_CleanChildrenImmediate_
+  commentId: Overload:NomUtils.Unity.TransformUtils.CleanChildrenImmediate
   isSpec: "True"
-  fullName: NomUtils.Unity.TransformUtility.CleanChildrenImmediate
-  nameWithType: TransformUtility.CleanChildrenImmediate
+  fullName: NomUtils.Unity.TransformUtils.CleanChildrenImmediate
+  nameWithType: TransformUtils.CleanChildrenImmediate

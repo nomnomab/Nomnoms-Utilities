@@ -69,8 +69,69 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="changelog">Changelog</h1>
 
-<h2 id="001---05-25-2021">[0.0.1] - 05-25-2021</h2>
+<h2 id="002---05-27-2021">[0.0.2] - 05-27-2021</h2>
 <h3 id="added">Added</h3>
+<ul>
+<li>Vector utilities
+<ul>
+<li><code>VectorUtility.Approximately</code></li>
+<li><code>TrigOps.GetSlopeFromDirection</code></li>
+<li><code>TrigOps.GetYIntercept</code></li>
+<li><code>TrigOps.GetMissingSide</code></li>
+<li><code>TrigOps.InvertLog</code></li>
+<li><code>TrigOps.InvertLog10</code></li>
+</ul>
+</li>
+<li>Line utilities
+<ul>
+<li><code>Line.IntersectionPointInfinite</code></li>
+<li><code>Line.ClosestPoints</code></li>
+</ul>
+</li>
+<li>Gizmos
+<ul>
+<li><code>MoreGizmos.DrawInfiniteLine</code> - 3D variant</li>
+<li><code>MoreGizmos.DrawWireTriangle</code> - 3-point variant</li>
+<li><code>MoreGizmos.DrawWireTriangle</code> - 3D variant</li>
+<li><code>MoreGizmos.DrawWirePyramid</code></li>
+</ul>
+</li>
+<li>Raw API bindings
+<ul>
+<li><code>WindowsAPI</code> - Deals with handling <code>user32.dll</code> internal method bindings.
+<ul>
+<li><code>WindowsAPI.WindowsCursor: enum</code></li>
+<li><code>WindowsAPI.WindowStyles: enum</code></li>
+<li><code>WindowsAPI.ShowWindowType: enum</code></li>
+<li><code>WindowsAPI.WindowsRect: struct</code></li>
+<li><code>WindowsAPI.SetFramelessWindow</code></li>
+<li><code>WindowsAPI.SetFramedWindow</code></li>
+<li><code>WindowsAPI.ShowWindow</code></li>
+<li><code>WindowsAPI.MinimizeWindow</code></li>
+<li><code>WindowsAPI.MaximizeWindow</code></li>
+<li><code>WindowsAPI.RestoreWindow</code></li>
+<li><code>WindowsAPI.MoveWindowPos</code></li>
+<li><code>WindowsAPI.SetHandCursor</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>All types that ended in <code>Utility</code> were changed to <code>Utils</code></li>
+<li>Moved
+<ul>
+<li><code>Curves.Line</code> to <code>Shapes.Line</code></li>
+<li><code>Triangle.GetHypotenuse</code> to <code>TrigOps.GetHypotenuse</code></li>
+<li><code>Triangle.GetSlope</code> to <code>TrigOps.GetSlope</code></li>
+<li><code>Triangle.GetAngle</code> to <code>TrigOps.GetAngle</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="001---05-25-2021">[0.0.1] - 05-25-2021</h2>
+<h3 id="added-1">Added</h3>
 <ul>
 <li>Changelog</li>
 <li>Docs</li>
@@ -83,7 +144,7 @@
 <li><code>VectorOps.SubtractRef</code></li>
 </ul>
 </li>
-<li>Line operators
+<li>Line utilities
 <ul>
 <li><code>Line.ClosestPoint</code></li>
 <li><code>Line.ClosestPointInfinite</code></li>
@@ -112,7 +173,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="changed">Changed</h3>
+<h3 id="changed-1">Changed</h3>
 <ul>
 <li>Namings
 <ul>

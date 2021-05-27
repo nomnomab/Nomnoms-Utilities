@@ -10,6 +10,24 @@ namespace NomUtils.Math.Curves {
 		/// <param name="p2">Arc puller 2</param>
 		/// <param name="p3">The end point</param>
 		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePoint(in Vector2 p0, in Vector2 p1, in Vector2 p2, in Vector2 p3, float t) {
+			float oneMinusT = 1 - t;
+			Vector2 quadraticP0P1P2 = BezierQuadratic.SamplePoint(in p0, in p1, in p2, t);
+			Vector2 quadraticP1P2P3 = BezierQuadratic.SamplePoint(in p1, in p2, in p3, t);
+
+			return new Vector3(
+				oneMinusT * quadraticP0P1P2.x + t * quadraticP1P2P3.x,
+				oneMinusT * quadraticP0P1P2.y + t * quadraticP1P2P3.y);
+		}
+		
+		/// <summary>
+		/// Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".
+		/// </summary>
+		/// <param name="p0">The starting point</param>
+		/// <param name="p1">Arc puller 1</param>
+		/// <param name="p2">Arc puller 2</param>
+		/// <param name="p3">The end point</param>
+		/// <param name="t">Time, from 0f to 1f</param>
 		public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, in Vector3 p2, in Vector3 p3, float t) {
 			float oneMinusT = 1 - t;
 			Vector3 quadraticP0P1P2 = BezierQuadratic.SamplePoint(in p0, in p1, in p2, t);
@@ -19,6 +37,29 @@ namespace NomUtils.Math.Curves {
 				oneMinusT * quadraticP0P1P2.x + t * quadraticP1P2P3.x,
 				oneMinusT * quadraticP0P1P2.y + t * quadraticP1P2P3.y,
 				oneMinusT * quadraticP0P1P2.z + t * quadraticP1P2P3.z);
+		}
+		
+		/// <summary>
+		/// Samples a point along a cubic curve between p0 and p3, using p1 and p2 as the "arc pullers".
+		/// <br></br><br></br>
+		/// Uses an explicit equation instead of using <i>BezierQuadratic.SamplePoint</i> twice.
+		/// </summary>
+		/// <param name="p0">The starting point</param>
+		/// <param name="p1">Arc puller 1</param>
+		/// <param name="p2">Arc puller 2</param>
+		/// <param name="p3">The end point</param>
+		/// <param name="t">Time, from 0f to 1f</param>
+		public static Vector3 SamplePointExplicit(in Vector2 p0, in Vector2 p1, in Vector2 p2, in Vector2 p3, float t) {
+			float oneMinusT = 1 - t;
+			float oneMinusTSqrMul3MulT = 3 * oneMinusT * oneMinusT * t;
+			float oneMinusTCube = oneMinusT * oneMinusT * oneMinusT;
+			float tSqr = t * t;
+			float tCube = t * t * t;
+			float oneMinusTMulTSqrMul3 = oneMinusT * tSqr * 3;
+
+			return new Vector3(
+				oneMinusTCube * p0.x + oneMinusTSqrMul3MulT * p1.x + oneMinusTMulTSqrMul3 * p2.x + tCube * p3.x,
+				oneMinusTCube * p0.y + oneMinusTSqrMul3MulT * p1.y + oneMinusTMulTSqrMul3 * p2.y + tCube * p3.y);
 		}
 		
 		/// <summary>

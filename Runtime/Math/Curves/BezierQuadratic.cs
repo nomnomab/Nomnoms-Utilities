@@ -14,6 +14,24 @@ namespace NomUtils.Math.Curves {
 		/// <param name="p1">The middle point; The arc "puller"</param>
 		/// <param name="p2">The end point</param>
 		/// /// <param name="t">Time, from 0f to 1f</param>
+		public static Vector2 SamplePoint(in Vector2 p0, in Vector2 p1, in Vector2 p2, float t) {
+			float oneMinusT = 1 - t;
+			float oneMinusTSqr = oneMinusT * oneMinusT;
+			float oneMinusTMulTMul2 = 2 * oneMinusT * t;
+			float tSqr = t * t;
+				
+			return new Vector2(
+				oneMinusTSqr * p0.x + oneMinusTMulTMul2 * p1.x + tSqr * p2.x,
+				oneMinusTSqr * p0.y + oneMinusTMulTMul2 * p1.y + tSqr * p2.y);
+		}
+		
+		/// <summary>
+		/// Samples a point along a bezier curve at time t.
+		/// </summary>
+		/// <param name="p0">The starting point</param>
+		/// <param name="p1">The middle point; The arc "puller"</param>
+		/// <param name="p2">The end point</param>
+		/// /// <param name="t">Time, from 0f to 1f</param>
 		public static Vector3 SamplePoint(in Vector3 p0, in Vector3 p1, in Vector3 p2, float t) {
 			float oneMinusT = 1 - t;
 			float oneMinusTSqr = oneMinusT * oneMinusT;

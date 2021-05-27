@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace NomUtils.Unity {
-	public static class LayerMaskUtility {
+	public static class LayerMaskUtils {
 		/// <summary>
 		/// Returns the index of the LayerMask. This expects a LayerMask of a single input index, not multiple.
 		/// </summary>

@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace NomUtils.Unity {
-	public static class ColorUtility {
+	public static class ColorUtils {
 		/// <summary>
 		/// Gets the distance between two colors in Euclidean space.
 		/// </summary>

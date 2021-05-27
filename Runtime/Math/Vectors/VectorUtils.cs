@@ -2,7 +2,22 @@
 using UnityEngine;
 
 namespace NomUtils.Math.Vectors {
-	public static class VectorUtility {
+	public static class VectorUtils {
+		/// <summary>
+		/// Approximates the likelihood of two vectors being close enough that they are essentially the "same".
+		/// </summary>
+		/// <param name="lhs"></param>
+		/// <param name="rhs"></param>
+		/// <returns></returns>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static bool Approximately(in Vector3 lhs, in Vector3 rhs) {
+			const float LOWER_BOUNDS = 9.99999943962493E-11f;
+			float x = lhs.x - rhs.x;
+			float y = lhs.y - rhs.y;
+			float z = lhs.z - rhs.z;
+			return x * x + y * y + z * z < LOWER_BOUNDS;
+		}
+	
 		/// <summary>
 		/// Gets a point between two vectors based on a percentage.
 		/// </summary>

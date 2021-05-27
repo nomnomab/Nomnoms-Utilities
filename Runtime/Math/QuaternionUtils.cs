@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace NomUtils.Math {
-	public static class QuaternionUtility {
+	public static class QuaternionUtils {
 		/// <summary>
 		/// Returns true if the provided Quaternion is within a precision range of the original.
 		/// </summary>
