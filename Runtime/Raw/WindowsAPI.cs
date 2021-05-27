@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using UnityEngine;
 
 namespace NomUtils.Raw {
 	public static class WindowsAPI {
@@ -348,6 +349,37 @@ namespace NomUtils.Raw {
 		/// </summary>
 		public static void SetCursor(WindowsCursor cursor) {
 			SetCursor(LoadCursor(IntPtr.Zero, (int) cursor));
+		}
+
+		/// <summary>
+		/// Gets the window position. Top-Left of the screen is (0, 0).
+		/// </summary>
+		/// <param name="position">Screen position</param>
+		/// <returns></returns>
+		public static bool GetWindowPosition(out Vector2Int position) {
+#if !UNITY_EDITOR
+			IntPtr hwnd = GetActiveWindow();
+			GetWindowRect(hwnd, out WindowsRect winRect);
+			position = new Vector2Int(winRect.left, winRect.top);
+			return true;
+#endif
+			position = default;
+			return false;
+		}
+		
+		/// <summary>
+		/// Gets the window rect. Top-Left of the screen is (0, 0).
+		/// </summary>
+		/// <param name="rect">Top, right, left, bottom values</param>
+		/// <returns></returns>
+		public static bool GetWindowRect(out WindowsRect rect) {
+#if !UNITY_EDITOR
+			IntPtr hwnd = GetActiveWindow();
+			GetWindowRect(hwnd, out rect);
+			return true;
+#endif
+			rect = default;
+			return false;
 		}
 	}
 }

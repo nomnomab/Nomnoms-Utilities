@@ -2725,6 +2725,38 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.Framed
   nameWithType: WindowsAPI.Framed
+- uid: NomUtils.Raw.WindowsAPI.GetWindowPosition(Vector2Int@)
+  name: GetWindowPosition(out Vector2Int)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowPosition_Vector2Int__
+  commentId: M:NomUtils.Raw.WindowsAPI.GetWindowPosition(Vector2Int@)
+  name.vb: GetWindowPosition(ByRef Vector2Int)
+  fullName: NomUtils.Raw.WindowsAPI.GetWindowPosition(out Vector2Int)
+  fullName.vb: NomUtils.Raw.WindowsAPI.GetWindowPosition(ByRef Vector2Int)
+  nameWithType: WindowsAPI.GetWindowPosition(out Vector2Int)
+  nameWithType.vb: WindowsAPI.GetWindowPosition(ByRef Vector2Int)
+- uid: NomUtils.Raw.WindowsAPI.GetWindowPosition*
+  name: GetWindowPosition
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowPosition_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.GetWindowPosition
+  isSpec: "True"
+  fullName: NomUtils.Raw.WindowsAPI.GetWindowPosition
+  nameWithType: WindowsAPI.GetWindowPosition
+- uid: NomUtils.Raw.WindowsAPI.GetWindowRect(NomUtils.Raw.WindowsAPI.WindowsRect@)
+  name: GetWindowRect(out WindowsAPI.WindowsRect)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowRect_NomUtils_Raw_WindowsAPI_WindowsRect__
+  commentId: M:NomUtils.Raw.WindowsAPI.GetWindowRect(NomUtils.Raw.WindowsAPI.WindowsRect@)
+  name.vb: GetWindowRect(ByRef WindowsAPI.WindowsRect)
+  fullName: NomUtils.Raw.WindowsAPI.GetWindowRect(out NomUtils.Raw.WindowsAPI.WindowsRect)
+  fullName.vb: NomUtils.Raw.WindowsAPI.GetWindowRect(ByRef NomUtils.Raw.WindowsAPI.WindowsRect)
+  nameWithType: WindowsAPI.GetWindowRect(out WindowsAPI.WindowsRect)
+  nameWithType.vb: WindowsAPI.GetWindowRect(ByRef WindowsAPI.WindowsRect)
+- uid: NomUtils.Raw.WindowsAPI.GetWindowRect*
+  name: GetWindowRect
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowRect_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.GetWindowRect
+  isSpec: "True"
+  fullName: NomUtils.Raw.WindowsAPI.GetWindowRect
+  nameWithType: WindowsAPI.GetWindowRect
 - uid: NomUtils.Raw.WindowsAPI.MaximizeWindow
   name: MaximizeWindow()
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MaximizeWindow
