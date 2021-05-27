@@ -251,6 +251,9 @@ namespace NomUtils.Raw {
 		[DllImport("user32.dll")]
 		private static extern IntPtr LoadCursor(IntPtr hInstance, int lpCursorName);
 
+		[DllImport("user32.dll")]
+		public static extern bool GetCursorPos(out Vector2Int lpPoint);
+		
 		/// <summary>
 		/// Removes the window's frame and titlebar. Removes resizing functionality.
 		/// </summary>

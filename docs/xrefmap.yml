@@ -2725,6 +2725,21 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.Framed
   nameWithType: WindowsAPI.Framed
+- uid: NomUtils.Raw.WindowsAPI.GetCursorPos(Vector2Int@)
+  name: GetCursorPos(out Vector2Int)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetCursorPos_Vector2Int__
+  commentId: M:NomUtils.Raw.WindowsAPI.GetCursorPos(Vector2Int@)
+  name.vb: GetCursorPos(ByRef Vector2Int)
+  fullName: NomUtils.Raw.WindowsAPI.GetCursorPos(out Vector2Int)
+  fullName.vb: NomUtils.Raw.WindowsAPI.GetCursorPos(ByRef Vector2Int)
+  nameWithType: WindowsAPI.GetCursorPos(out Vector2Int)
+  nameWithType.vb: WindowsAPI.GetCursorPos(ByRef Vector2Int)
+- uid: NomUtils.Raw.WindowsAPI.GetCursorPos*
+  name: GetCursorPos
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetCursorPos_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.GetCursorPos
+  fullName: NomUtils.Raw.WindowsAPI.GetCursorPos
+  nameWithType: WindowsAPI.GetCursorPos
 - uid: NomUtils.Raw.WindowsAPI.GetWindowPosition(Vector2Int@)
   name: GetWindowPosition(out Vector2Int)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowPosition_Vector2Int__
