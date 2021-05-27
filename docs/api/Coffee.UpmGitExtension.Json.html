@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MainThread
+    <title>Class Json
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MainThread
+    <meta name="title" content="Class Json
    ">
     <meta name="generator" content="docfx 2.57.2.0">
     
@@ -68,45 +68,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="NomUtils.Unity.MainThread">
+            <article class="content wrap" id="_content" data-uid="Coffee.UpmGitExtension.Json">
   
   
-  <h1 id="NomUtils_Unity_MainThread" data-uid="NomUtils.Unity.MainThread" class="text-break">Class MainThread
+  <h1 id="Coffee_UpmGitExtension_Json" data-uid="Coffee.UpmGitExtension.Json" class="text-break">Class Json
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This class encodes and decodes JSON strings.
+Spec. details, see <a href="http://www.json.org/">http://www.json.org/</a></p>
+<p>JSON uses Arrays and Objects. These correspond here to the datatypes IList and IDictionary.
+All numbers are parsed to doubles.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MainThread</span></div>
+    <div class="level1"><span class="xref">Json</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="NomUtils.Unity.html">NomUtils.Unity</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Coffee.UpmGitExtension.html">Coffee.UpmGitExtension</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="NomUtils_Unity_MainThread_syntax">Syntax</h5>
+  <h5 id="Coffee_UpmGitExtension_Json_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MainThread : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Json</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="NomUtils_Unity_MainThread_OnGameLoad_" data-uid="NomUtils.Unity.MainThread.OnGameLoad*"></a>
-  <h4 id="NomUtils_Unity_MainThread_OnGameLoad" data-uid="NomUtils.Unity.MainThread.OnGameLoad">OnGameLoad()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Coffee_UpmGitExtension_Json_Deserialize_" data-uid="Coffee.UpmGitExtension.Json.Deserialize*"></a>
+  <h4 id="Coffee_UpmGitExtension_Json_Deserialize_System_String_" data-uid="Coffee.UpmGitExtension.Json.Deserialize(System.String)">Deserialize(String)</h4>
+  <div class="markdown level1 summary"><p>Parses the string json into a value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void OnGameLoad()</code></pre>
-  </div>
-  
-  
-  <a id="NomUtils_Unity_MainThread_QueueCoroutine_" data-uid="NomUtils.Unity.MainThread.QueueCoroutine*"></a>
-  <h4 id="NomUtils_Unity_MainThread_QueueCoroutine_System_Collections_IEnumerator_" data-uid="NomUtils.Unity.MainThread.QueueCoroutine(System.Collections.IEnumerator)">QueueCoroutine(IEnumerator)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void QueueCoroutine(IEnumerator enumerator)</code></pre>
+    <pre><code class="lang-csharp hljs">public static object Deserialize(string json)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,21 +114,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
-        <td><span class="parametername">enumerator</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">json</span></td>
+        <td><p>A JSON string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>An List&lt;object&gt;, a Dictionary&lt;string, object&gt;, a double, an integer,a string, null, true, or false</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="NomUtils_Unity_MainThread_QueueTask_" data-uid="NomUtils.Unity.MainThread.QueueTask*"></a>
-  <h4 id="NomUtils_Unity_MainThread_QueueTask_System_Action_" data-uid="NomUtils.Unity.MainThread.QueueTask(System.Action)">QueueTask(Action)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Coffee_UpmGitExtension_Json_Serialize_" data-uid="Coffee.UpmGitExtension.Json.Serialize*"></a>
+  <h4 id="Coffee_UpmGitExtension_Json_Serialize_System_Object_System_Boolean_System_String_" data-uid="Coffee.UpmGitExtension.Json.Serialize(System.Object,System.Boolean,System.String)">Serialize(Object, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>Converts a IDictionary / IList object or a simple type (string, int, etc.) into a JSON string</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void QueueTask(Action action)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Serialize(object obj, bool pretty = false, string indentText = &quot;  &quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,9 +159,37 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">pretty</span></td>
+        <td><p>A boolean to indicate whether or not JSON should be prettified, default is false.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">indentText</span></td>
+        <td><p>A string to ibe used as indentText, default is 2 spaces.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A JSON encoded string, or null if object 'json' is not serializable</p>
+</td>
       </tr>
     </tbody>
   </table>

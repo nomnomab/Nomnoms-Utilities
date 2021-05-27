@@ -5,6 +5,30 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Coffee.UpmGitExtension.Json.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Coffee.UpmGitExtension.Json.html",
+          "hash": "W/DV5njd/tCnv8nCaSAdid0i19iW411YjE8NSGyyh2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Coffee.UpmGitExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Coffee.UpmGitExtension.html",
+          "hash": "p90dkvNWnRLIJiaXm5/cHOSKxo4rBJH2hJCF6X8OqqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.yml",
       "output": {
         ".html": {
@@ -29,11 +53,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Editor.MoreGUILayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Editor.MoreGUILayout.html",
+          "hash": "H2c4t+Ix4WNeCNU/V8aNzHqKwItfCjwKnYznPZkVSnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Editor.UpdateLaunchChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Editor.UpdateLaunchChecker.html",
+          "hash": "WiCqaEZD2Utvqa35KoYSb2gWsoRWjQBw3lCR2Spbbd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Editor.UpdateWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Editor.UpdateWindow.html",
+          "hash": "zsvn3H7aeFJJTBJNS6nE7trfDomwRr8pbauIm1gjUvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Editor.html",
-          "hash": "izq9ZkbVJN30YAPKl1zD7JhI3Z0X1Bu0uNsw59e5GxE="
+          "hash": "v3oRnEjyNokXUs1kADiwmrVMo1NX8r+OFbnEqxwHDss="
         }
       },
       "is_incremental": false,
@@ -417,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Unity.MainThread.html",
-          "hash": "W6YCSXIkEZVGm2/ssbEQL7kGHk0tNeMBzgEL3KgnIus="
+          "hash": "HWX00w1BWiUB4KA/UoUzFM8fClZRh99d8GE+zueCvmo="
         }
       },
       "is_incremental": false,
@@ -429,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.Unity.TextureUtils.html",
-          "hash": "1HRW4g/eCdwKqxc0Uek6EPkrd27nUWedFi5qk424Utc="
+          "hash": "ZcHTUHRjU0RYSDJk/e0+cD9nb/vJgI99EWlOoyaaKlg="
         }
       },
       "is_incremental": false,
@@ -465,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "gNk/bH+PrqjpI/v850t6Rx2+8Pd6Hjq7PHeb94h6GD4="
+          "hash": "sBcnpo9qIWqgDBndr46M5GCsiASk9vT36lTzxpAqYD8="
         }
       },
       "is_incremental": false,
@@ -477,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4o3vn7p7l0HC8MthGvxvlg+iMrhg5gnXaoxQjl52NIw="
+          "hash": "+dut4ISnkMkMjLb+RRmHgHcy9FUI44Ng8P6OELrus14="
         }
       },
       "is_incremental": false,
@@ -550,8 +610,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 38,
-          "skipped_file_count": 2
+          "total_file_count": 43,
+          "skipped_file_count": 8
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -1,6 +1,44 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Coffee.UpmGitExtension
+  name: Coffee.UpmGitExtension
+  href: api/Coffee.UpmGitExtension.html
+  commentId: N:Coffee.UpmGitExtension
+  fullName: Coffee.UpmGitExtension
+  nameWithType: Coffee.UpmGitExtension
+- uid: Coffee.UpmGitExtension.Json
+  name: Json
+  href: api/Coffee.UpmGitExtension.Json.html
+  commentId: T:Coffee.UpmGitExtension.Json
+  fullName: Coffee.UpmGitExtension.Json
+  nameWithType: Json
+- uid: Coffee.UpmGitExtension.Json.Deserialize(System.String)
+  name: Deserialize(String)
+  href: api/Coffee.UpmGitExtension.Json.html#Coffee_UpmGitExtension_Json_Deserialize_System_String_
+  commentId: M:Coffee.UpmGitExtension.Json.Deserialize(System.String)
+  fullName: Coffee.UpmGitExtension.Json.Deserialize(System.String)
+  nameWithType: Json.Deserialize(String)
+- uid: Coffee.UpmGitExtension.Json.Deserialize*
+  name: Deserialize
+  href: api/Coffee.UpmGitExtension.Json.html#Coffee_UpmGitExtension_Json_Deserialize_
+  commentId: Overload:Coffee.UpmGitExtension.Json.Deserialize
+  isSpec: "True"
+  fullName: Coffee.UpmGitExtension.Json.Deserialize
+  nameWithType: Json.Deserialize
+- uid: Coffee.UpmGitExtension.Json.Serialize(System.Object,System.Boolean,System.String)
+  name: Serialize(Object, Boolean, String)
+  href: api/Coffee.UpmGitExtension.Json.html#Coffee_UpmGitExtension_Json_Serialize_System_Object_System_Boolean_System_String_
+  commentId: M:Coffee.UpmGitExtension.Json.Serialize(System.Object,System.Boolean,System.String)
+  fullName: Coffee.UpmGitExtension.Json.Serialize(System.Object, System.Boolean, System.String)
+  nameWithType: Json.Serialize(Object, Boolean, String)
+- uid: Coffee.UpmGitExtension.Json.Serialize*
+  name: Serialize
+  href: api/Coffee.UpmGitExtension.Json.html#Coffee_UpmGitExtension_Json_Serialize_
+  commentId: Overload:Coffee.UpmGitExtension.Json.Serialize
+  isSpec: "True"
+  fullName: Coffee.UpmGitExtension.Json.Serialize
+  nameWithType: Json.Serialize
 - uid: NomUtils.Editor
   name: NomUtils.Editor
   href: api/NomUtils.Editor.html
@@ -190,6 +228,63 @@ references:
   commentId: F:NomUtils.Editor.MoreDebugs.WaveType.Sin
   fullName: NomUtils.Editor.MoreDebugs.WaveType.Sin
   nameWithType: MoreDebugs.WaveType.Sin
+- uid: NomUtils.Editor.MoreGUILayout
+  name: MoreGUILayout
+  href: api/NomUtils.Editor.MoreGUILayout.html
+  commentId: T:NomUtils.Editor.MoreGUILayout
+  fullName: NomUtils.Editor.MoreGUILayout
+  nameWithType: MoreGUILayout
+- uid: NomUtils.Editor.MoreGUILayout.Link(System.String,System.String,System.Int32)
+  name: Link(String, String, Int32)
+  href: api/NomUtils.Editor.MoreGUILayout.html#NomUtils_Editor_MoreGUILayout_Link_System_String_System_String_System_Int32_
+  commentId: M:NomUtils.Editor.MoreGUILayout.Link(System.String,System.String,System.Int32)
+  fullName: NomUtils.Editor.MoreGUILayout.Link(System.String, System.String, System.Int32)
+  nameWithType: MoreGUILayout.Link(String, String, Int32)
+- uid: NomUtils.Editor.MoreGUILayout.Link*
+  name: Link
+  href: api/NomUtils.Editor.MoreGUILayout.html#NomUtils_Editor_MoreGUILayout_Link_
+  commentId: Overload:NomUtils.Editor.MoreGUILayout.Link
+  isSpec: "True"
+  fullName: NomUtils.Editor.MoreGUILayout.Link
+  nameWithType: MoreGUILayout.Link
+- uid: NomUtils.Editor.UpdateLaunchChecker
+  name: UpdateLaunchChecker
+  href: api/NomUtils.Editor.UpdateLaunchChecker.html
+  commentId: T:NomUtils.Editor.UpdateLaunchChecker
+  fullName: NomUtils.Editor.UpdateLaunchChecker
+  nameWithType: UpdateLaunchChecker
+- uid: NomUtils.Editor.UpdateWindow
+  name: UpdateWindow
+  href: api/NomUtils.Editor.UpdateWindow.html
+  commentId: T:NomUtils.Editor.UpdateWindow
+  fullName: NomUtils.Editor.UpdateWindow
+  nameWithType: UpdateWindow
+- uid: NomUtils.Editor.UpdateWindow.CheckForProjectVersion
+  name: CheckForProjectVersion()
+  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_CheckForProjectVersion
+  commentId: M:NomUtils.Editor.UpdateWindow.CheckForProjectVersion
+  fullName: NomUtils.Editor.UpdateWindow.CheckForProjectVersion()
+  nameWithType: UpdateWindow.CheckForProjectVersion()
+- uid: NomUtils.Editor.UpdateWindow.CheckForProjectVersion*
+  name: CheckForProjectVersion
+  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_CheckForProjectVersion_
+  commentId: Overload:NomUtils.Editor.UpdateWindow.CheckForProjectVersion
+  isSpec: "True"
+  fullName: NomUtils.Editor.UpdateWindow.CheckForProjectVersion
+  nameWithType: UpdateWindow.CheckForProjectVersion
+- uid: NomUtils.Editor.UpdateWindow.NewWindow
+  name: NewWindow()
+  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_NewWindow
+  commentId: M:NomUtils.Editor.UpdateWindow.NewWindow
+  fullName: NomUtils.Editor.UpdateWindow.NewWindow()
+  nameWithType: UpdateWindow.NewWindow()
+- uid: NomUtils.Editor.UpdateWindow.NewWindow*
+  name: NewWindow
+  href: api/NomUtils.Editor.UpdateWindow.html#NomUtils_Editor_UpdateWindow_NewWindow_
+  commentId: Overload:NomUtils.Editor.UpdateWindow.NewWindow
+  isSpec: "True"
+  fullName: NomUtils.Editor.UpdateWindow.NewWindow
+  nameWithType: UpdateWindow.NewWindow
 - uid: NomUtils.General
   name: NomUtils.General
   href: api/NomUtils.General.html
@@ -3019,11 +3114,11 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.MainThread.OnGameLoad
   nameWithType: MainThread.OnGameLoad
-- uid: NomUtils.Unity.MainThread.QueueCoroutine(IEnumerator)
+- uid: NomUtils.Unity.MainThread.QueueCoroutine(System.Collections.IEnumerator)
   name: QueueCoroutine(IEnumerator)
-  href: api/NomUtils.Unity.MainThread.html#NomUtils_Unity_MainThread_QueueCoroutine_IEnumerator_
-  commentId: M:NomUtils.Unity.MainThread.QueueCoroutine(IEnumerator)
-  fullName: NomUtils.Unity.MainThread.QueueCoroutine(IEnumerator)
+  href: api/NomUtils.Unity.MainThread.html#NomUtils_Unity_MainThread_QueueCoroutine_System_Collections_IEnumerator_
+  commentId: M:NomUtils.Unity.MainThread.QueueCoroutine(System.Collections.IEnumerator)
+  fullName: NomUtils.Unity.MainThread.QueueCoroutine(System.Collections.IEnumerator)
   nameWithType: MainThread.QueueCoroutine(IEnumerator)
 - uid: NomUtils.Unity.MainThread.QueueCoroutine*
   name: QueueCoroutine
@@ -3057,13 +3152,13 @@ references:
   commentId: M:NomUtils.Unity.TextureUtils.GenerateCurveTexture(AnimationCurve,System.UInt32,System.Boolean)
   fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture(AnimationCurve, System.UInt32, System.Boolean)
   nameWithType: TextureUtils.GenerateCurveTexture(AnimationCurve, UInt32, Boolean)
-- uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
+- uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture(System.Collections.Generic.List{AnimationCurve},System.UInt32,System.Boolean)
   name: GenerateCurveTexture(List<AnimationCurve>, UInt32, Boolean)
-  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateCurveTexture_List_AnimationCurve__System_UInt32_System_Boolean_
-  commentId: M:NomUtils.Unity.TextureUtils.GenerateCurveTexture(List{AnimationCurve},System.UInt32,System.Boolean)
+  href: api/NomUtils.Unity.TextureUtils.html#NomUtils_Unity_TextureUtils_GenerateCurveTexture_System_Collections_Generic_List_AnimationCurve__System_UInt32_System_Boolean_
+  commentId: M:NomUtils.Unity.TextureUtils.GenerateCurveTexture(System.Collections.Generic.List{AnimationCurve},System.UInt32,System.Boolean)
   name.vb: GenerateCurveTexture(List(Of AnimationCurve), UInt32, Boolean)
-  fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List<AnimationCurve>, System.UInt32, System.Boolean)
-  fullName.vb: NomUtils.Unity.TextureUtils.GenerateCurveTexture(List(Of AnimationCurve), System.UInt32, System.Boolean)
+  fullName: NomUtils.Unity.TextureUtils.GenerateCurveTexture(System.Collections.Generic.List<AnimationCurve>, System.UInt32, System.Boolean)
+  fullName.vb: NomUtils.Unity.TextureUtils.GenerateCurveTexture(System.Collections.Generic.List(Of AnimationCurve), System.UInt32, System.Boolean)
   nameWithType: TextureUtils.GenerateCurveTexture(List<AnimationCurve>, UInt32, Boolean)
   nameWithType.vb: TextureUtils.GenerateCurveTexture(List(Of AnimationCurve), UInt32, Boolean)
 - uid: NomUtils.Unity.TextureUtils.GenerateCurveTexture*

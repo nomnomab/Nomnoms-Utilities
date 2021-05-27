@@ -11,29 +11,20 @@ namespace NomUtils.Editor {
 		private static string _currentVersion;
 		private static string _webVersion;
 		private static string _localPackageRoot;
-		
+
 		[MenuItem("Window/NomUtils/Check for updates")]
 		public static void NewWindow() {
 			UpdateWindow window = CreateInstance<UpdateWindow>();
 			window.titleContent = new GUIContent("Nomnom's Utilities Update Checker");
-			window.minSize = window.maxSize = new Vector2(300, 75);
+			window.minSize = window.maxSize = new Vector2(300, 60);
 			window.ShowUtility();
 			window.Focus();
 		}
 
 		private void OnEnable() {
-			_currentVersion = EditorPrefs.GetString("com.nomutils::LocalVersion", null);
-			string localVersion = GetCurrentVersion();
-
-			Debug.Log($"{_currentVersion} vs {localVersion}");
+			CheckForProjectVersion();
 			
-			if (string.IsNullOrEmpty(localVersion)) {
-				_currentVersion = null;
-			} else if(!localVersion.Equals(_currentVersion)) {
-				_currentVersion = localVersion;
-			}
 			
-			GetWebVersion();
 		}
 
 		private void OnGUI() {
@@ -75,7 +66,13 @@ namespace NomUtils.Editor {
 			
 			GUILayout.Label($"Local Version: {_currentVersion}");
 			string web = string.IsNullOrEmpty(_webVersion) ? "Unable to get web version" : _webVersion;
-			GUILayout.Label($"Web Version: {web}");
+			
+			GUILayout.BeginHorizontal();
+			GUILayout.Label($"Web Version: {web}", GUILayout.Width(position.size.x - 115));
+			MoreGUILayout.Link("Github repository", "https://github.com/nomnomab/Nomnoms-Utilities", 100);
+			GUILayout.EndHorizontal();
+
+			Repaint();
 		}
 
 		private static void UpdateJson(string path, Action<Dictionary<string, object>> action) {
@@ -143,7 +140,7 @@ namespace NomUtils.Editor {
 			}
 		}
 		
-		private string GetCurrentVersion() {
+		private static string GetCurrentVersion() {
 			if (!PackageExists()) {
 				return null;
 			}
@@ -159,6 +156,53 @@ namespace NomUtils.Editor {
 
 		private void SaveSettings() {
 			EditorPrefs.SetString("com.nomnom.utilities::LocalVersion", _currentVersion);
+		}
+
+		public static void CheckForProjectVersion() {
+			_currentVersion = EditorPrefs.GetString("com.nomutils::LocalVersion", null);
+			string localVersion = GetCurrentVersion();
+
+			if (string.IsNullOrEmpty(localVersion)) {
+				_currentVersion = null;
+			} else if(!localVersion.Equals(_currentVersion)) {
+				_currentVersion = localVersion;
+			}
+			
+			GetWebVersion();
+
+			if (string.IsNullOrEmpty(_webVersion)) {
+				Debug.LogError("[NomUtils::Updater] Unable to get the web version at this time.");
+				return;
+			}
+
+			if (!_webVersion.Equals(_currentVersion)) {
+				Debug.Log($"[NomUtils::Updater] Version <b>{_webVersion}</b> is available! (Local: <b>{_currentVersion}</b>)");
+			} else {
+				Debug.Log($"[NomUtils::Updater] Version up to date! (Local: <b>{_currentVersion}</b>)");
+			}
+		}
+	}
+	
+	[InitializeOnLoad]
+	public class UpdateLaunchChecker : ScriptableObject {
+		private static UpdateLaunchChecker _instance;
+
+		static UpdateLaunchChecker() {
+			EditorApplication.update += OnInit;
+		}
+
+		private static void OnInit() {
+			EditorApplication.update -= OnInit;
+
+			_instance = FindObjectOfType<UpdateLaunchChecker>();
+
+			if (_instance != null) {
+				return;
+			}
+
+			_instance = CreateInstance<UpdateLaunchChecker>();
+
+			UpdateWindow.CheckForProjectVersion();
 		}
 	}
 }
