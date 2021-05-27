@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-#if UNITY_STANDALONE_WIN
 namespace NomUtils.Raw {
 	public static class WindowsAPI {
 		public static bool Framed { get; private set; }
-		
+
 		public enum WindowsCursor {
 			StandardArrowAndSmallHourglass = 32650,
 			StandardArrow = 32512,
@@ -23,7 +22,7 @@ namespace NomUtils.Raw {
 			Hourglass = 32514
 		}
 
-		public enum WindowStyles: long {
+		public enum WindowStyles : long {
 			/// <summary>
 			/// The window has a thin-line border.
 			/// </summary>
@@ -152,7 +151,7 @@ namespace NomUtils.Raw {
 			WS_VSCROLL = 0x00200000L
 		}
 
-		public enum ShowWindowType: byte {
+		public enum ShowWindowType : byte {
 			/// <summary>
 			/// Hides the window and activates another window.
 			/// </summary>
@@ -217,14 +216,14 @@ namespace NomUtils.Raw {
 			/// </summary>
 			SW_FORCEMINIMIZE = 11
 		}
-		
+
 		public struct WindowsRect {
 			public int left;
 			public int top;
 			public int right;
 			public int bottom;
 		}
-		
+
 		/// <summary>
 		/// New style id.
 		/// </summary>
@@ -232,27 +231,25 @@ namespace NomUtils.Raw {
 
 		[DllImport("user32.dll")]
 		private static extern IntPtr GetActiveWindow();
-		
+
 		[DllImport("user32.dll")]
 		private static extern int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong);
-		
+
 		[DllImport("user32.dll")]
 		private static extern bool ShowWindow(IntPtr hwnd, int nCmdShow);
-		
+
 		[DllImport("user32.dll")]
 		private static extern bool GetWindowRect(IntPtr hwnd, out WindowsRect lpRect);
-		
+
 		[DllImport("user32.dll")]
 		private static extern bool MoveWindow(IntPtr hWnd, int x, int y, int nWidth, int nHeight, bool bRepaint);
-		
-		[DllImport("user32.dll", CharSet=CharSet.Auto, ExactSpelling=true)]
-		private static extern IntPtr SetCursor(IntPtr  hCursor);
-	
+
+		[DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
+		private static extern IntPtr SetCursor(IntPtr hCursor);
+
 		[DllImport("user32.dll")]
 		private static extern IntPtr LoadCursor(IntPtr hInstance, int lpCursorName);
-		
-		private static WindowsCursor _currentCursor = WindowsCursor.StandardArrow;
-		
+
 		/// <summary>
 		/// Removes the window's frame and titlebar. Removes resizing functionality.
 		/// </summary>
@@ -284,7 +281,7 @@ namespace NomUtils.Raw {
 			ShowWindow(hwnd, (int)type);
 #endif
 		}
-		
+
 		/// <summary>
 		/// Minimizes the active window.
 		/// </summary>
@@ -293,7 +290,7 @@ namespace NomUtils.Raw {
 			ShowWindow(ShowWindowType.SW_MINIMIZE);
 #endif
 		}
-		
+
 		/// <summary>
 		/// Maximizes the active window.
 		/// </summary>
@@ -302,7 +299,7 @@ namespace NomUtils.Raw {
 			ShowWindow(ShowWindowType.SW_MAXIMIZE);
 #endif
 		}
-		
+
 		/// <summary>
 		/// Restores the active window to default.
 		/// </summary>
@@ -311,7 +308,7 @@ namespace NomUtils.Raw {
 			ShowWindow(ShowWindowType.SW_RESTORE);
 #endif
 		}
-		
+
 		/// <summary>
 		/// Moves the active window along deltaX and deltaY, and applies a new size to it.
 		/// Movement is applied from the top-left of the window.
@@ -330,18 +327,12 @@ namespace NomUtils.Raw {
 			MoveWindow(hwnd, x, y, width, height, true);
 #endif
 		}
-		
+
 		/// <summary>
 		/// Sets the cursor to a system icon.
 		/// </summary>
 		public static void SetCursor(WindowsCursor cursor) {
-			if (_currentCursor == cursor) {
-				return;
-			}
-		
-			SetCursor(LoadCursor(IntPtr.Zero, (int)cursor));
-			_currentCursor = cursor;
+			SetCursor(LoadCursor(IntPtr.Zero, (int) cursor));
 		}
 	}
 }
-#endif

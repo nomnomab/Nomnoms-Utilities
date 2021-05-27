@@ -329,6 +329,78 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.WindowsAPI.ShowWindowType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.WindowsAPI.ShowWindowType.html",
+          "hash": "tWBfBC7IdnRXGrIYSBChUO89876nodnTVV3JCy44HNI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.WindowsAPI.WindowStyles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.WindowsAPI.WindowStyles.html",
+          "hash": "JUdJe5u6nrdpJLWHtpuDbrTAALMwBydjQLAxTcQKZLA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.WindowsAPI.WindowsCursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.WindowsAPI.WindowsCursor.html",
+          "hash": "x0L8mUxgMc5Z6EouItdyHKPmC317Zkys+2vesztAtrg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.WindowsAPI.WindowsRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.WindowsAPI.WindowsRect.html",
+          "hash": "Mg2uAqcppXT/B7x5BpdR8K/qiP1bZNTabk6TZ924Ag8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.WindowsAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.WindowsAPI.html",
+          "hash": "e587grJXBegdqEV4RZV0Bg8oby6EzqQWu598rQUssTI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Raw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Raw.html",
+          "hash": "lmiisZ9ZKbOTtOJx9nHDp+uA9km3tK4Lotd5z9k7jPE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Unity.ArrayUtils.yml",
       "output": {
         ".html": {
@@ -429,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "dz+e/B5VUqpuNLLNKRQFN5MtgKpDC93f4sDM3pHy0Ts="
+          "hash": "5wkPQ3DvUXPtcHfqnmilqLaR4g7KJL6/xHw0zQeW1a8="
         }
       },
       "is_incremental": false,
@@ -441,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "l5F6Z+TajWWlZzRtI1VEIML8JZc67BGejnPAawRLSqg="
+          "hash": "F0J1g21AeY7C5XocTloFd5hDQU7DtL/DxcDwwNcDGG8="
         }
       },
       "is_incremental": false,
@@ -514,8 +586,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 35,
-          "skipped_file_count": 35
+          "total_file_count": 41,
+          "skipped_file_count": 41
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
