@@ -5,78 +5,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.MoreDebugs.WaveType.html",
-          "hash": "YhRDYIa1rqSrObZvGLjNRA9MZgh0zJ4B6AvuB30uTlc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.MoreDebugs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.MoreDebugs.html",
-          "hash": "zOlnRSDlcJxjOtN5FqCXKnz5ajsNu3JErxo/OxU0kgA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.MoreGUILayout.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.MoreGUILayout.html",
-          "hash": "H2c4t+Ix4WNeCNU/V8aNzHqKwItfCjwKnYznPZkVSnM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.UpdateLaunchChecker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.UpdateLaunchChecker.html",
-          "hash": "WiCqaEZD2Utvqa35KoYSb2gWsoRWjQBw3lCR2Spbbd0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.UpdateWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.UpdateWindow.html",
-          "hash": "9kb9vSx42jGsPa7HQtfU5933OW6kf1gADPmvj+6NTOk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NomUtils.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NomUtils.Editor.html",
-          "hash": "v3oRnEjyNokXUs1kADiwmrVMo1NX8r+OFbnEqxwHDss="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.General.CollectionUtils.yml",
       "output": {
         ".html": {
@@ -501,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "+ieoXJ6QTG5rb44mIRhePjXCRtHE2lgdeRXa1osP4/k="
+          "hash": "GRsIdzoS44dvvBJOGfsXkpDipqDWEN1aFt39HK6OLhY="
         }
       },
       "is_incremental": false,
@@ -513,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "bx+JlleZtfKNGA10k2HO3TZ+rrTILc0vJSS7y2VJdus="
+          "hash": "l5F6Z+TajWWlZzRtI1VEIML8JZc67BGejnPAawRLSqg="
         }
       },
       "is_incremental": false,
@@ -581,13 +509,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 41,
-          "skipped_file_count": 41
+          "total_file_count": 35,
+          "skipped_file_count": 8
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if UNITY_EDITOR
+using System;
 using NomUtils.Math.Curves;
 using NomUtils.Math.Shapes;
 using NomUtils.Math.Vectors;
@@ -164,3 +165,4 @@ namespace NomUtils.Editor {
 		}
 	}
 }
+#endif
