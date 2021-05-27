@@ -10,6 +10,7 @@ namespace NomUtils.Editor {
 	public class UpdateWindow: EditorWindow {
 		private static string _currentVersion;
 		private static string _webVersion;
+		private static string _localPackageRoot;
 		
 		[MenuItem("Window/NomUtils/Check for updates")]
 		public static void NewWindow() {
@@ -21,12 +22,22 @@ namespace NomUtils.Editor {
 		}
 
 		private void OnEnable() {
-			_currentVersion = EditorPrefs.GetString("com.nomnom.utilities::LocalVersion", null);
+			_currentVersion = EditorPrefs.GetString("com.nomutils::LocalVersion", null);
+			string localVersion = GetCurrentVersion();
+
+			Debug.Log($"{_currentVersion} vs {localVersion}");
+			
+			if (string.IsNullOrEmpty(localVersion)) {
+				_currentVersion = null;
+			} else if(!localVersion.Equals(_currentVersion)) {
+				_currentVersion = localVersion;
+			}
+			
 			GetWebVersion();
 		}
 
 		private void OnGUI() {
-			if (!FileExists()) {
+			if (!PackageExists()) {
 				GUILayout.Label("This package was not installed through the package manager.");
 				return;
 			}
@@ -43,8 +54,15 @@ namespace NomUtils.Editor {
 				UpdateJson("Packages/manifest.json", jsonDic =>
 				{
 					// Add to dependencies.
-					var dependencies = jsonDic["dependencies"] as Dictionary<string, object>;
-					dependencies?.Add("com.nomnom.utilities", "https://github.com/nomnomab/Nomnoms-Utilities.git" + "#" + _webVersion);
+					Dictionary<string, object> dependencies = jsonDic["dependencies"] as Dictionary<string, object>;
+					dependencies?.Add("com.nomutils", "https://github.com/nomnomab/Nomnoms-Utilities.git" + "#" + _webVersion);
+				});
+				
+				UpdateJson("Packages/packages-lock.json", jsonDic =>
+				{
+					// Add to dependencies.
+					Dictionary<string, object> dependencies = jsonDic["dependencies"] as Dictionary<string, object>;
+					dependencies?.Remove("com.nomutils");
 				});
 			}
 			GUI.enabled = true;
@@ -82,18 +100,34 @@ namespace NomUtils.Editor {
 			} catch (Exception e) { }
 		}
 
-		private bool FileExists() {
-			string path = Path.Combine(Application.dataPath, "../Library/PackageCache");
-			const string PACKAGE_START = "com.nomnomutils@";
+		private static bool PackageExists() {
+			const string PACKAGE_START = "com.nomutils@";
 			const string PACKAGE_PATH = "/package.json";
+			
+			if (!string.IsNullOrEmpty(_localPackageRoot) && 
+			    Directory.Exists(_localPackageRoot) && 
+			    File.Exists($"{_localPackageRoot}/{PACKAGE_PATH}")) {
+				return true;
+			}
+			
+			string path = Path.Combine(Application.dataPath, "../Library/PackageCache");
 
 			foreach (string directory in Directory.GetDirectories(path)) {
 				string name = Path.GetFileName(directory);
+
 				if (!name.StartsWith(PACKAGE_START)) {
 					continue;
 				}
 
-				return File.Exists($"{directory}/{PACKAGE_PATH}");
+				_localPackageRoot = $"{directory}";
+
+				Debug.Log($"{_localPackageRoot}/{PACKAGE_PATH}");
+				if (File.Exists($"{_localPackageRoot}/{PACKAGE_PATH}")) {
+					return true;
+				}
+
+				_localPackageRoot = null;
+				break;
 			}
 
 			return false;
@@ -110,30 +144,17 @@ namespace NomUtils.Editor {
 		}
 		
 		private string GetCurrentVersion() {
-			if (!FileExists()) {
+			if (!PackageExists()) {
 				return null;
 			}
-			
-			string path = Path.Combine(Application.dataPath, "../Packages/com.nomnom.utilities/package.json");
 
+			string path = $"{_localPackageRoot}/package.json";
 			return ParseVersion(File.ReadAllText(path));
 		}
 
 		private static string ParseVersion(string content) {
-			string[] lines = content.Split('\n');
-			
-			for (int i = 0; i < lines.Length; i++) {
-				const string div = "\"version\":";
-				if (!lines[i].Contains(div)) {
-					continue;
-				}
-
-				string split = lines[i].TrimStart().Substring(div.Length);
-				string[] args = split.Split('"');
-				return args[1];
-			}
-
-			return null;
+			Dictionary<string, object> jsonDic = Json.Deserialize(content) as Dictionary<string, object>;
+			return jsonDic["version"] as string;
 		}
 
 		private void SaveSettings() {
