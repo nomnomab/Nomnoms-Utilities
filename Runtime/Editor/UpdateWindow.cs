@@ -83,9 +83,20 @@ namespace NomUtils.Editor {
 		}
 
 		private bool FileExists() {
-			string path = Path.Combine(Application.dataPath, "../Packages/com.nomnom.utilities/package.json");
+			string path = Path.Combine(Application.dataPath, "../Library/PackageCache");
+			const string PACKAGE_START = "com.nomnomutils@";
+			const string PACKAGE_PATH = "/package.json";
 
-			return File.Exists(path);
+			foreach (string directory in Directory.GetDirectories(path)) {
+				string name = Path.GetFileName(directory);
+				if (!name.StartsWith(PACKAGE_START)) {
+					continue;
+				}
+
+				return File.Exists($"{directory}/{PACKAGE_PATH}");
+			}
+
+			return false;
 		}
 
 		private static void GetWebVersion() {
