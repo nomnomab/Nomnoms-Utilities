@@ -57,7 +57,7 @@ namespace NomUtils.Editor {
 			}
 			GUI.enabled = true;
 
-			if (GUILayout.Button(EditorGUIUtility.IconContent("DebuggerEnabled@2x"))) {
+			if (GUILayout.Button(EditorGUIUtility.IconContent("DebuggerEnabled"))) {
 				// force download
 				// download new update
 				UpdateJson("Packages/manifest.json", jsonDic =>
