@@ -22,9 +22,7 @@ namespace NomUtils.Editor {
 		}
 
 		private void OnEnable() {
-			CheckForProjectVersion();
-			
-			
+			CheckForProjectVersion(false);
 		}
 
 		private void OnGUI() {
@@ -158,7 +156,7 @@ namespace NomUtils.Editor {
 			EditorPrefs.SetString("com.nomnom.utilities::LocalVersion", _currentVersion);
 		}
 
-		public static void CheckForProjectVersion() {
+		public static void CheckForProjectVersion(bool showDebug) {
 			_currentVersion = EditorPrefs.GetString("com.nomutils::LocalVersion", null);
 			string localVersion = GetCurrentVersion();
 
@@ -175,8 +173,12 @@ namespace NomUtils.Editor {
 				return;
 			}
 
+			if (!showDebug) {
+				return;
+			}
+			
 			if (!_webVersion.Equals(_currentVersion)) {
-				Debug.Log($"[NomUtils::Updater] Version <b>{_webVersion}</b> is available! (Local: <b>{_currentVersion}</b>)");
+				Debug.Log($"[NomUtils::Updater] Version <b>{_webVersion}</b> is available! (Local: <b>{_currentVersion}</b>) Head to <i>Window/NomUtils/Check For Updates</i> to update.");
 			} else {
 				Debug.Log($"[NomUtils::Updater] Version up to date! (Local: <b>{_currentVersion}</b>)");
 			}
@@ -202,7 +204,7 @@ namespace NomUtils.Editor {
 
 			_instance = CreateInstance<UpdateLaunchChecker>();
 
-			UpdateWindow.CheckForProjectVersion();
+			UpdateWindow.CheckForProjectVersion(true);
 		}
 	}
 }
