@@ -175,6 +175,10 @@ namespace NomUtils.Editor {
 		}
 
 		public static void CheckForProjectVersion(bool showDebug) {
+			if (Application.isPlaying) {
+				return;
+			}
+			
 			_currentVersion = EditorPrefs.GetString("com.nomutils::LocalVersion", null);
 			string localVersion = GetCurrentVersion();
 
