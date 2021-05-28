@@ -120,6 +120,8 @@ namespace NomUtils.Math {
 
 		/// <summary>
 		/// Estimates the reciprocal of the square root of a 32-bit floating-point number.
+		/// <br></br><br></br>
+		/// https://en.wikipedia.org/wiki/Fast_inverse_square_root
 		/// </summary>
 		/// <param name="value">IEEE 754 floating-point value</param>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -186,6 +188,33 @@ namespace NomUtils.Math {
 			return new Vector2(
 				angle < 2 ? 1 - angle : angle - 3,
 				angle < 3 ? angle > 1 ? 2 - angle : angle : angle - 4);
+		}
+
+		/// <summary>
+		/// Splits a single into its whole number + decimal values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void SplitFloatingPoint(float f, out int wholeValue, out float decimalValue) {
+			wholeValue = (int) f;
+			decimalValue = f % 1f;
+		}
+		
+		/// <summary>
+		/// Splits a decimal into its whole number + decimal values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void SplitFloatingPoint(double f, out int wholeValue, out double decimalValue) {
+			wholeValue = (int) f;
+			decimalValue = f % 1d;
+		}
+		
+		/// <summary>
+		/// Splits a decimal into its whole number + decimal values.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void SplitFloatingPoint(decimal f, out int wholeValue, out decimal decimalValue) {
+			wholeValue = (int) f;
+			decimalValue = f % 1m;
 		}
 	}
 }

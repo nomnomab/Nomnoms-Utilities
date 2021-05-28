@@ -231,7 +231,7 @@ namespace NomUtils.Raw {
 		private const int GWL_STYLE = -16;
 
 		[DllImport("user32.dll")]
-		private static extern IntPtr GetActiveWindow();
+		public static extern IntPtr GetActiveWindow();
 
 		[DllImport("user32.dll")]
 		private static extern int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong);
