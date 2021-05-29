@@ -23,7 +23,7 @@ namespace NomUtils.Math {
 			Vector2 dir = Quaternion.Euler(0, 0, angle) * (point - pivot);
 			return dir + pivot;
 		}
-		
+
 		/// <summary>
 		/// Rotates a Vector3 around a given pivot and angle euler.
 		/// </summary>
@@ -46,7 +46,7 @@ namespace NomUtils.Math {
 			}
 
 			Quaternion tmpEnd = end;
-			
+
 			// account for double-cover
 			float dot = Quaternion.Dot(start, end);
 			float multi = dot > 0f ? 1f : -1f;
@@ -54,7 +54,7 @@ namespace NomUtils.Math {
 			tmpEnd.y *= multi;
 			tmpEnd.z *= multi;
 			tmpEnd.w *= multi;
-			
+
 			// smooth damp (nlerp approx)
 			Vector4 result = new Vector4(
 				Mathf.SmoothDamp(start.x, tmpEnd.x, ref derivative.x, t),
@@ -62,7 +62,7 @@ namespace NomUtils.Math {
 				Mathf.SmoothDamp(start.z, tmpEnd.z, ref derivative.z, t),
 				Mathf.SmoothDamp(start.w, tmpEnd.w, ref derivative.w, t)
 			);
-			
+
 			result.Normalize();
 
 			// ensure derivative is tangent

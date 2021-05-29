@@ -86,5 +86,26 @@ namespace NomUtils.Math.Vectors {
 			lhs.z -= rhs.z;
 			lhs.w -= rhs.w;
 		}
+		
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static Vector3 Multiply(in Quaternion rotation, in Vector3 point) {
+			float num1 = rotation.x * 2f;
+			float num2 = rotation.y * 2f;
+			float num3 = rotation.z * 2f;
+			float num4 = rotation.x * num1;
+			float num5 = rotation.y * num2;
+			float num6 = rotation.z * num3;
+			float num7 = rotation.x * num2;
+			float num8 = rotation.x * num3;
+			float num9 = rotation.y * num3;
+			float num10 = rotation.w * num1;
+			float num11 = rotation.w * num2;
+			float num12 = rotation.w * num3;
+
+			return new Vector3(
+				(1.0f - (num5 + num6)) * point.x + (num7 - num12) * point.y + (num8 + num11) * point.z,
+				(num7 + num12) * point.x + (1.0f - (num4 + num6)) * point.y + (num9 - num10) * point.z,
+				(num8 - num11) * point.x + (num9 + num10) * point.y + (1.0f - (num4 + num5)) * point.z);
+		}
 	}
 }

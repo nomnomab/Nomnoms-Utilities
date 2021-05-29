@@ -149,6 +149,20 @@ namespace NomUtils.Editor {
 				lastPoint = newPoint;
 			}
 		}
+
+#if TMP_PRESENT
+		public static void DrawTextMeshUGUIBounds(TMPro.TextMeshProUGUI text) {
+			Bounds bounds = text.textBounds;
+
+			Matrix4x4 matrix4X4 = Gizmos.matrix;
+			Gizmos.matrix = text.transform.localToWorldMatrix;
+			Gizmos.DrawLine(bounds.min, bounds.min + new Vector3(bounds.size.x, 0, 0));
+			Gizmos.DrawLine(bounds.min, bounds.min + new Vector3(0, bounds.size.y, 0));
+			Gizmos.DrawLine(bounds.max, bounds.min + new Vector3(bounds.size.x, 0, 0));
+			Gizmos.DrawLine(bounds.min + new Vector3(0, bounds.size.y, 0), bounds.min + new Vector3(0, bounds.size.y, 0));
+			Gizmos.matrix = matrix4X4;
+		}
+#endif
 	}
 }
 #endif

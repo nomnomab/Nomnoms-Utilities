@@ -2144,6 +2144,22 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Vectors.VectorOps.AddRef
   nameWithType: VectorOps.AddRef
+- uid: NomUtils.Math.Vectors.VectorOps.Multiply(Quaternion@,Vector3@)
+  name: Multiply(Quaternion, Vector3)
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_Multiply_Quaternion__Vector3__
+  commentId: M:NomUtils.Math.Vectors.VectorOps.Multiply(Quaternion@,Vector3@)
+  name.vb: Multiply(ByRef Quaternion, ByRef Vector3)
+  fullName: NomUtils.Math.Vectors.VectorOps.Multiply(Quaternion, Vector3)
+  fullName.vb: NomUtils.Math.Vectors.VectorOps.Multiply(ByRef Quaternion, ByRef Vector3)
+  nameWithType: VectorOps.Multiply(Quaternion, Vector3)
+  nameWithType.vb: VectorOps.Multiply(ByRef Quaternion, ByRef Vector3)
+- uid: NomUtils.Math.Vectors.VectorOps.Multiply*
+  name: Multiply
+  href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_Multiply_
+  commentId: Overload:NomUtils.Math.Vectors.VectorOps.Multiply
+  isSpec: "True"
+  fullName: NomUtils.Math.Vectors.VectorOps.Multiply
+  nameWithType: VectorOps.Multiply
 - uid: NomUtils.Math.Vectors.VectorOps.MultiplyScalar(Vector3@,System.Single)
   name: MultiplyScalar(ref Vector3, Single)
   href: api/NomUtils.Math.Vectors.VectorOps.html#NomUtils_Math_Vectors_VectorOps_MultiplyScalar_Vector3__System_Single_
@@ -3593,3 +3609,35 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.TransformUtils.GetRectTransform
   nameWithType: TransformUtils.GetRectTransform
+- uid: NomUtils.Unity.TransformUtils.InverseTransformPoint(Transform,Vector3@)
+  name: InverseTransformPoint(Transform, Vector3)
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_InverseTransformPoint_Transform_Vector3__
+  commentId: M:NomUtils.Unity.TransformUtils.InverseTransformPoint(Transform,Vector3@)
+  name.vb: InverseTransformPoint(Transform, ByRef Vector3)
+  fullName: NomUtils.Unity.TransformUtils.InverseTransformPoint(Transform, Vector3)
+  fullName.vb: NomUtils.Unity.TransformUtils.InverseTransformPoint(Transform, ByRef Vector3)
+  nameWithType: TransformUtils.InverseTransformPoint(Transform, Vector3)
+  nameWithType.vb: TransformUtils.InverseTransformPoint(Transform, ByRef Vector3)
+- uid: NomUtils.Unity.TransformUtils.InverseTransformPoint*
+  name: InverseTransformPoint
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_InverseTransformPoint_
+  commentId: Overload:NomUtils.Unity.TransformUtils.InverseTransformPoint
+  isSpec: "True"
+  fullName: NomUtils.Unity.TransformUtils.InverseTransformPoint
+  nameWithType: TransformUtils.InverseTransformPoint
+- uid: NomUtils.Unity.TransformUtils.TransformPoint(Transform,Vector3@)
+  name: TransformPoint(Transform, Vector3)
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_TransformPoint_Transform_Vector3__
+  commentId: M:NomUtils.Unity.TransformUtils.TransformPoint(Transform,Vector3@)
+  name.vb: TransformPoint(Transform, ByRef Vector3)
+  fullName: NomUtils.Unity.TransformUtils.TransformPoint(Transform, Vector3)
+  fullName.vb: NomUtils.Unity.TransformUtils.TransformPoint(Transform, ByRef Vector3)
+  nameWithType: TransformUtils.TransformPoint(Transform, Vector3)
+  nameWithType.vb: TransformUtils.TransformPoint(Transform, ByRef Vector3)
+- uid: NomUtils.Unity.TransformUtils.TransformPoint*
+  name: TransformPoint
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_TransformPoint_
+  commentId: Overload:NomUtils.Unity.TransformUtils.TransformPoint
+  isSpec: "True"
+  fullName: NomUtils.Unity.TransformUtils.TransformPoint
+  nameWithType: TransformUtils.TransformPoint
