@@ -22,5 +22,13 @@ namespace NomUtils.Unity {
 				Object.DestroyImmediate(transform.GetChild(i).gameObject);
 			}
 		}
+		
+		/// <summary>
+		/// Gets a possible RectTransform from a Transform.
+		/// </summary>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static RectTransform GetRectTransform(this Transform transform) {
+			return transform as RectTransform;
+		}
 	}
 }
