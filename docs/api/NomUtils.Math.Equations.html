@@ -1116,7 +1116,9 @@
   
   <a id="NomUtils_Math_Equations_FastInverseSquareRoot_" data-uid="NomUtils.Math.Equations.FastInverseSquareRoot*"></a>
   <h4 id="NomUtils_Math_Equations_FastInverseSquareRoot_System_Single_" data-uid="NomUtils.Math.Equations.FastInverseSquareRoot(System.Single)">FastInverseSquareRoot(Single)</h4>
-  <div class="markdown level1 summary"><p>Estimates the reciprocal of the square root of a 32-bit floating-point number.</p>
+  <div class="markdown level1 summary"><p>Estimates the reciprocal of the square root of a 32-bit floating-point number.
+<br><br>
+<a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">https://en.wikipedia.org/wiki/Fast_inverse_square_root</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1241,6 +1243,120 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Math_Equations_SplitFloatingPoint_" data-uid="NomUtils.Math.Equations.SplitFloatingPoint*"></a>
+  <h4 id="NomUtils_Math_Equations_SplitFloatingPoint_System_Decimal_System_Int32__System_Decimal__" data-uid="NomUtils.Math.Equations.SplitFloatingPoint(System.Decimal,System.Int32@,System.Decimal@)">SplitFloatingPoint(Decimal, out Int32, out Decimal)</h4>
+  <div class="markdown level1 summary"><p>Splits a decimal into its whole number + decimal values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplitFloatingPoint(decimal f, out int wholeValue, out decimal decimalValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wholeValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">decimalValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Math_Equations_SplitFloatingPoint_" data-uid="NomUtils.Math.Equations.SplitFloatingPoint*"></a>
+  <h4 id="NomUtils_Math_Equations_SplitFloatingPoint_System_Double_System_Int32__System_Double__" data-uid="NomUtils.Math.Equations.SplitFloatingPoint(System.Double,System.Int32@,System.Double@)">SplitFloatingPoint(Double, out Int32, out Double)</h4>
+  <div class="markdown level1 summary"><p>Splits a decimal into its whole number + decimal values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplitFloatingPoint(double f, out int wholeValue, out double decimalValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wholeValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">decimalValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Math_Equations_SplitFloatingPoint_" data-uid="NomUtils.Math.Equations.SplitFloatingPoint*"></a>
+  <h4 id="NomUtils_Math_Equations_SplitFloatingPoint_System_Single_System_Int32__System_Single__" data-uid="NomUtils.Math.Equations.SplitFloatingPoint(System.Single,System.Int32@,System.Single@)">SplitFloatingPoint(Single, out Int32, out Single)</h4>
+  <div class="markdown level1 summary"><p>Splits a single into its whole number + decimal values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SplitFloatingPoint(float f, out int wholeValue, out float decimalValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wholeValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">decimalValue</span></td>
         <td></td>
       </tr>
     </tbody>

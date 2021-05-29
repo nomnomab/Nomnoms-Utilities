@@ -1517,6 +1517,40 @@ references:
   isSpec: "True"
   fullName: NomUtils.Math.Equations.RadiansToDiamondAngle
   nameWithType: Equations.RadiansToDiamondAngle
+- uid: NomUtils.Math.Equations.SplitFloatingPoint(System.Decimal,System.Int32@,System.Decimal@)
+  name: SplitFloatingPoint(Decimal, out Int32, out Decimal)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_SplitFloatingPoint_System_Decimal_System_Int32__System_Decimal__
+  commentId: M:NomUtils.Math.Equations.SplitFloatingPoint(System.Decimal,System.Int32@,System.Decimal@)
+  name.vb: SplitFloatingPoint(Decimal, ByRef Int32, ByRef Decimal)
+  fullName: NomUtils.Math.Equations.SplitFloatingPoint(System.Decimal, out System.Int32, out System.Decimal)
+  fullName.vb: NomUtils.Math.Equations.SplitFloatingPoint(System.Decimal, ByRef System.Int32, ByRef System.Decimal)
+  nameWithType: Equations.SplitFloatingPoint(Decimal, out Int32, out Decimal)
+  nameWithType.vb: Equations.SplitFloatingPoint(Decimal, ByRef Int32, ByRef Decimal)
+- uid: NomUtils.Math.Equations.SplitFloatingPoint(System.Double,System.Int32@,System.Double@)
+  name: SplitFloatingPoint(Double, out Int32, out Double)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_SplitFloatingPoint_System_Double_System_Int32__System_Double__
+  commentId: M:NomUtils.Math.Equations.SplitFloatingPoint(System.Double,System.Int32@,System.Double@)
+  name.vb: SplitFloatingPoint(Double, ByRef Int32, ByRef Double)
+  fullName: NomUtils.Math.Equations.SplitFloatingPoint(System.Double, out System.Int32, out System.Double)
+  fullName.vb: NomUtils.Math.Equations.SplitFloatingPoint(System.Double, ByRef System.Int32, ByRef System.Double)
+  nameWithType: Equations.SplitFloatingPoint(Double, out Int32, out Double)
+  nameWithType.vb: Equations.SplitFloatingPoint(Double, ByRef Int32, ByRef Double)
+- uid: NomUtils.Math.Equations.SplitFloatingPoint(System.Single,System.Int32@,System.Single@)
+  name: SplitFloatingPoint(Single, out Int32, out Single)
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_SplitFloatingPoint_System_Single_System_Int32__System_Single__
+  commentId: M:NomUtils.Math.Equations.SplitFloatingPoint(System.Single,System.Int32@,System.Single@)
+  name.vb: SplitFloatingPoint(Single, ByRef Int32, ByRef Single)
+  fullName: NomUtils.Math.Equations.SplitFloatingPoint(System.Single, out System.Int32, out System.Single)
+  fullName.vb: NomUtils.Math.Equations.SplitFloatingPoint(System.Single, ByRef System.Int32, ByRef System.Single)
+  nameWithType: Equations.SplitFloatingPoint(Single, out Int32, out Single)
+  nameWithType.vb: Equations.SplitFloatingPoint(Single, ByRef Int32, ByRef Single)
+- uid: NomUtils.Math.Equations.SplitFloatingPoint*
+  name: SplitFloatingPoint
+  href: api/NomUtils.Math.Equations.html#NomUtils_Math_Equations_SplitFloatingPoint_
+  commentId: Overload:NomUtils.Math.Equations.SplitFloatingPoint
+  isSpec: "True"
+  fullName: NomUtils.Math.Equations.SplitFloatingPoint
+  nameWithType: Equations.SplitFloatingPoint
 - uid: NomUtils.Math.QuaternionUtils
   name: QuaternionUtils
   href: api/NomUtils.Math.QuaternionUtils.html
@@ -2725,6 +2759,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.Framed
   nameWithType: WindowsAPI.Framed
+- uid: NomUtils.Raw.WindowsAPI.GetActiveWindow
+  name: GetActiveWindow()
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetActiveWindow
+  commentId: M:NomUtils.Raw.WindowsAPI.GetActiveWindow
+  fullName: NomUtils.Raw.WindowsAPI.GetActiveWindow()
+  nameWithType: WindowsAPI.GetActiveWindow()
+- uid: NomUtils.Raw.WindowsAPI.GetActiveWindow*
+  name: GetActiveWindow
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetActiveWindow_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.GetActiveWindow
+  fullName: NomUtils.Raw.WindowsAPI.GetActiveWindow
+  nameWithType: WindowsAPI.GetActiveWindow
 - uid: NomUtils.Raw.WindowsAPI.GetCursorPos(Vector2Int@)
   name: GetCursorPos(out Vector2Int)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetCursorPos_Vector2Int__
@@ -3340,6 +3386,25 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.AudioUtils.IndexToFrequency
   nameWithType: AudioUtils.IndexToFrequency
+- uid: NomUtils.Unity.BehaviourUtils
+  name: BehaviourUtils
+  href: api/NomUtils.Unity.BehaviourUtils.html
+  commentId: T:NomUtils.Unity.BehaviourUtils
+  fullName: NomUtils.Unity.BehaviourUtils
+  nameWithType: BehaviourUtils
+- uid: NomUtils.Unity.BehaviourUtils.GetRectTransform(Behaviour)
+  name: GetRectTransform(Behaviour)
+  href: api/NomUtils.Unity.BehaviourUtils.html#NomUtils_Unity_BehaviourUtils_GetRectTransform_Behaviour_
+  commentId: M:NomUtils.Unity.BehaviourUtils.GetRectTransform(Behaviour)
+  fullName: NomUtils.Unity.BehaviourUtils.GetRectTransform(Behaviour)
+  nameWithType: BehaviourUtils.GetRectTransform(Behaviour)
+- uid: NomUtils.Unity.BehaviourUtils.GetRectTransform*
+  name: GetRectTransform
+  href: api/NomUtils.Unity.BehaviourUtils.html#NomUtils_Unity_BehaviourUtils_GetRectTransform_
+  commentId: Overload:NomUtils.Unity.BehaviourUtils.GetRectTransform
+  isSpec: "True"
+  fullName: NomUtils.Unity.BehaviourUtils.GetRectTransform
+  nameWithType: BehaviourUtils.GetRectTransform
 - uid: NomUtils.Unity.ColorUtils
   name: ColorUtils
   href: api/NomUtils.Unity.ColorUtils.html
@@ -3359,6 +3424,25 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.ColorUtils.GetEuclideanDistance
   nameWithType: ColorUtils.GetEuclideanDistance
+- uid: NomUtils.Unity.GameObjectUtils
+  name: GameObjectUtils
+  href: api/NomUtils.Unity.GameObjectUtils.html
+  commentId: T:NomUtils.Unity.GameObjectUtils
+  fullName: NomUtils.Unity.GameObjectUtils
+  nameWithType: GameObjectUtils
+- uid: NomUtils.Unity.GameObjectUtils.GetRectTransform(GameObject)
+  name: GetRectTransform(GameObject)
+  href: api/NomUtils.Unity.GameObjectUtils.html#NomUtils_Unity_GameObjectUtils_GetRectTransform_GameObject_
+  commentId: M:NomUtils.Unity.GameObjectUtils.GetRectTransform(GameObject)
+  fullName: NomUtils.Unity.GameObjectUtils.GetRectTransform(GameObject)
+  nameWithType: GameObjectUtils.GetRectTransform(GameObject)
+- uid: NomUtils.Unity.GameObjectUtils.GetRectTransform*
+  name: GetRectTransform
+  href: api/NomUtils.Unity.GameObjectUtils.html#NomUtils_Unity_GameObjectUtils_GetRectTransform_
+  commentId: Overload:NomUtils.Unity.GameObjectUtils.GetRectTransform
+  isSpec: "True"
+  fullName: NomUtils.Unity.GameObjectUtils.GetRectTransform
+  nameWithType: GameObjectUtils.GetRectTransform
 - uid: NomUtils.Unity.LayerMaskUtils
   name: LayerMaskUtils
   href: api/NomUtils.Unity.LayerMaskUtils.html
@@ -3496,3 +3580,16 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.TransformUtils.CleanChildrenImmediate
   nameWithType: TransformUtils.CleanChildrenImmediate
+- uid: NomUtils.Unity.TransformUtils.GetRectTransform(Transform)
+  name: GetRectTransform(Transform)
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_GetRectTransform_Transform_
+  commentId: M:NomUtils.Unity.TransformUtils.GetRectTransform(Transform)
+  fullName: NomUtils.Unity.TransformUtils.GetRectTransform(Transform)
+  nameWithType: TransformUtils.GetRectTransform(Transform)
+- uid: NomUtils.Unity.TransformUtils.GetRectTransform*
+  name: GetRectTransform
+  href: api/NomUtils.Unity.TransformUtils.html#NomUtils_Unity_TransformUtils_GetRectTransform_
+  commentId: Overload:NomUtils.Unity.TransformUtils.GetRectTransform
+  isSpec: "True"
+  fullName: NomUtils.Unity.TransformUtils.GetRectTransform
+  nameWithType: TransformUtils.GetRectTransform
