@@ -81,8 +81,19 @@ namespace NomUtils.Editor {
 			}
 			GUILayout.EndHorizontal();
 			
-			GUILayout.Label($"Local Version: {_currentVersion}");
+			EditorGUILayout.BeginHorizontal();
+			
+			GUILayout.Label($"Local Version: {_currentVersion}", GUILayout.Width(position.size.x - 116));
 			string web = string.IsNullOrEmpty(_webVersion) ? "Unable to get web version" : _webVersion;
+			
+			EditorGUI.BeginChangeCheck();
+			bool toggleValue = EditorGUILayout.Toggle(EditorPrefs.GetBool("NomUtils_AutoUpdate", true),  GUILayout.Width(10));
+			if (EditorGUI.EndChangeCheck()) {
+				EditorPrefs.SetBool("NomUtils_AutoUpdate", toggleValue);
+			}
+			GUILayout.Label("Check updates");
+			
+			EditorGUILayout.EndHorizontal();
 			
 			GUILayout.BeginHorizontal();
 			GUILayout.Label($"Web Version: {web}", GUILayout.Width(position.size.x - 115));
@@ -220,7 +231,7 @@ namespace NomUtils.Editor {
 
 			_instance = FindObjectOfType<UpdateLaunchChecker>();
 
-			if (_instance != null) {
+			if (_instance != null || !EditorPrefs.GetBool("NomUtils_AutoUpdate", true)) {
 				return;
 			}
 
