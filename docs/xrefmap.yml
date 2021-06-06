@@ -1893,28 +1893,77 @@ references:
   commentId: N:NomUtils.Math.Splines
   fullName: NomUtils.Math.Splines
   nameWithType: NomUtils.Math.Splines
-- uid: NomUtils.Math.Splines.CatmulRomSpline
-  name: CatmulRomSpline
-  href: api/NomUtils.Math.Splines.CatmulRomSpline.html
-  commentId: T:NomUtils.Math.Splines.CatmulRomSpline
-  fullName: NomUtils.Math.Splines.CatmulRomSpline
-  nameWithType: CatmulRomSpline
-- uid: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint(System.Single,Vector2[])
-  name: SamplePoint(Single, Vector2[])
-  href: api/NomUtils.Math.Splines.CatmulRomSpline.html#NomUtils_Math_Splines_CatmulRomSpline_SamplePoint_System_Single_Vector2___
-  commentId: M:NomUtils.Math.Splines.CatmulRomSpline.SamplePoint(System.Single,Vector2[])
-  name.vb: SamplePoint(Single, Vector2())
-  fullName: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint(System.Single, Vector2[])
-  fullName.vb: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint(System.Single, Vector2())
-  nameWithType: CatmulRomSpline.SamplePoint(Single, Vector2[])
-  nameWithType.vb: CatmulRomSpline.SamplePoint(Single, Vector2())
-- uid: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint*
-  name: SamplePoint
-  href: api/NomUtils.Math.Splines.CatmulRomSpline.html#NomUtils_Math_Splines_CatmulRomSpline_SamplePoint_
-  commentId: Overload:NomUtils.Math.Splines.CatmulRomSpline.SamplePoint
+- uid: NomUtils.Math.Splines.SplineCatmullRom
+  name: SplineCatmullRom
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html
+  commentId: T:NomUtils.Math.Splines.SplineCatmullRom
+  fullName: NomUtils.Math.Splines.SplineCatmullRom
+  nameWithType: SplineCatmullRom
+- uid: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single,System.Single[])
+  name: GetHeight(Single, Single[])
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_GetHeight_System_Single_System_Single___
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single,System.Single[])
+  name.vb: GetHeight(Single, Single())
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single, System.Single[])
+  fullName.vb: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single, System.Single())
+  nameWithType: SplineCatmullRom.GetHeight(Single, Single[])
+  nameWithType.vb: SplineCatmullRom.GetHeight(Single, Single())
+- uid: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single,Vector3[])
+  name: GetHeight(Single, Vector3[])
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_GetHeight_System_Single_Vector3___
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single,Vector3[])
+  name.vb: GetHeight(Single, Vector3())
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single, Vector3[])
+  fullName.vb: NomUtils.Math.Splines.SplineCatmullRom.GetHeight(System.Single, Vector3())
+  nameWithType: SplineCatmullRom.GetHeight(Single, Vector3[])
+  nameWithType.vb: SplineCatmullRom.GetHeight(Single, Vector3())
+- uid: NomUtils.Math.Splines.SplineCatmullRom.GetHeight*
+  name: GetHeight
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_GetHeight_
+  commentId: Overload:NomUtils.Math.Splines.SplineCatmullRom.GetHeight
   isSpec: "True"
-  fullName: NomUtils.Math.Splines.CatmulRomSpline.SamplePoint
-  nameWithType: CatmulRomSpline.SamplePoint
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.GetHeight
+  nameWithType: SplineCatmullRom.GetHeight
+- uid: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: SamplePoint(Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single)
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_SamplePoint_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: SplineCatmullRom.SamplePoint(Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single)
+- uid: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector2@,Vector2@,Vector2@,Vector2@)
+  name: SamplePoint(Single, Vector2, Vector2, Vector2, Vector2)
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_SamplePoint_System_Single_Vector2__Vector2__Vector2__Vector2__
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector2@,Vector2@,Vector2@,Vector2@)
+  name.vb: SamplePoint(Single, ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, Vector2, Vector2, Vector2, Vector2)
+  fullName.vb: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+  nameWithType: SplineCatmullRom.SamplePoint(Single, Vector2, Vector2, Vector2, Vector2)
+  nameWithType.vb: SplineCatmullRom.SamplePoint(Single, ByRef Vector2, ByRef Vector2, ByRef Vector2, ByRef Vector2)
+- uid: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector2[])
+  name: SamplePoint(Single, Vector2[])
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_SamplePoint_System_Single_Vector2___
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector2[])
+  name.vb: SamplePoint(Single, Vector2())
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, Vector2[])
+  fullName.vb: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, Vector2())
+  nameWithType: SplineCatmullRom.SamplePoint(Single, Vector2[])
+  nameWithType.vb: SplineCatmullRom.SamplePoint(Single, Vector2())
+- uid: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
+  name: SamplePoint(Single, Vector3, Vector3, Vector3, Vector3)
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_SamplePoint_System_Single_Vector3__Vector3__Vector3__Vector3__
+  commentId: M:NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single,Vector3@,Vector3@,Vector3@,Vector3@)
+  name.vb: SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, Vector3, Vector3, Vector3, Vector3)
+  fullName.vb: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint(System.Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+  nameWithType: SplineCatmullRom.SamplePoint(Single, Vector3, Vector3, Vector3, Vector3)
+  nameWithType.vb: SplineCatmullRom.SamplePoint(Single, ByRef Vector3, ByRef Vector3, ByRef Vector3, ByRef Vector3)
+- uid: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint*
+  name: SamplePoint
+  href: api/NomUtils.Math.Splines.SplineCatmullRom.html#NomUtils_Math_Splines_SplineCatmullRom_SamplePoint_
+  commentId: Overload:NomUtils.Math.Splines.SplineCatmullRom.SamplePoint
+  isSpec: "True"
+  fullName: NomUtils.Math.Splines.SplineCatmullRom.SamplePoint
+  nameWithType: SplineCatmullRom.SamplePoint
 - uid: NomUtils.Math.TrigOps
   name: TrigOps
   href: api/NomUtils.Math.TrigOps.html
