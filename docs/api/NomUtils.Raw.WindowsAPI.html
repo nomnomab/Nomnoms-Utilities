@@ -86,6 +86,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class WindowsAPI</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="NomUtils_Raw_WindowsAPI_GWL_STYLE" data-uid="NomUtils.Raw.WindowsAPI.GWL_STYLE">GWL_STYLE</h4>
+  <div class="markdown level1 summary"><p>New style id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int GWL_STYLE = -16</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -115,6 +142,53 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_ClientToScreen_" data-uid="NomUtils.Raw.WindowsAPI.ClientToScreen*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_ClientToScreen_System_IntPtr_Vector2Int__" data-uid="NomUtils.Raw.WindowsAPI.ClientToScreen(System.IntPtr,Vector2Int@)">ClientToScreen(IntPtr, ref Vector2Int)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ClientToScreen(IntPtr hWnd, ref Vector2Int point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hWnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="NomUtils_Raw_WindowsAPI_GetActiveWindow_" data-uid="NomUtils.Raw.WindowsAPI.GetActiveWindow*"></a>
@@ -272,6 +346,100 @@
   </table>
   
   
+  <a id="NomUtils_Raw_WindowsAPI_GetWindowRect_" data-uid="NomUtils.Raw.WindowsAPI.GetWindowRect*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_GetWindowRect_System_IntPtr_NomUtils_Raw_WindowsAPI_WindowsRect__" data-uid="NomUtils.Raw.WindowsAPI.GetWindowRect(System.IntPtr,NomUtils.Raw.WindowsAPI.WindowsRect@)">GetWindowRect(IntPtr, out WindowsAPI.WindowsRect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetWindowRect(IntPtr hwnd, out WindowsAPI.WindowsRect lpRect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hwnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NomUtils.Raw.WindowsAPI.WindowsRect.html">WindowsAPI.WindowsRect</a></td>
+        <td><span class="parametername">lpRect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_LoadCursor_" data-uid="NomUtils.Raw.WindowsAPI.LoadCursor*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_LoadCursor_System_IntPtr_System_Int32_" data-uid="NomUtils.Raw.WindowsAPI.LoadCursor(System.IntPtr,System.Int32)">LoadCursor(IntPtr, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr LoadCursor(IntPtr hInstance, int lpCursorName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hInstance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lpCursorName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="NomUtils_Raw_WindowsAPI_MaximizeWindow_" data-uid="NomUtils.Raw.WindowsAPI.MaximizeWindow*"></a>
   <h4 id="NomUtils_Raw_WindowsAPI_MaximizeWindow" data-uid="NomUtils.Raw.WindowsAPI.MaximizeWindow">MaximizeWindow()</h4>
   <div class="markdown level1 summary"><p>Maximizes the active window.</p>
@@ -292,6 +460,120 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void MinimizeWindow()</code></pre>
   </div>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_MouseEvent_" data-uid="NomUtils.Raw.WindowsAPI.MouseEvent*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_MouseEvent_NomUtils_Raw_WindowsAPI_MouseEventFlag_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="NomUtils.Raw.WindowsAPI.MouseEvent(NomUtils.Raw.WindowsAPI.MouseEventFlag,System.Int32,System.Int32,System.Int32,System.Int32)">MouseEvent(WindowsAPI.MouseEventFlag, Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void MouseEvent(WindowsAPI.MouseEventFlag dwFlags, int dx, int dy, int cButtons, int dwExtraInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="NomUtils.Raw.WindowsAPI.MouseEventFlag.html">WindowsAPI.MouseEventFlag</a></td>
+        <td><span class="parametername">dwFlags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dx</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dy</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cButtons</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dwExtraInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_MoveWindow_" data-uid="NomUtils.Raw.WindowsAPI.MoveWindow*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_MoveWindow_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="NomUtils.Raw.WindowsAPI.MoveWindow(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">MoveWindow(IntPtr, Int32, Int32, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool MoveWindow(IntPtr hWnd, int x, int y, int nWidth, int nHeight, bool bRepaint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hWnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nWidth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nHeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bRepaint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="NomUtils_Raw_WindowsAPI_MoveWindowPos_" data-uid="NomUtils.Raw.WindowsAPI.MoveWindowPos*"></a>
@@ -381,6 +663,137 @@ Movement is applied from the top-left of the window.</p>
   </table>
   
   
+  <a id="NomUtils_Raw_WindowsAPI_SetCursor_" data-uid="NomUtils.Raw.WindowsAPI.SetCursor*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_SetCursor_System_IntPtr_" data-uid="NomUtils.Raw.WindowsAPI.SetCursor(System.IntPtr)">SetCursor(IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr SetCursor(IntPtr hCursor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hCursor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_SetCursorPos_" data-uid="NomUtils.Raw.WindowsAPI.SetCursorPos*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_SetCursorPos_System_Int32_System_Int32_" data-uid="NomUtils.Raw.WindowsAPI.SetCursorPos(System.Int32,System.Int32)">SetCursorPos(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long SetCursorPos(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_SetForegroundWindow_" data-uid="NomUtils.Raw.WindowsAPI.SetForegroundWindow*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_SetForegroundWindow_System_Int32_" data-uid="NomUtils.Raw.WindowsAPI.SetForegroundWindow(System.Int32)">SetForegroundWindow(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SetForegroundWindow(int hwnd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">hwnd</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="NomUtils_Raw_WindowsAPI_SetFramedWindow_" data-uid="NomUtils.Raw.WindowsAPI.SetFramedWindow*"></a>
   <h4 id="NomUtils_Raw_WindowsAPI_SetFramedWindow_NomUtils_Raw_WindowsAPI_WindowStyles_" data-uid="NomUtils.Raw.WindowsAPI.SetFramedWindow(NomUtils.Raw.WindowsAPI.WindowStyles)">SetFramedWindow(WindowsAPI.WindowStyles)</h4>
   <div class="markdown level1 summary"><p>Resets the window's frame and titlebar.</p>
@@ -431,6 +844,58 @@ Movement is applied from the top-left of the window.</p>
       <tr>
         <td><a class="xref" href="NomUtils.Raw.WindowsAPI.WindowStyles.html">WindowsAPI.WindowStyles</a></td>
         <td><span class="parametername">style</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_SetWindowLong_" data-uid="NomUtils.Raw.WindowsAPI.SetWindowLong*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_SetWindowLong_System_IntPtr_System_Int32_System_UInt32_" data-uid="NomUtils.Raw.WindowsAPI.SetWindowLong(System.IntPtr,System.Int32,System.UInt32)">SetWindowLong(IntPtr, Int32, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hWnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">dwNewLong</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -507,6 +972,100 @@ Top-left of screen is (0, 0)</p>
       <tr>
         <td><a class="xref" href="NomUtils.Raw.WindowsAPI.ShowWindowType.html">WindowsAPI.ShowWindowType</a></td>
         <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_ShowWindow_" data-uid="NomUtils.Raw.WindowsAPI.ShowWindow*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_ShowWindow_System_IntPtr_NomUtils_Raw_WindowsAPI_ShowWindowEnum_" data-uid="NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,NomUtils.Raw.WindowsAPI.ShowWindowEnum)">ShowWindow(IntPtr, WindowsAPI.ShowWindowEnum)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ShowWindow(IntPtr hWnd, WindowsAPI.ShowWindowEnum flags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hWnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="NomUtils.Raw.WindowsAPI.ShowWindowEnum.html">WindowsAPI.ShowWindowEnum</a></td>
+        <td><span class="parametername">flags</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="NomUtils_Raw_WindowsAPI_ShowWindow_" data-uid="NomUtils.Raw.WindowsAPI.ShowWindow*"></a>
+  <h4 id="NomUtils_Raw_WindowsAPI_ShowWindow_System_IntPtr_System_Int32_" data-uid="NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,System.Int32)">ShowWindow(IntPtr, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ShowWindow(IntPtr hwnd, int nCmdShow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">hwnd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nCmdShow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

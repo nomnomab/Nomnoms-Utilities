@@ -2811,6 +2811,21 @@ references:
   commentId: T:NomUtils.Raw.WindowsAPI
   fullName: NomUtils.Raw.WindowsAPI
   nameWithType: WindowsAPI
+- uid: NomUtils.Raw.WindowsAPI.ClientToScreen(System.IntPtr,Vector2Int@)
+  name: ClientToScreen(IntPtr, ref Vector2Int)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ClientToScreen_System_IntPtr_Vector2Int__
+  commentId: M:NomUtils.Raw.WindowsAPI.ClientToScreen(System.IntPtr,Vector2Int@)
+  name.vb: ClientToScreen(IntPtr, ByRef Vector2Int)
+  fullName: NomUtils.Raw.WindowsAPI.ClientToScreen(System.IntPtr, ref Vector2Int)
+  fullName.vb: NomUtils.Raw.WindowsAPI.ClientToScreen(System.IntPtr, ByRef Vector2Int)
+  nameWithType: WindowsAPI.ClientToScreen(IntPtr, ref Vector2Int)
+  nameWithType.vb: WindowsAPI.ClientToScreen(IntPtr, ByRef Vector2Int)
+- uid: NomUtils.Raw.WindowsAPI.ClientToScreen*
+  name: ClientToScreen
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ClientToScreen_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.ClientToScreen
+  fullName: NomUtils.Raw.WindowsAPI.ClientToScreen
+  nameWithType: WindowsAPI.ClientToScreen
 - uid: NomUtils.Raw.WindowsAPI.Framed
   name: Framed
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_Framed
@@ -2876,6 +2891,15 @@ references:
   fullName.vb: NomUtils.Raw.WindowsAPI.GetWindowRect(ByRef NomUtils.Raw.WindowsAPI.WindowsRect)
   nameWithType: WindowsAPI.GetWindowRect(out WindowsAPI.WindowsRect)
   nameWithType.vb: WindowsAPI.GetWindowRect(ByRef WindowsAPI.WindowsRect)
+- uid: NomUtils.Raw.WindowsAPI.GetWindowRect(System.IntPtr,NomUtils.Raw.WindowsAPI.WindowsRect@)
+  name: GetWindowRect(IntPtr, out WindowsAPI.WindowsRect)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowRect_System_IntPtr_NomUtils_Raw_WindowsAPI_WindowsRect__
+  commentId: M:NomUtils.Raw.WindowsAPI.GetWindowRect(System.IntPtr,NomUtils.Raw.WindowsAPI.WindowsRect@)
+  name.vb: GetWindowRect(IntPtr, ByRef WindowsAPI.WindowsRect)
+  fullName: NomUtils.Raw.WindowsAPI.GetWindowRect(System.IntPtr, out NomUtils.Raw.WindowsAPI.WindowsRect)
+  fullName.vb: NomUtils.Raw.WindowsAPI.GetWindowRect(System.IntPtr, ByRef NomUtils.Raw.WindowsAPI.WindowsRect)
+  nameWithType: WindowsAPI.GetWindowRect(IntPtr, out WindowsAPI.WindowsRect)
+  nameWithType.vb: WindowsAPI.GetWindowRect(IntPtr, ByRef WindowsAPI.WindowsRect)
 - uid: NomUtils.Raw.WindowsAPI.GetWindowRect*
   name: GetWindowRect
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GetWindowRect_
@@ -2883,6 +2907,24 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.GetWindowRect
   nameWithType: WindowsAPI.GetWindowRect
+- uid: NomUtils.Raw.WindowsAPI.GWL_STYLE
+  name: GWL_STYLE
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_GWL_STYLE
+  commentId: F:NomUtils.Raw.WindowsAPI.GWL_STYLE
+  fullName: NomUtils.Raw.WindowsAPI.GWL_STYLE
+  nameWithType: WindowsAPI.GWL_STYLE
+- uid: NomUtils.Raw.WindowsAPI.LoadCursor(System.IntPtr,System.Int32)
+  name: LoadCursor(IntPtr, Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_LoadCursor_System_IntPtr_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.LoadCursor(System.IntPtr,System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.LoadCursor(System.IntPtr, System.Int32)
+  nameWithType: WindowsAPI.LoadCursor(IntPtr, Int32)
+- uid: NomUtils.Raw.WindowsAPI.LoadCursor*
+  name: LoadCursor
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_LoadCursor_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.LoadCursor
+  fullName: NomUtils.Raw.WindowsAPI.LoadCursor
+  nameWithType: WindowsAPI.LoadCursor
 - uid: NomUtils.Raw.WindowsAPI.MaximizeWindow
   name: MaximizeWindow()
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MaximizeWindow
@@ -2909,6 +2951,108 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.MinimizeWindow
   nameWithType: WindowsAPI.MinimizeWindow
+- uid: NomUtils.Raw.WindowsAPI.MouseEvent(NomUtils.Raw.WindowsAPI.MouseEventFlag,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: MouseEvent(WindowsAPI.MouseEventFlag, Int32, Int32, Int32, Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MouseEvent_NomUtils_Raw_WindowsAPI_MouseEventFlag_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.MouseEvent(NomUtils.Raw.WindowsAPI.MouseEventFlag,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.MouseEvent(NomUtils.Raw.WindowsAPI.MouseEventFlag, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: WindowsAPI.MouseEvent(WindowsAPI.MouseEventFlag, Int32, Int32, Int32, Int32)
+- uid: NomUtils.Raw.WindowsAPI.MouseEvent*
+  name: MouseEvent
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MouseEvent_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.MouseEvent
+  fullName: NomUtils.Raw.WindowsAPI.MouseEvent
+  nameWithType: WindowsAPI.MouseEvent
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag
+  name: WindowsAPI.MouseEventFlag
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html
+  commentId: T:NomUtils.Raw.WindowsAPI.MouseEventFlag
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag
+  nameWithType: WindowsAPI.MouseEventFlag
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.Absolute
+  name: Absolute
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_Absolute
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.Absolute
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.Absolute
+  nameWithType: WindowsAPI.MouseEventFlag.Absolute
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftDown
+  name: LeftDown
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_LeftDown
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftDown
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftDown
+  nameWithType: WindowsAPI.MouseEventFlag.LeftDown
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftUp
+  name: LeftUp
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_LeftUp
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftUp
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.LeftUp
+  nameWithType: WindowsAPI.MouseEventFlag.LeftUp
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleDown
+  name: MiddleDown
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_MiddleDown
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleDown
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleDown
+  nameWithType: WindowsAPI.MouseEventFlag.MiddleDown
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleUp
+  name: MiddleUp
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_MiddleUp
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleUp
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.MiddleUp
+  nameWithType: WindowsAPI.MouseEventFlag.MiddleUp
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.Move
+  name: Move
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_Move
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.Move
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.Move
+  nameWithType: WindowsAPI.MouseEventFlag.Move
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.RightDown
+  name: RightDown
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_RightDown
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.RightDown
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.RightDown
+  nameWithType: WindowsAPI.MouseEventFlag.RightDown
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.RightUp
+  name: RightUp
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_RightUp
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.RightUp
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.RightUp
+  nameWithType: WindowsAPI.MouseEventFlag.RightUp
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.VirtualDesk
+  name: VirtualDesk
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_VirtualDesk
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.VirtualDesk
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.VirtualDesk
+  nameWithType: WindowsAPI.MouseEventFlag.VirtualDesk
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.Wheel
+  name: Wheel
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_Wheel
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.Wheel
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.Wheel
+  nameWithType: WindowsAPI.MouseEventFlag.Wheel
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.XDown
+  name: XDown
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_XDown
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.XDown
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.XDown
+  nameWithType: WindowsAPI.MouseEventFlag.XDown
+- uid: NomUtils.Raw.WindowsAPI.MouseEventFlag.XUp
+  name: XUp
+  href: api/NomUtils.Raw.WindowsAPI.MouseEventFlag.html#NomUtils_Raw_WindowsAPI_MouseEventFlag_XUp
+  commentId: F:NomUtils.Raw.WindowsAPI.MouseEventFlag.XUp
+  fullName: NomUtils.Raw.WindowsAPI.MouseEventFlag.XUp
+  nameWithType: WindowsAPI.MouseEventFlag.XUp
+- uid: NomUtils.Raw.WindowsAPI.MoveWindow(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  name: MoveWindow(IntPtr, Int32, Int32, Int32, Int32, Boolean)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MoveWindow_System_IntPtr_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_
+  commentId: M:NomUtils.Raw.WindowsAPI.MoveWindow(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  fullName: NomUtils.Raw.WindowsAPI.MoveWindow(System.IntPtr, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
+  nameWithType: WindowsAPI.MoveWindow(IntPtr, Int32, Int32, Int32, Int32, Boolean)
+- uid: NomUtils.Raw.WindowsAPI.MoveWindow*
+  name: MoveWindow
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MoveWindow_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.MoveWindow
+  fullName: NomUtils.Raw.WindowsAPI.MoveWindow
+  nameWithType: WindowsAPI.MoveWindow
 - uid: NomUtils.Raw.WindowsAPI.MoveWindowPos(System.Int32,System.Int32,System.Int32,System.Int32)
   name: MoveWindowPos(Int32, Int32, Int32, Int32)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_MoveWindowPos_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -2941,6 +3085,12 @@ references:
   commentId: M:NomUtils.Raw.WindowsAPI.SetCursor(NomUtils.Raw.WindowsAPI.WindowsCursor)
   fullName: NomUtils.Raw.WindowsAPI.SetCursor(NomUtils.Raw.WindowsAPI.WindowsCursor)
   nameWithType: WindowsAPI.SetCursor(WindowsAPI.WindowsCursor)
+- uid: NomUtils.Raw.WindowsAPI.SetCursor(System.IntPtr)
+  name: SetCursor(IntPtr)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetCursor_System_IntPtr_
+  commentId: M:NomUtils.Raw.WindowsAPI.SetCursor(System.IntPtr)
+  fullName: NomUtils.Raw.WindowsAPI.SetCursor(System.IntPtr)
+  nameWithType: WindowsAPI.SetCursor(IntPtr)
 - uid: NomUtils.Raw.WindowsAPI.SetCursor*
   name: SetCursor
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetCursor_
@@ -2948,6 +3098,30 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.SetCursor
   nameWithType: WindowsAPI.SetCursor
+- uid: NomUtils.Raw.WindowsAPI.SetCursorPos(System.Int32,System.Int32)
+  name: SetCursorPos(Int32, Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetCursorPos_System_Int32_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.SetCursorPos(System.Int32,System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.SetCursorPos(System.Int32, System.Int32)
+  nameWithType: WindowsAPI.SetCursorPos(Int32, Int32)
+- uid: NomUtils.Raw.WindowsAPI.SetCursorPos*
+  name: SetCursorPos
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetCursorPos_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.SetCursorPos
+  fullName: NomUtils.Raw.WindowsAPI.SetCursorPos
+  nameWithType: WindowsAPI.SetCursorPos
+- uid: NomUtils.Raw.WindowsAPI.SetForegroundWindow(System.Int32)
+  name: SetForegroundWindow(Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetForegroundWindow_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.SetForegroundWindow(System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.SetForegroundWindow(System.Int32)
+  nameWithType: WindowsAPI.SetForegroundWindow(Int32)
+- uid: NomUtils.Raw.WindowsAPI.SetForegroundWindow*
+  name: SetForegroundWindow
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetForegroundWindow_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.SetForegroundWindow
+  fullName: NomUtils.Raw.WindowsAPI.SetForegroundWindow
+  nameWithType: WindowsAPI.SetForegroundWindow
 - uid: NomUtils.Raw.WindowsAPI.SetFramedWindow(NomUtils.Raw.WindowsAPI.WindowStyles)
   name: SetFramedWindow(WindowsAPI.WindowStyles)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetFramedWindow_NomUtils_Raw_WindowsAPI_WindowStyles_
@@ -2974,6 +3148,18 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.SetFramelessWindow
   nameWithType: WindowsAPI.SetFramelessWindow
+- uid: NomUtils.Raw.WindowsAPI.SetWindowLong(System.IntPtr,System.Int32,System.UInt32)
+  name: SetWindowLong(IntPtr, Int32, UInt32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetWindowLong_System_IntPtr_System_Int32_System_UInt32_
+  commentId: M:NomUtils.Raw.WindowsAPI.SetWindowLong(System.IntPtr,System.Int32,System.UInt32)
+  fullName: NomUtils.Raw.WindowsAPI.SetWindowLong(System.IntPtr, System.Int32, System.UInt32)
+  nameWithType: WindowsAPI.SetWindowLong(IntPtr, Int32, UInt32)
+- uid: NomUtils.Raw.WindowsAPI.SetWindowLong*
+  name: SetWindowLong
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetWindowLong_
+  commentId: Overload:NomUtils.Raw.WindowsAPI.SetWindowLong
+  fullName: NomUtils.Raw.WindowsAPI.SetWindowLong
+  nameWithType: WindowsAPI.SetWindowLong
 - uid: NomUtils.Raw.WindowsAPI.SetWindowPos(System.Int32,System.Int32,System.Int32,System.Int32)
   name: SetWindowPos(Int32, Int32, Int32, Int32)
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_SetWindowPos_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -2993,6 +3179,18 @@ references:
   commentId: M:NomUtils.Raw.WindowsAPI.ShowWindow(NomUtils.Raw.WindowsAPI.ShowWindowType)
   fullName: NomUtils.Raw.WindowsAPI.ShowWindow(NomUtils.Raw.WindowsAPI.ShowWindowType)
   nameWithType: WindowsAPI.ShowWindow(WindowsAPI.ShowWindowType)
+- uid: NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,NomUtils.Raw.WindowsAPI.ShowWindowEnum)
+  name: ShowWindow(IntPtr, WindowsAPI.ShowWindowEnum)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ShowWindow_System_IntPtr_NomUtils_Raw_WindowsAPI_ShowWindowEnum_
+  commentId: M:NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,NomUtils.Raw.WindowsAPI.ShowWindowEnum)
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr, NomUtils.Raw.WindowsAPI.ShowWindowEnum)
+  nameWithType: WindowsAPI.ShowWindow(IntPtr, WindowsAPI.ShowWindowEnum)
+- uid: NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,System.Int32)
+  name: ShowWindow(IntPtr, Int32)
+  href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ShowWindow_System_IntPtr_System_Int32_
+  commentId: M:NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr,System.Int32)
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindow(System.IntPtr, System.Int32)
+  nameWithType: WindowsAPI.ShowWindow(IntPtr, Int32)
 - uid: NomUtils.Raw.WindowsAPI.ShowWindow*
   name: ShowWindow
   href: api/NomUtils.Raw.WindowsAPI.html#NomUtils_Raw_WindowsAPI_ShowWindow_
@@ -3000,6 +3198,90 @@ references:
   isSpec: "True"
   fullName: NomUtils.Raw.WindowsAPI.ShowWindow
   nameWithType: WindowsAPI.ShowWindow
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum
+  name: WindowsAPI.ShowWindowEnum
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html
+  commentId: T:NomUtils.Raw.WindowsAPI.ShowWindowEnum
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum
+  nameWithType: WindowsAPI.ShowWindowEnum
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ForceMinimized
+  name: ForceMinimized
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ForceMinimized
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ForceMinimized
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ForceMinimized
+  nameWithType: WindowsAPI.ShowWindowEnum.ForceMinimized
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Hide
+  name: Hide
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_Hide
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.Hide
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Hide
+  nameWithType: WindowsAPI.ShowWindowEnum.Hide
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Maximize
+  name: Maximize
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_Maximize
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.Maximize
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Maximize
+  nameWithType: WindowsAPI.ShowWindowEnum.Maximize
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Minimize
+  name: Minimize
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_Minimize
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.Minimize
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Minimize
+  nameWithType: WindowsAPI.ShowWindowEnum.Minimize
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Restore
+  name: Restore
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_Restore
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.Restore
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Restore
+  nameWithType: WindowsAPI.ShowWindowEnum.Restore
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Show
+  name: Show
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_Show
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.Show
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.Show
+  nameWithType: WindowsAPI.ShowWindowEnum.Show
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowDefault
+  name: ShowDefault
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowDefault
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowDefault
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowDefault
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowDefault
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMaximized
+  name: ShowMaximized
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowMaximized
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMaximized
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMaximized
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowMaximized
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinimized
+  name: ShowMinimized
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowMinimized
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinimized
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinimized
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowMinimized
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinNoActivate
+  name: ShowMinNoActivate
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowMinNoActivate
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinNoActivate
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowMinNoActivate
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowMinNoActivate
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNoActivate
+  name: ShowNoActivate
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowNoActivate
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNoActivate
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNoActivate
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowNoActivate
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormal
+  name: ShowNormal
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowNormal
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormal
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormal
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowNormal
+- uid: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormalNoActivate
+  name: ShowNormalNoActivate
+  href: api/NomUtils.Raw.WindowsAPI.ShowWindowEnum.html#NomUtils_Raw_WindowsAPI_ShowWindowEnum_ShowNormalNoActivate
+  commentId: F:NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormalNoActivate
+  fullName: NomUtils.Raw.WindowsAPI.ShowWindowEnum.ShowNormalNoActivate
+  nameWithType: WindowsAPI.ShowWindowEnum.ShowNormalNoActivate
 - uid: NomUtils.Raw.WindowsAPI.ShowWindowType
   name: WindowsAPI.ShowWindowType
   href: api/NomUtils.Raw.WindowsAPI.ShowWindowType.html
