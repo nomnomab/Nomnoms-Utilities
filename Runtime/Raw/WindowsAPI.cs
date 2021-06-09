@@ -224,36 +224,78 @@ namespace NomUtils.Raw {
 			public int right;
 			public int bottom;
 		}
+		
+		public enum MouseEventFlag : uint {
+			Move = 0x0001,
+			LeftDown = 0x0002,
+			LeftUp = 0x0004,
+			RightDown = 0x0008,
+			RightUp = 0x0010,
+			MiddleDown = 0x0020,
+			MiddleUp = 0x0040,
+			XDown = 0x0080,
+			XUp = 0x0100,
+			Wheel = 0x0800,
+			VirtualDesk = 0x4000,
+			Absolute = 0x8000
+		}
+
+
+		public enum ShowWindowEnum
+		{
+			Hide = 0,
+			ShowNormal = 1, ShowMinimized = 2, ShowMaximized = 3,
+			Maximize = 3, ShowNormalNoActivate = 4, Show = 5,
+			Minimize = 6, ShowMinNoActivate = 7, ShowNoActivate = 8,
+			Restore = 9, ShowDefault = 10, ForceMinimized = 11
+		};
 
 		/// <summary>
 		/// New style id.
 		/// </summary>
-		private const int GWL_STYLE = -16;
+		public const int GWL_STYLE = -16;
 
 		[DllImport("user32.dll")]
 		public static extern IntPtr GetActiveWindow();
 
 		[DllImport("user32.dll")]
-		private static extern int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong);
+		public static extern int SetWindowLong(IntPtr hWnd, int nIndex, uint dwNewLong);
 
 		[DllImport("user32.dll")]
-		private static extern bool ShowWindow(IntPtr hwnd, int nCmdShow);
+		public static extern bool ShowWindow(IntPtr hwnd, int nCmdShow);
 
 		[DllImport("user32.dll")]
-		private static extern bool GetWindowRect(IntPtr hwnd, out WindowsRect lpRect);
+		public static extern bool GetWindowRect(IntPtr hwnd, out WindowsRect lpRect);
 
 		[DllImport("user32.dll")]
-		private static extern bool MoveWindow(IntPtr hWnd, int x, int y, int nWidth, int nHeight, bool bRepaint);
+		public static extern bool MoveWindow(IntPtr hWnd, int x, int y, int nWidth, int nHeight, bool bRepaint);
 
 		[DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
-		private static extern IntPtr SetCursor(IntPtr hCursor);
+		public static extern IntPtr SetCursor(IntPtr hCursor);
 
 		[DllImport("user32.dll")]
-		private static extern IntPtr LoadCursor(IntPtr hInstance, int lpCursorName);
+		public static extern IntPtr LoadCursor(IntPtr hInstance, int lpCursorName);
 
 		[DllImport("user32.dll")]
 		public static extern bool GetCursorPos(out Vector2Int lpPoint);
+
+		[DllImport("user32.dll")]
+		[return: MarshalAs(UnmanagedType.Bool)]
+		public static extern bool ShowWindow(IntPtr hWnd, ShowWindowEnum flags);
 		
+		[DllImport("user32.dll")]
+		public static extern int SetForegroundWindow(int hwnd);
+		
+		[DllImport("User32.Dll")]
+		public static extern long SetCursorPos(int x, int y);
+
+		[DllImport("User32.Dll")]
+		public static extern bool ClientToScreen(IntPtr hWnd, ref Vector2Int point);
+		
+		[DllImport("user32.dll", EntryPoint = "mouse_event")]
+
+		public static extern void MouseEvent(MouseEventFlag dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
+
 		/// <summary>
 		/// Removes the window's frame and titlebar. Removes resizing functionality.
 		/// </summary>
