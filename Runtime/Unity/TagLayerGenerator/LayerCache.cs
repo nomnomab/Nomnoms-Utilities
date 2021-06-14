@@ -39,7 +39,7 @@ namespace NomUtils.Unity.TagLayerGenerator {
 
 		public static void Regenerate() {
 			string[] layers = UnityEditorInternal.InternalEditorUtility.layers;
-			bool needsRegeneration = layers.Length != _instance._layers.Length || _instance._layers.Length == 0;
+			bool needsRegeneration = _instance._layers == null || layers.Length != _instance._layers.Length || _instance._layers.Length == 0;
 
 			if (!needsRegeneration) {
 				for (int i = 0; i < layers.Length; i++) {
