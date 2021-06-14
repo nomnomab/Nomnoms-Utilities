@@ -104,23 +104,14 @@ namespace NomUtils.Unity.TagLayerGenerator {
 			finalLayerString += "\n\t}";
 			finalLayerMaskString += "\n\t}\n}";
 
-			// save to file
-			string[] ids = AssetDatabase.FindAssets("GeneratedUnityLayer");
-
-			 string path;
-			 if (ids.Length != 0) {
-			 	path = AssetDatabase.GUIDToAssetPath(ids[0]);
-			 } else {
-			 	string selfPath = AssetDatabase.GetAssetPath(_instance);
-			 	path = selfPath.Substring(0, selfPath.Length - Path.GetFileName(selfPath).Length);
-			 	path += "GeneratedUnityLayer.cs";
-			 }
+			string path = new System.Diagnostics.StackTrace(true).GetFrame(0).GetFileName();
+			path = path.Substring(0, path.Length - Path.GetFileName(path).Length);
+			path += "GeneratedUnityLayer.cs";
 			
-			 path = $"{Path.Combine(Application.dataPath, "../")}{path}";
 			 using (var writer = new StreamWriter(path)) {
 			 	writer.Write(finalLayerString + finalLayerMaskString);
 			 }
-			
+			 
 			 AssetDatabase.Refresh();
 		}
 	}

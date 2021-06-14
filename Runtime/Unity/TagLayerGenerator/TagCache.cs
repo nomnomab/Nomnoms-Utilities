@@ -94,22 +94,12 @@ namespace NomUtils.Unity.TagLayerGenerator {
 
 			finalString += "\n\t}\n";
 			finalStringNames += "\n\t\t};\n\t}\n}";
-			
-			// Debug.Log(finalString + finalStringNames);
-			
+
 			// save to file
-			string[] ids = AssetDatabase.FindAssets("GeneratedUnityTag");
+			string path = new System.Diagnostics.StackTrace(true).GetFrame(0).GetFileName();
+			path = path.Substring(0, path.Length - Path.GetFileName(path).Length);
+			path += "GeneratedUnityTag.cs";
 			
-			string path;
-			if (ids.Length != 0) {
-				path = AssetDatabase.GUIDToAssetPath(ids[0]);
-			} else {
-				string selfPath = AssetDatabase.GetAssetPath(_instance);
-				path = selfPath.Substring(0, selfPath.Length - Path.GetFileName(selfPath).Length);
-				path += "GeneratedUnityTag.cs";
-			}
-			
-			path = $"{Path.Combine(Application.dataPath, "../")}{path}";
 			using (var writer = new StreamWriter(path)) {
 				writer.Write(finalString + finalStringNames);
 			}
