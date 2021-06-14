@@ -45,6 +45,100 @@ references:
   isSpec: "True"
   fullName: NomUtils.General.EnumUtils.GetHexCode
   nameWithType: EnumUtils.GetHexCode
+- uid: NomUtils.General.RingBuffer`1
+  name: RingBuffer<T>
+  href: api/NomUtils.General.RingBuffer-1.html
+  commentId: T:NomUtils.General.RingBuffer`1
+  name.vb: RingBuffer(Of T)
+  fullName: NomUtils.General.RingBuffer<T>
+  fullName.vb: NomUtils.General.RingBuffer(Of T)
+  nameWithType: RingBuffer<T>
+  nameWithType.vb: RingBuffer(Of T)
+- uid: NomUtils.General.RingBuffer`1.#ctor(System.UInt32)
+  name: RingBuffer(UInt32)
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1__ctor_System_UInt32_
+  commentId: M:NomUtils.General.RingBuffer`1.#ctor(System.UInt32)
+  fullName: NomUtils.General.RingBuffer<T>.RingBuffer(System.UInt32)
+  fullName.vb: NomUtils.General.RingBuffer(Of T).RingBuffer(System.UInt32)
+  nameWithType: RingBuffer<T>.RingBuffer(UInt32)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(UInt32)
+- uid: NomUtils.General.RingBuffer`1.#ctor*
+  name: RingBuffer
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1__ctor_
+  commentId: Overload:NomUtils.General.RingBuffer`1.#ctor
+  isSpec: "True"
+  fullName: NomUtils.General.RingBuffer<T>.RingBuffer
+  fullName.vb: NomUtils.General.RingBuffer(Of T).RingBuffer
+  nameWithType: RingBuffer<T>.RingBuffer
+  nameWithType.vb: RingBuffer(Of T).RingBuffer
+- uid: NomUtils.General.RingBuffer`1.Peek
+  name: Peek()
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Peek
+  commentId: M:NomUtils.General.RingBuffer`1.Peek
+  fullName: NomUtils.General.RingBuffer<T>.Peek()
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Peek()
+  nameWithType: RingBuffer<T>.Peek()
+  nameWithType.vb: RingBuffer(Of T).Peek()
+- uid: NomUtils.General.RingBuffer`1.Peek*
+  name: Peek
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Peek_
+  commentId: Overload:NomUtils.General.RingBuffer`1.Peek
+  isSpec: "True"
+  fullName: NomUtils.General.RingBuffer<T>.Peek
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Peek
+  nameWithType: RingBuffer<T>.Peek
+  nameWithType.vb: RingBuffer(Of T).Peek
+- uid: NomUtils.General.RingBuffer`1.Read
+  name: Read()
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Read
+  commentId: M:NomUtils.General.RingBuffer`1.Read
+  fullName: NomUtils.General.RingBuffer<T>.Read()
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Read()
+  nameWithType: RingBuffer<T>.Read()
+  nameWithType.vb: RingBuffer(Of T).Read()
+- uid: NomUtils.General.RingBuffer`1.Read*
+  name: Read
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Read_
+  commentId: Overload:NomUtils.General.RingBuffer`1.Read
+  isSpec: "True"
+  fullName: NomUtils.General.RingBuffer<T>.Read
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Read
+  nameWithType: RingBuffer<T>.Read
+  nameWithType.vb: RingBuffer(Of T).Read
+- uid: NomUtils.General.RingBuffer`1.Resize(System.UInt32)
+  name: Resize(UInt32)
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Resize_System_UInt32_
+  commentId: M:NomUtils.General.RingBuffer`1.Resize(System.UInt32)
+  fullName: NomUtils.General.RingBuffer<T>.Resize(System.UInt32)
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Resize(System.UInt32)
+  nameWithType: RingBuffer<T>.Resize(UInt32)
+  nameWithType.vb: RingBuffer(Of T).Resize(UInt32)
+- uid: NomUtils.General.RingBuffer`1.Resize*
+  name: Resize
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Resize_
+  commentId: Overload:NomUtils.General.RingBuffer`1.Resize
+  isSpec: "True"
+  fullName: NomUtils.General.RingBuffer<T>.Resize
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Resize
+  nameWithType: RingBuffer<T>.Resize
+  nameWithType.vb: RingBuffer(Of T).Resize
+- uid: NomUtils.General.RingBuffer`1.Write(`0)
+  name: Write(T)
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Write__0_
+  commentId: M:NomUtils.General.RingBuffer`1.Write(`0)
+  fullName: NomUtils.General.RingBuffer<T>.Write(T)
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Write(T)
+  nameWithType: RingBuffer<T>.Write(T)
+  nameWithType.vb: RingBuffer(Of T).Write(T)
+- uid: NomUtils.General.RingBuffer`1.Write*
+  name: Write
+  href: api/NomUtils.General.RingBuffer-1.html#NomUtils_General_RingBuffer_1_Write_
+  commentId: Overload:NomUtils.General.RingBuffer`1.Write
+  isSpec: "True"
+  fullName: NomUtils.General.RingBuffer<T>.Write
+  fullName.vb: NomUtils.General.RingBuffer(Of T).Write
+  nameWithType: RingBuffer<T>.Write
+  nameWithType.vb: RingBuffer(Of T).Write
 - uid: NomUtils.Math
   name: NomUtils.Math
   href: api/NomUtils.Math.html
@@ -3854,6 +3948,194 @@ references:
   isSpec: "True"
   fullName: NomUtils.Unity.MainThread.QueueTask
   nameWithType: MainThread.QueueTask
+- uid: NomUtils.Unity.TagLayerGenerator
+  name: NomUtils.Unity.TagLayerGenerator
+  href: api/NomUtils.Unity.TagLayerGenerator.html
+  commentId: N:NomUtils.Unity.TagLayerGenerator
+  fullName: NomUtils.Unity.TagLayerGenerator
+  nameWithType: NomUtils.Unity.TagLayerGenerator
+- uid: NomUtils.Unity.TagLayerGenerator.LayerCache
+  name: LayerCache
+  href: api/NomUtils.Unity.TagLayerGenerator.LayerCache.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.LayerCache
+  fullName: NomUtils.Unity.TagLayerGenerator.LayerCache
+  nameWithType: LayerCache
+- uid: NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate
+  name: Regenerate()
+  href: api/NomUtils.Unity.TagLayerGenerator.LayerCache.html#NomUtils_Unity_TagLayerGenerator_LayerCache_Regenerate
+  commentId: M:NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate
+  fullName: NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate()
+  nameWithType: LayerCache.Regenerate()
+- uid: NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate*
+  name: Regenerate
+  href: api/NomUtils.Unity.TagLayerGenerator.LayerCache.html#NomUtils_Unity_TagLayerGenerator_LayerCache_Regenerate_
+  commentId: Overload:NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate
+  isSpec: "True"
+  fullName: NomUtils.Unity.TagLayerGenerator.LayerCache.Regenerate
+  nameWithType: LayerCache.Regenerate
+- uid: NomUtils.Unity.TagLayerGenerator.LayerWatcher
+  name: LayerWatcher
+  href: api/NomUtils.Unity.TagLayerGenerator.LayerWatcher.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.LayerWatcher
+  fullName: NomUtils.Unity.TagLayerGenerator.LayerWatcher
+  nameWithType: LayerWatcher
+- uid: NomUtils.Unity.TagLayerGenerator.TagCache
+  name: TagCache
+  href: api/NomUtils.Unity.TagLayerGenerator.TagCache.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.TagCache
+  fullName: NomUtils.Unity.TagLayerGenerator.TagCache
+  nameWithType: TagCache
+- uid: NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate
+  name: Regenerate()
+  href: api/NomUtils.Unity.TagLayerGenerator.TagCache.html#NomUtils_Unity_TagLayerGenerator_TagCache_Regenerate
+  commentId: M:NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate
+  fullName: NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate()
+  nameWithType: TagCache.Regenerate()
+- uid: NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate*
+  name: Regenerate
+  href: api/NomUtils.Unity.TagLayerGenerator.TagCache.html#NomUtils_Unity_TagLayerGenerator_TagCache_Regenerate_
+  commentId: Overload:NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate
+  isSpec: "True"
+  fullName: NomUtils.Unity.TagLayerGenerator.TagCache.Regenerate
+  nameWithType: TagCache.Regenerate
+- uid: NomUtils.Unity.TagLayerGenerator.TagWatcher
+  name: TagWatcher
+  href: api/NomUtils.Unity.TagLayerGenerator.TagWatcher.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.TagWatcher
+  fullName: NomUtils.Unity.TagLayerGenerator.TagWatcher
+  nameWithType: TagWatcher
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer
+  name: UnityLayer
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.UnityLayer
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer
+  nameWithType: UnityLayer
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer.Default
+  name: Default
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html#NomUtils_Unity_TagLayerGenerator_UnityLayer_Default
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayer.Default
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer.Default
+  nameWithType: UnityLayer.Default
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer.Ignore_Raycast
+  name: Ignore_Raycast
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html#NomUtils_Unity_TagLayerGenerator_UnityLayer_Ignore_Raycast
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayer.Ignore_Raycast
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer.Ignore_Raycast
+  nameWithType: UnityLayer.Ignore_Raycast
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer.TransparentFX
+  name: TransparentFX
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html#NomUtils_Unity_TagLayerGenerator_UnityLayer_TransparentFX
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayer.TransparentFX
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer.TransparentFX
+  nameWithType: UnityLayer.TransparentFX
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer.UI
+  name: UI
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html#NomUtils_Unity_TagLayerGenerator_UnityLayer_UI
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayer.UI
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer.UI
+  nameWithType: UnityLayer.UI
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayer.Water
+  name: Water
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html#NomUtils_Unity_TagLayerGenerator_UnityLayer_Water
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayer.Water
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayer.Water
+  nameWithType: UnityLayer.Water
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask
+  name: UnityLayerMask
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.UnityLayerMask
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask
+  nameWithType: UnityLayerMask
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Default
+  name: Default
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html#NomUtils_Unity_TagLayerGenerator_UnityLayerMask_Default
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Default
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Default
+  nameWithType: UnityLayerMask.Default
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Ignore_Raycast
+  name: Ignore_Raycast
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html#NomUtils_Unity_TagLayerGenerator_UnityLayerMask_Ignore_Raycast
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Ignore_Raycast
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Ignore_Raycast
+  nameWithType: UnityLayerMask.Ignore_Raycast
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.TransparentFX
+  name: TransparentFX
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html#NomUtils_Unity_TagLayerGenerator_UnityLayerMask_TransparentFX
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayerMask.TransparentFX
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.TransparentFX
+  nameWithType: UnityLayerMask.TransparentFX
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.UI
+  name: UI
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html#NomUtils_Unity_TagLayerGenerator_UnityLayerMask_UI
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayerMask.UI
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.UI
+  nameWithType: UnityLayerMask.UI
+- uid: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Water
+  name: Water
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html#NomUtils_Unity_TagLayerGenerator_UnityLayerMask_Water
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Water
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityLayerMask.Water
+  nameWithType: UnityLayerMask.Water
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag
+  name: UnityTag
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.UnityTag
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag
+  nameWithType: UnityTag
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.EditorOnly
+  name: EditorOnly
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_EditorOnly
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.EditorOnly
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.EditorOnly
+  nameWithType: UnityTag.EditorOnly
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.Finish
+  name: Finish
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_Finish
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.Finish
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.Finish
+  nameWithType: UnityTag.Finish
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.GameController
+  name: GameController
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_GameController
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.GameController
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.GameController
+  nameWithType: UnityTag.GameController
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.MainCamera
+  name: MainCamera
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_MainCamera
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.MainCamera
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.MainCamera
+  nameWithType: UnityTag.MainCamera
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.Player
+  name: Player
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_Player
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.Player
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.Player
+  nameWithType: UnityTag.Player
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.Respawn
+  name: Respawn
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_Respawn
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.Respawn
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.Respawn
+  nameWithType: UnityTag.Respawn
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTag.Untagged
+  name: Untagged
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTag.html#NomUtils_Unity_TagLayerGenerator_UnityTag_Untagged
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTag.Untagged
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTag.Untagged
+  nameWithType: UnityTag.Untagged
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTagNames
+  name: UnityTagNames
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTagNames.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.UnityTagNames
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTagNames
+  nameWithType: UnityTagNames
+- uid: NomUtils.Unity.TagLayerGenerator.UnityTagNames.Cache
+  name: Cache
+  href: api/NomUtils.Unity.TagLayerGenerator.UnityTagNames.html#NomUtils_Unity_TagLayerGenerator_UnityTagNames_Cache
+  commentId: F:NomUtils.Unity.TagLayerGenerator.UnityTagNames.Cache
+  fullName: NomUtils.Unity.TagLayerGenerator.UnityTagNames.Cache
+  nameWithType: UnityTagNames.Cache
 - uid: NomUtils.Unity.TextureUtils
   name: TextureUtils
   href: api/NomUtils.Unity.TextureUtils.html

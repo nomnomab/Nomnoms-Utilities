@@ -29,11 +29,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.General.RingBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.General.RingBuffer-1.html",
+          "hash": "0KhQZ2dGQ0XgLhCSC/9mD4GpVcqNlIMUJWCkd1vTUhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.General.yml",
       "output": {
         ".html": {
           "relative_path": "api/NomUtils.General.html",
-          "hash": "d70/QssurMCPpcAIBdDKKATax5+CIiW7rjEO/fOO/Us="
+          "hash": "m8SLGEY+zsUqjKcN6PvDbe47DUMHV59qFU8bcPwkwhg="
         }
       },
       "is_incremental": false,
@@ -509,6 +521,114 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.LayerCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.LayerCache.html",
+          "hash": "5d1FuwHVYsmGjZg6jj5Rq6Ztalwn9BZPwwCqA14soBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.LayerWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.LayerWatcher.html",
+          "hash": "wOh/GrBWObn1pl1hk0sn0J2Iw+MO3/AofXuB5i0bqxU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.TagCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.TagCache.html",
+          "hash": "PE42hVYW496HTpJQ+Hk90RoiMCl46drjkuw68aqzFBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.TagWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.TagWatcher.html",
+          "hash": "b+YbHQ19o5k5h5qpq9Zd1sCEb8ZEh4Q5MyEeVXTsZfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityLayer.html",
+          "hash": "Tf/n9R2ZwvIWdKzLZbntOSKViwjmitNo+rBbdyHshi0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityLayerMask.html",
+          "hash": "EseG20IkhW2RO1/Y94jdwZXt11e2BT8Ysgh9nlCsquU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityTag.html",
+          "hash": "TMuzdP/CRAjppQ9ku+rP/DVpu/Z5BmKs6k6U4Yr0UWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityTagNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.UnityTagNames.html",
+          "hash": "oIeNc7Wl5r5olvmAK0b/tSz6ynjaBXorNuyuRYlIL1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NomUtils.Unity.TagLayerGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NomUtils.Unity.TagLayerGenerator.html",
+          "hash": "IODomJJPjDMtGwaOq6O12iQCGtdjZE9ciWpzqXVHOPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NomUtils.Unity.TextureUtils.yml",
       "output": {
         ".html": {
@@ -549,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "dlBXgBcRMfJkRr30gqDP2q6jjQ5ly7llsdW96rA3KAc="
+          "hash": "SPw4JuDyNCXXBYmoPKxNPREN5gC8oVdyhJLJKSai9xE="
         }
       },
       "is_incremental": false,
@@ -561,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rGr/oGMocnmxZFh2CDNqpeAuUrjjk5DTf/Z3/2hhMtk="
+          "hash": "BAnfD1v2iIz70U3g3pjR0bxMiH7tU3pUvBWfHzWB8nw="
         }
       },
       "is_incremental": false,
@@ -634,8 +754,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 45,
-          "skipped_file_count": 8
+          "total_file_count": 55,
+          "skipped_file_count": 10
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
