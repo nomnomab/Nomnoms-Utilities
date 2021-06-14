@@ -1,4 +1,4 @@
-# Nomnoms-Utilities
+# Nomnom's Utilities
 This package is a collection of useful utilities, and various other useful odds-and-ends.
 
 ## Installation
