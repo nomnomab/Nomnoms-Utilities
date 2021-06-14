@@ -31,7 +31,7 @@ namespace NomUtils.Unity.TagLayerGenerator {
 				string path = AssetDatabase.GUIDToAssetPath(ids[0]);
 				_instance = AssetDatabase.LoadAssetAtPath<LayerCache>(path);
 
-				if (_instance._layers.Length == 0) {
+				if (_instance._layers == null || _instance._layers.Length == 0) {
 					Regenerate();
 				}
 			}
