@@ -7,9 +7,8 @@ using UnityEngine;
 namespace NomUtils.Unity.TagLayerGenerator {
 	[InitializeOnLoad]
 	public class LayerCache: ScriptableObject {
-		private const string REGEX_EXPRESSION = "[\\~#%&*{}/:<>?|\"-]";
 		private static LayerCache _instance;
-		[SerializeField] private string[] _layers;
+		[SerializeField] private string[] _layers = new string[0];
 
 		static LayerCache() {
 			EditorApplication.update += OnInit;
@@ -17,29 +16,36 @@ namespace NomUtils.Unity.TagLayerGenerator {
 
 		private static void OnInit() {
 			EditorApplication.update -= OnInit;
+			
+			CreateAsset();
+			
+			if (_instance._layers.Length == 0) {
+				Regenerate();
+			}
+		}
+		
+		private static void CreateAsset() {
+			if (!_instance) {
+				const string TYPE_NAME = nameof(LayerCache);
+				string[] id = AssetDatabase.FindAssets($"t:{TYPE_NAME} {TYPE_NAME}");
 
-			// check if this exists
-			const string TYPE_NAME = nameof(LayerCache);
-			string[] ids = AssetDatabase.FindAssets($"t:{TYPE_NAME} {TYPE_NAME}");
-
-			if (ids.Length == 0) {
-				// create new one
-				AssetDatabase.CreateAsset(CreateInstance<LayerCache>(), $"Assets/{TYPE_NAME}.asset");
-				AssetDatabase.SaveAssets();
-				AssetDatabase.Refresh();
-			} else {
-				string path = AssetDatabase.GUIDToAssetPath(ids[0]);
-				_instance = AssetDatabase.LoadAssetAtPath<LayerCache>(path);
-
-				if (_instance._layers == null || _instance._layers.Length == 0) {
-					Regenerate();
+				if (id.Length == 0) {
+					_instance = CreateInstance<LayerCache>();
+					AssetDatabase.CreateAsset(_instance, $"Assets/{TYPE_NAME}.asset");
+					AssetDatabase.SaveAssets();
+					AssetDatabase.Refresh();
+				} else {
+					string assetPath = AssetDatabase.GUIDToAssetPath(id[0]);
+					_instance = AssetDatabase.LoadAssetAtPath<LayerCache>(assetPath);
 				}
 			}
 		}
 
 		public static void Regenerate() {
+			CreateAsset();
+			
 			string[] layers = UnityEditorInternal.InternalEditorUtility.layers;
-			bool needsRegeneration = _instance._layers == null || layers.Length != _instance._layers.Length || _instance._layers.Length == 0;
+			bool needsRegeneration = layers.Length != _instance._layers.Length || _instance._layers.Length == 0;
 
 			if (!needsRegeneration) {
 				for (int i = 0; i < layers.Length; i++) {

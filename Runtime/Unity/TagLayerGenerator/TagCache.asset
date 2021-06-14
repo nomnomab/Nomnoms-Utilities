@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e31e8b835748a987c5a1f96024e18a, type: 3}
   m_Name: TagCache
   m_EditorClassIdentifier: 
+  _tags: []

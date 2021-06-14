@@ -9,7 +9,7 @@ namespace NomUtils.Unity.TagLayerGenerator {
 		private const string REGEX_EXPRESSION = "[\\~#%&*{}()/:<>?|\"-]";
 		private static readonly Regex _replacementRegex = new Regex(REGEX_EXPRESSION);
 		private static TagCache _instance;
-		[SerializeField] private string[] _tags;
+		[SerializeField] private string[] _tags = new string[0];
 
 		static TagCache() {
 			EditorApplication.update += OnInit;
@@ -18,35 +18,35 @@ namespace NomUtils.Unity.TagLayerGenerator {
 		private static void OnInit() {
 			EditorApplication.update -= OnInit;
 
-			// check if this exists
-			const string TYPE_NAME = nameof(TagCache);
-			string[] ids = AssetDatabase.FindAssets($"t:{TYPE_NAME} {TYPE_NAME}");
+			CreateAsset();
+			
+			if (_instance._tags.Length == 0) {
+				Regenerate();
+			}
+		}
 
-			if (ids.Length == 0) {
-				// create new one
-				AssetDatabase.CreateAsset(CreateInstance<TagCache>(), $"Assets/{TYPE_NAME}.asset");
-				AssetDatabase.SaveAssets();
-				AssetDatabase.Refresh();
-			} else {
-				string path = AssetDatabase.GUIDToAssetPath(ids[0]);
-				_instance = AssetDatabase.LoadAssetAtPath<TagCache>(path);
+		private static void CreateAsset() {
+			if (!_instance) {
+				const string TYPE_NAME = nameof(TagCache);
+				string[] id = AssetDatabase.FindAssets($"t:{TYPE_NAME} {TYPE_NAME}");
 
-				if (_instance._tags == null || _instance._tags.Length == 0) {
-					Regenerate();
+				if (id.Length == 0) {
+					_instance = CreateInstance<TagCache>();
+					AssetDatabase.CreateAsset(_instance, $"Assets/{TYPE_NAME}.asset");
+					AssetDatabase.SaveAssets();
+					AssetDatabase.Refresh();
+				} else {
+					string assetPath = AssetDatabase.GUIDToAssetPath(id[0]);
+					_instance = AssetDatabase.LoadAssetAtPath<TagCache>(assetPath);
 				}
 			}
 		}
 
 		public static void Regenerate() {
-			if (!_instance) {
-				const string TYPE_NAME = nameof(TagCache);
-				string[] id = AssetDatabase.FindAssets($"t:{TYPE_NAME} {TYPE_NAME}");
-				string assetPath = AssetDatabase.GUIDToAssetPath(id[0]);
-				_instance = AssetDatabase.LoadAssetAtPath<TagCache>(assetPath);
-			}
+			CreateAsset();
 			
 			string[] tags = UnityEditorInternal.InternalEditorUtility.tags;
-			bool needsRegeneration = tags.Length == null || tags.Length != _instance._tags.Length || _instance._tags.Length == 0;
+			bool needsRegeneration = tags.Length != _instance._tags.Length || _instance._tags.Length == 0;
 
 			if (!needsRegeneration) {
 				for (int i = 0; i < tags.Length; i++) {
