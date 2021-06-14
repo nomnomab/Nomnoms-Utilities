@@ -3954,6 +3954,37 @@ references:
   commentId: N:NomUtils.Unity.TagLayerGenerator
   fullName: NomUtils.Unity.TagLayerGenerator
   nameWithType: NomUtils.Unity.TagLayerGenerator
+- uid: NomUtils.Unity.TagLayerGenerator.Extensions
+  name: Extensions
+  href: api/NomUtils.Unity.TagLayerGenerator.Extensions.html
+  commentId: T:NomUtils.Unity.TagLayerGenerator.Extensions
+  fullName: NomUtils.Unity.TagLayerGenerator.Extensions
+  nameWithType: Extensions
+- uid: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayer)
+  name: Value(UnityLayer)
+  href: api/NomUtils.Unity.TagLayerGenerator.Extensions.html#NomUtils_Unity_TagLayerGenerator_Extensions_Value_NomUtils_Unity_TagLayerGenerator_UnityLayer_
+  commentId: M:NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayer)
+  fullName: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayer)
+  nameWithType: Extensions.Value(UnityLayer)
+- uid: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayerMask)
+  name: Value(UnityLayerMask)
+  href: api/NomUtils.Unity.TagLayerGenerator.Extensions.html#NomUtils_Unity_TagLayerGenerator_Extensions_Value_NomUtils_Unity_TagLayerGenerator_UnityLayerMask_
+  commentId: M:NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayerMask)
+  fullName: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityLayerMask)
+  nameWithType: Extensions.Value(UnityLayerMask)
+- uid: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityTag)
+  name: Value(UnityTag)
+  href: api/NomUtils.Unity.TagLayerGenerator.Extensions.html#NomUtils_Unity_TagLayerGenerator_Extensions_Value_NomUtils_Unity_TagLayerGenerator_UnityTag_
+  commentId: M:NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityTag)
+  fullName: NomUtils.Unity.TagLayerGenerator.Extensions.Value(NomUtils.Unity.TagLayerGenerator.UnityTag)
+  nameWithType: Extensions.Value(UnityTag)
+- uid: NomUtils.Unity.TagLayerGenerator.Extensions.Value*
+  name: Value
+  href: api/NomUtils.Unity.TagLayerGenerator.Extensions.html#NomUtils_Unity_TagLayerGenerator_Extensions_Value_
+  commentId: Overload:NomUtils.Unity.TagLayerGenerator.Extensions.Value
+  isSpec: "True"
+  fullName: NomUtils.Unity.TagLayerGenerator.Extensions.Value
+  nameWithType: Extensions.Value
 - uid: NomUtils.Unity.TagLayerGenerator.LayerCache
   name: LayerCache
   href: api/NomUtils.Unity.TagLayerGenerator.LayerCache.html
