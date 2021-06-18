@@ -1,4 +1,5 @@
 ﻿#if UNITY_EDITOR
+using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 using UnityEditor;
@@ -69,6 +70,12 @@ namespace NomUtils.Editor {
 			string[] tags = UnityEditorInternal.InternalEditorUtility.tags;
 			string[] layers = UnityEditorInternal.InternalEditorUtility.layers;
 
+			if (layers.Length == 5) {
+				List<string> list = new List<string>(layers);
+				list.Insert(2, " ");
+				layers = list.ToArray();
+			}
+
 			if (tags.Length != _instance._tags.Length ||
 			    layers.Length != _instance._layers.Length) {
 				return true;
@@ -129,6 +136,12 @@ namespace NomUtils.Editor {
 			TagLayerGenerator.Declaration declarationLayer = TagLayerGenerator.Enum("UnityLayer");
 			TagLayerGenerator.Declaration declarationMask = TagLayerGenerator.Enum("UnityLayerMask");
 			string[] layers = UnityEditorInternal.InternalEditorUtility.layers;
+			
+			if (layers.Length == 5) {
+				List<string> list = new List<string>(layers);
+				list.Insert(2, " ");
+				layers = list.ToArray();
+			}
 
 			declarationMask.AddAttribute("System.Flags");
 			

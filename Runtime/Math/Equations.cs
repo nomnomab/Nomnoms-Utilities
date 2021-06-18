@@ -216,5 +216,31 @@ namespace NomUtils.Math {
 			wholeValue = (int) f;
 			decimalValue = f % 1m;
 		}
+
+		/// <summary>
+		/// Rounds to the nearest number.
+		/// <br/>
+		/// [0, 0.5) -> min bounds
+		/// <br/>
+		/// [0.5, 1) -> max bounds
+		/// </summary>
+		/// <param name="value"></param>
+		/// <returns></returns>
+		public static float NormalRound(float value) {
+			return (float)System.Math.Floor(value + 0.5f);
+		}
+		
+		/// <summary>
+		/// Rounds to the nearest number, then truncates the value into an integer.
+		/// <br/>
+		/// [0, 0.5) -> min bounds
+		/// <br/>
+		/// [0.5, 1) -> max bounds
+		/// </summary>
+		/// <param name="value"></param>
+		/// <returns></returns>
+		public static int NormalRoundInt(float value) {
+			return (int)System.Math.Floor(value + 0.5f);
+		}
 	}
 }
